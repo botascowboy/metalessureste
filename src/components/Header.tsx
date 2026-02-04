@@ -4,6 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, Phone, Mail, Clock } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import LanguageSelector from './LanguageSelector'
+import logo from '@/assets/logo.png'
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -88,18 +89,28 @@ export const Header = () => {
       <nav className={`container mx-auto px-6 transition-all duration-500 ${isScrolled ? 'py-4' : 'py-6 lg:py-7'}`}>
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-4 group">
+          <Link to="/" className="flex items-center gap-4 sm:gap-6 group">
             <div className="relative flex-shrink-0">
-              <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gradient-gold rounded-lg sm:rounded-xl flex items-center justify-center shadow-gold group-hover:shadow-gold-intense transition-all duration-300">
-                <span className="text-primary-foreground font-bold text-xl sm:text-2xl font-display">M</span>
+              <div className="w-14 h-14 sm:w-20 sm:h-20 flex items-center justify-center transition-all duration-700 group-hover:scale-110 group-hover:rotate-[5deg]">
+                <img
+                  src={logo}
+                  alt="Metales Del Sureste Logo"
+                  className="w-full h-full object-contain filter drop-shadow-[0_4px_12px_rgba(234,179,8,0.4)] group-hover:drop-shadow-[0_8px_20px_rgba(234,179,8,0.6)] transition-all duration-500"
+                />
               </div>
-              <div className="absolute -inset-1 bg-gradient-gold rounded-lg sm:rounded-xl opacity-0 group-hover:opacity-30 blur-lg transition-opacity duration-300" />
+
+              {/* Premium background glow - Multi-layered for depth */}
+              <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl opacity-0 group-hover:opacity-80 transition-all duration-700 -z-10 scale-50 group-hover:scale-125" />
             </div>
-            <div className="flex flex-col min-w-0">
-              <h1 className="text-lg sm:text-2xl font-bold text-foreground leading-none tracking-tight truncate sm:whitespace-nowrap font-display">
+
+            <div className="flex flex-col">
+              <h1 className="text-xl sm:text-3xl font-bold text-foreground leading-none tracking-tight font-display transition-colors duration-300 group-hover:text-primary/90">
                 Metales Del Sureste
               </h1>
-              <p className="text-[10px] sm:text-sm text-primary font-bold tracking-[0.4em] uppercase mt-1">{t('nav.subtitle')}</p>
+              <div className="flex items-center gap-3 mt-1.5 ">
+                <div className="h-px w-4 bg-primary/40 group-hover:w-8 transition-all duration-500" />
+                <p className="text-[10px] sm:text-xs text-primary font-bold tracking-[0.5em] uppercase whitespace-nowrap">{t('nav.subtitle')}</p>
+              </div>
             </div>
           </Link>
 

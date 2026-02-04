@@ -6,6 +6,7 @@ import { townsData } from '@/data/townsData'
 import { locksmith24hData } from '@/data/locksmith24hData'
 import { useTranslation } from 'react-i18next'
 import { servicesData } from '@/data/servicesData'
+import logo from '@/assets/logo.png'
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -58,22 +59,27 @@ export const Footer = () => {
       <div className="absolute top-1/2 -right-32 w-48 h-48 bg-accent/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-6 py-20 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 lg:gap-8">
-          {/* Company Info */}
-          <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-4 mb-8 group">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-12 lg:gap-8 min-w-0">
+          <div className="lg:col-span-2">
+            <Link to="/" className="flex items-center gap-4 sm:gap-6 mb-8 group">
               <div className="relative flex-shrink-0">
-                <div className="w-14 h-14 bg-gradient-gold rounded-xl flex items-center justify-center shadow-gold border border-white/20 group-hover:shadow-gold-intense transition-all duration-300">
-                  <span className="text-primary-foreground font-bold text-2xl font-display">M</span>
+                <div className="w-14 h-14 sm:w-20 sm:h-20 flex items-center justify-center transition-all duration-700 group-hover:scale-110 group-hover:-rotate-[5deg]">
+                  <img
+                    src={logo}
+                    alt="Metales Del Sureste Logo"
+                    className="w-full h-full object-contain filter drop-shadow-[0_4px_12px_rgba(234,179,8,0.3)] group-hover:drop-shadow-[0_8px_20px_rgba(234,179,8,0.5)] transition-all duration-500"
+                  />
                 </div>
-                {/* Subtle glow effect to prevent getting lost in the background */}
-                <div className="absolute -inset-1.5 bg-primary/20 rounded-xl blur-lg opacity-40 group-hover:opacity-60 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl opacity-30 group-hover:opacity-60 transition-all duration-700 -z-10 scale-75 group-hover:scale-125" />
               </div>
               <div className="flex flex-col">
-                <h3 className="text-xl sm:text-2xl font-bold text-foreground leading-none tracking-tight font-display">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-foreground leading-none tracking-tight font-display group-hover:text-primary/90 transition-colors duration-300">
                   Metales Del Sureste
                 </h3>
-                <p className="text-[11px] sm:text-xs text-primary font-bold tracking-[0.4em] uppercase mt-1.5 opacity-90">{t('nav.subtitle')}</p>
+                <div className="flex items-center gap-3 mt-2">
+                  <div className="h-px w-4 bg-primary/50 group-hover:w-8 transition-all duration-500" />
+                  <p className="text-[10px] sm:text-xs text-primary font-bold tracking-[0.4em] uppercase whitespace-nowrap">{t('nav.subtitle')}</p>
+                </div>
               </div>
             </Link>
             <p className="text-muted-foreground leading-relaxed">
@@ -81,26 +87,7 @@ export const Footer = () => {
             </p>
           </div>
 
-          {/* Services Links */}
-          <div>
-            <h4 className="text-lg font-display font-bold text-foreground mb-8 flex items-center gap-3">
-              <span className="w-8 h-0.5 bg-gradient-gold rounded-full" />
-              {t('nav.services')}
-            </h4>
-            <ul className="space-y-4">
-              {footerLinks.servicios.map((link, index) => (
-                <li key={index}>
-                  <Link
-                    to={link.href}
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300 flex items-center gap-2 group"
-                  >
-                    <span className="w-1.5 h-1.5 bg-primary/50 rounded-full group-hover:bg-primary transition-colors" />
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+
 
           {/* Company Links */}
           <div>
