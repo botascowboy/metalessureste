@@ -314,9 +314,9 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                       </p>
                       <a
                         href="tel:+34653940750"
-                        className="flex items-center justify-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
+                        className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-primary/10 text-primary hover:bg-primary/20 transition-colors font-semibold text-base sm:text-lg"
                       >
-                        <Phone className="w-4 h-4" />
+                        <Phone className="w-5 h-5" />
                         +34 653 94 07 50
                       </a>
                       <a

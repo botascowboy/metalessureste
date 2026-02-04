@@ -61,12 +61,12 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-              whileHover={{ x: -5, scale: 1.02, backgroundColor: "rgba(220, 38, 38, 0.08)" }}
+              whileHover={{ x: -5, scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              className="inline-flex items-center gap-3 px-8 py-3 rounded-full bg-red-500/5 backdrop-blur-md border border-red-500/10 text-red-600/90 shadow-[0_8px_32px_rgba(220,38,38,0.05)] hover:border-red-500/30 transition-all duration-300 group"
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-primary/5 backdrop-blur-md border border-primary/20 text-primary hover:border-primary/40 hover:bg-primary/10 shadow-[0_8px_32px_rgba(234,179,8,0.1)] transition-all duration-300 group"
             >
               <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
-              <span className="font-display font-medium text-lg tracking-wide">Volver a Servicios</span>
+              <span className="font-display font-medium text-base tracking-wide">Volver a Servicios</span>
             </motion.div>
           </Link>
         </div>
@@ -326,9 +326,9 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                       </p>
                       <a
                         href="tel:+34653940750"
-                        className="flex items-center justify-center gap-2 text-primary hover:text-primary/80 transition-colors font-semibold"
+                        className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-primary/10 text-primary hover:bg-primary/20 transition-colors font-semibold text-base sm:text-lg"
                       >
-                        <Phone className="w-4 h-4" />
+                        <Phone className="w-5 h-5" />
                         +34 653 94 07 50
                       </a>
                       <a

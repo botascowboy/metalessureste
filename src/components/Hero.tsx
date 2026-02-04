@@ -35,7 +35,7 @@ export const Hero = () => {
       <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl animate-pulse-slow delay-500" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 pt-40 pb-24">
+      <div className="relative z-10 container mx-auto px-6 pt-32 pb-12 md:pt-40 md:pb-24">
         <div className="max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -52,13 +52,28 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15, ease: 'easeOut' }}
-            className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display font-bold text-foreground leading-[1.1] mb-8"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display font-bold text-foreground leading-[1.1] mb-8"
           >
             Transformamos el{' '}
-            <span className="text-gradient-gold relative">
-              Metal
-              <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 8" fill="none">
-                <path d="M0 4C50 0 150 8 200 4" stroke="url(#gold-gradient)" strokeWidth="3" strokeLinecap="round" />
+            <span className="text-gradient-gold relative inline-block">
+              <motion.span
+                animate={{
+                  textShadow: [
+                    "0 0 4px rgba(234, 179, 8, 0.3)",
+                    "0 0 12px rgba(234, 179, 8, 0.6)",
+                    "0 0 4px rgba(234, 179, 8, 0.3)"
+                  ]
+                }}
+                transition={{
+                  duration: 3,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+              >
+                Metal
+              </motion.span>
+              <svg className="absolute -bottom-1 left-0 w-full h-2" viewBox="0 0 200 8" preserveAspectRatio="none" fill="none">
+                <path d="M0 4C50 0 150 8 200 4" stroke="url(#gold-gradient)" strokeWidth="4" strokeLinecap="round" />
                 <defs>
                   <linearGradient id="gold-gradient" x1="0" y1="0" x2="200" y2="0">
                     <stop stopColor="hsl(45, 85%, 55%)" />
@@ -102,7 +117,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
-            className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12"
+            className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6"
           >
             {[
               { number: '20+', label: 'Años de Experiencia' },
@@ -112,27 +127,28 @@ export const Hero = () => {
             ].map((stat, index) => (
               <motion.div
                 key={index}
-                className="text-center md:text-left group"
+                className="text-center p-4 lg:p-6 rounded-2xl bg-card/30 backdrop-blur-sm border border-border/30 group hover:border-primary/30 hover:bg-card/50 transition-all duration-300"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.7 + index * 0.1 }}
+                whileHover={{ y: -5 }}
               >
-                <p className="text-4xl md:text-5xl lg:text-6xl font-bold text-gradient-gold font-display mb-2 group-hover:scale-105 transition-transform duration-300">
+                <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gradient-gold font-display mb-2">
                   {stat.number}
                 </p>
-                <p className="text-sm md:text-base text-muted-foreground font-medium">{stat.label}</p>
+                <p className="text-xs md:text-sm text-muted-foreground font-medium">{stat.label}</p>
               </motion.div>
             ))}
           </motion.div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator - Hidden on mobile to avoid overlapping */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
+        className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 hidden md:block"
       >
         <a
           href="#servicios"

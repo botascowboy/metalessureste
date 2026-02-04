@@ -19,12 +19,12 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      
+
       {/* Hero Section - Emergency Focus */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-red-600/20 via-background to-background" />
         <div className="absolute top-20 right-0 w-96 h-96 bg-red-500/10 rounded-full blur-3xl" />
-        
+
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Emergency Badge */}
@@ -80,12 +80,12 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="flex flex-col sm:flex-row gap-4 justify-center"
+              className="flex flex-col sm:flex-row gap-4 justify-center px-4 sm:px-0"
             >
               <Button
                 size="lg"
                 onClick={handleCall}
-                className="bg-red-600 hover:bg-red-700 text-white text-lg px-8 py-6 rounded-xl shadow-lg shadow-red-600/30"
+                className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 rounded-xl shadow-lg shadow-red-600/30"
               >
                 <Phone className="w-5 h-5 mr-2" />
                 Llamar Ahora
@@ -94,7 +94,7 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
                 size="lg"
                 variant="outline"
                 onClick={handleCall}
-                className="border-primary text-primary hover:bg-primary/10 text-lg px-8 py-6 rounded-xl"
+                className="w-full sm:w-auto border-primary text-primary hover:bg-primary/10 text-base sm:text-lg px-6 sm:px-8 py-5 sm:py-6 rounded-xl"
               >
                 {town.phoneNumber}
               </Button>
@@ -248,14 +248,15 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
             <p className="text-xl text-muted-foreground mb-8">
               No te preocupes, estamos disponibles ahora mismo para ayudarte en {town.name}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col gap-4 justify-center px-4 sm:px-0">
               <Button
                 size="lg"
                 onClick={handleCall}
-                className="bg-red-600 hover:bg-red-700 text-white text-lg px-10 py-6 rounded-xl shadow-lg shadow-red-600/30"
+                className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white text-base sm:text-lg px-6 sm:px-10 py-5 sm:py-6 rounded-xl shadow-lg shadow-red-600/30"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Llámanos: {town.phoneNumber}
+                <span className="sm:hidden">Llamar Ahora</span>
+                <span className="hidden sm:inline">Llámanos: {town.phoneNumber}</span>
               </Button>
             </div>
           </motion.div>
@@ -276,18 +277,18 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
               </h2>
               <div className="prose prose-invert max-w-none">
                 <p className="text-muted-foreground mb-4">
-                  Si necesitas un <strong>cerrajero urgente en {town.name}</strong>, has llegado al lugar correcto. 
-                  Nuestro equipo de profesionales está disponible las <strong>24 horas del día, los 365 días del año</strong> para 
+                  Si necesitas un <strong>cerrajero urgente en {town.name}</strong>, has llegado al lugar correcto.
+                  Nuestro equipo de profesionales está disponible las <strong>24 horas del día, los 365 días del año</strong> para
                   atender cualquier emergencia de cerrajería en {town.name} y alrededores.
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  Ofrecemos servicios de <strong>apertura de puertas en {town.name}</strong> sin causar daños, 
-                  <strong> cambio de cerraduras</strong>, instalación de <strong>cerraduras de alta seguridad</strong>, 
+                  Ofrecemos servicios de <strong>apertura de puertas en {town.name}</strong> sin causar daños,
+                  <strong> cambio de cerraduras</strong>, instalación de <strong>cerraduras de alta seguridad</strong>,
                   reparación de cerrojos y mucho más. Somos especialistas en todo tipo de cerraduras y sistemas de seguridad.
                 </p>
                 <p className="text-muted-foreground">
-                  Contamos con técnicos locales que conocen perfectamente la zona de {town.name}, 
-                  lo que nos permite llegar rápidamente a tu ubicación. No importa la hora ni el día, 
+                  Contamos con técnicos locales que conocen perfectamente la zona de {town.name},
+                  lo que nos permite llegar rápidamente a tu ubicación. No importa la hora ni el día,
                   siempre tendrás un <strong>cerrajero de confianza en {town.name}</strong> a tu disposición.
                 </p>
               </div>

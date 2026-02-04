@@ -11,20 +11,20 @@ import { servicesData } from '@/data/servicesData'
 const ServiciosPage = () => {
   return (
     <HelmetProvider>
-      <SEOHead 
+      <SEOHead
         title="Nuestros Servicios | Metales Del Sureste Andaluz"
         description="Descubre todos nuestros servicios de carpintería metálica: estructuras metálicas, carpintería de aluminio, cerrajería, automatización, forja artística y más."
       />
       <div className="min-h-screen bg-background">
         <Header />
-        
+
         <main className="pt-32">
           {/* Hero Section */}
           <section className="relative py-20 overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background to-background" />
             <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
             <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
-            
+
             <div className="container mx-auto px-6 relative z-10">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
@@ -40,11 +40,31 @@ const ServiciosPage = () => {
                   Nuestros{' '}
                   <span className="text-gradient-gold">Servicios</span>
                 </h1>
-                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                  Soluciones integrales en carpintería metálica con más de una década 
+                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+                  Soluciones integrales en carpintería metálica con más de una década
                   de experiencia y los más altos estándares de calidad.
                 </p>
                 <div className="ornament-line mx-auto mt-10" />
+              </motion.div>
+
+              {/* Quick Stats */}
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, delay: 0.3 }}
+                className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto"
+              >
+                {[
+                  { value: '9', label: 'Servicios especializados' },
+                  { value: '20+', label: 'Años de experiencia' },
+                  { value: '500+', label: 'Proyectos completados' },
+                  { value: '100%', label: 'Satisfacción garantizada' }
+                ].map((stat, index) => (
+                  <div key={index} className="text-center p-4 rounded-2xl bg-card/30 border border-border/30">
+                    <span className="text-3xl md:text-4xl font-display font-bold text-gradient-gold">{stat.value}</span>
+                    <p className="text-sm text-muted-foreground mt-1">{stat.label}</p>
+                  </div>
+                ))}
               </motion.div>
             </div>
           </section>
@@ -68,7 +88,7 @@ const ServiciosPage = () => {
                         <div className="card-premium h-full rounded-3xl overflow-hidden relative">
                           {/* Background gradient on hover */}
                           <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                          
+
                           <div className="relative z-10 p-8 lg:p-10">
                             {/* Header */}
                             <div className="flex items-start gap-6 mb-6">
@@ -77,7 +97,7 @@ const ServiciosPage = () => {
                               </div>
                               <div>
                                 <span className="text-sm font-semibold text-primary uppercase tracking-wider">
-                                  Servicio {String(index + 1).padStart(2, '0')}
+                                  {service.subtitle}
                                 </span>
                                 <h2 className="text-2xl lg:text-3xl font-display font-bold text-foreground mt-2 group-hover:text-gradient-gold transition-all duration-300">
                                   {service.title}
@@ -119,27 +139,42 @@ const ServiciosPage = () => {
           </section>
 
           {/* CTA Section */}
-          <section className="py-20 relative overflow-hidden">
+          <section className="py-24 relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-background to-accent/10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
+
             <div className="container mx-auto px-6 relative z-10">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
-                className="text-center max-w-3xl mx-auto"
+                className="card-premium rounded-3xl p-10 md:p-16 text-center max-w-4xl mx-auto relative overflow-hidden"
               >
-                <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
-                  ¿Necesitas un <span className="text-gradient-gold">presupuesto</span>?
-                </h2>
-                <p className="text-lg text-muted-foreground mb-8">
-                  Contacta con nosotros para obtener un presupuesto personalizado sin compromiso. 
-                  Estamos aquí para ayudarte con tu proyecto.
-                </p>
-                <Link to="/contacto" className="btn-premium inline-flex items-center gap-2">
-                  Solicitar Presupuesto
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
+                {/* Decorative elements */}
+                <div className="absolute top-0 left-0 w-40 h-40 bg-primary/10 rounded-full blur-3xl" />
+                <div className="absolute bottom-0 right-0 w-40 h-40 bg-accent/10 rounded-full blur-3xl" />
+
+                <div className="relative z-10">
+                  <span className="tag-premium inline-block mb-6">Presupuesto Gratuito</span>
+                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-6">
+                    ¿Listo para empezar tu <span className="text-gradient-gold">proyecto</span>?
+                  </h2>
+                  <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
+                    Contacta con nosotros para obtener un presupuesto personalizado sin compromiso.
+                    Más de 500 proyectos nos avalan.
+                  </p>
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <Link to="/contacto" className="btn-premium inline-flex items-center gap-2 text-lg px-8 py-4">
+                      Solicitar Presupuesto
+                      <ArrowRight className="w-5 h-5" />
+                    </Link>
+                    <a href="tel:+34653940750" className="btn-outline-premium inline-flex items-center gap-2">
+                      <Sparkles className="w-5 h-5" />
+                      +34 653 94 07 50
+                    </a>
+                  </div>
+                </div>
               </motion.div>
             </div>
           </section>

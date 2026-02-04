@@ -1,7 +1,7 @@
 import { HelmetProvider } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { MapPin, Hammer, Shield, ArrowRight, Star, Construction } from 'lucide-react'
+import { MapPin, Hammer, Shield, ArrowRight, Star, Construction, Phone } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { SEOHead } from '@/components/SEOHead'
@@ -68,7 +68,7 @@ const CarpinteriaZonaPage = () => {
                                                         <h2 className="text-2xl font-display font-bold text-white mb-1">
                                                             {town.name}
                                                         </h2>
-                                                        <div className="flex items-center gap-1 text-primary-foreground/80 text-xs font-semibold uppercase tracking-wider">
+                                                        <div className="flex items-center gap-1 text-white/80 text-xs font-semibold uppercase tracking-wider">
                                                             <MapPin className="w-3 h-3" />
                                                             {town.province}
                                                         </div>
@@ -140,6 +140,37 @@ const CarpinteriaZonaPage = () => {
                                                     </div>
                                                 </div>
                                             ))}
+                                        </div>
+
+                                        {/* CTA Section */}
+                                        <div className="mt-16 p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-background to-accent/5 border border-primary/20 text-center relative overflow-hidden">
+                                            {/* Decorative background elements */}
+                                            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+                                            <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+
+                                            <div className="relative z-10">
+                                                <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">
+                                                    ¿Listo para comenzar tu <span className="text-gradient-gold">proyecto</span>?
+                                                </h3>
+                                                <p className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto">
+                                                    Cuéntanos tu idea y te ofreceremos un presupuesto personalizado sin compromiso.
+                                                </p>
+                                                <div className="flex flex-col gap-4 max-w-md mx-auto w-full">
+                                                    <a
+                                                        href="tel:+34653940750"
+                                                        className="inline-flex items-center justify-center gap-3 w-full btn-premium text-lg sm:text-xl font-bold px-8 py-6 shadow-lg hover:shadow-xl transition-all group"
+                                                    >
+                                                        <Phone className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                                                        <span className="tracking-wide">+34 653 94 07 50</span>
+                                                    </a>
+                                                    <Link
+                                                        to="/contacto"
+                                                        className="inline-flex items-center justify-center gap-2 w-full btn-outline-premium text-base sm:text-lg px-8 py-4 bg-background/50 backdrop-blur-sm"
+                                                    >
+                                                        Solicitar Presupuesto
+                                                    </Link>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

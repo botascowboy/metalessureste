@@ -20,6 +20,7 @@ export interface ServiceData {
     question: string
     answer: string
   }[]
+  subtitle: string
 }
 
 export const servicesData: ServiceData[] = [
@@ -50,6 +51,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Qué mantenimiento requieren las estructuras metálicas?', answer: 'Con el tratamiento anticorrosión adecuado, las estructuras metálicas requieren un mantenimiento mínimo. Recomendamos revisiones cada 5-10 años.' },
       { question: '¿Ofrecen garantía en sus estructuras?', answer: 'Sí, ofrecemos garantía de 10 años en todas nuestras estructuras metálicas, cubriendo defectos de fabricación y montaje.' },
     ],
+    subtitle: 'Solidez Industrial',
   },
   {
     slug: 'carpinteria-aluminio',
@@ -78,6 +80,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Cuánto se tarda en fabricar e instalar ventanas de aluminio?', answer: 'El plazo habitual es de 2-3 semanas desde la toma de medidas hasta la instalación, dependiendo de la cantidad y complejidad.' },
       { question: '¿Qué garantía ofrecen?', answer: 'Ofrecemos 5 años de garantía en la carpintería y 2 años en la instalación.' },
     ],
+    subtitle: 'Máximo Aislamiento',
   },
   {
     slug: 'cerrajeria',
@@ -106,6 +109,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Ofrecen servicio de urgencias?', answer: 'Sí, disponemos de servicio de cerrajería urgente 24 horas para aperturas, cambios de cerraduras y reparaciones.' },
       { question: '¿Pueden fabricar diseños personalizados?', answer: 'Absolutamente. Fabricamos cualquier diseño a medida según las preferencias del cliente.' },
     ],
+    subtitle: 'Protección con Estilo',
   },
   {
     slug: 'automatizacion',
@@ -134,6 +138,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Qué mantenimiento necesitan los automatismos?', answer: 'Recomendamos un mantenimiento anual que incluye engrase, ajuste de finales de carrera y revisión de seguridades.' },
       { question: '¿Pueden reparar cualquier marca?', answer: 'Sí, reparamos y mantenemos automatismos de todas las marcas del mercado.' },
     ],
+    subtitle: 'Confort Inteligente',
   },
   {
     slug: 'forja-artistica',
@@ -162,6 +167,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿La forja es más cara que otros materiales?', answer: 'La forja artística es una inversión en calidad y exclusividad. Los precios son superiores al hierro estándar pero el resultado es incomparable.' },
       { question: '¿Pueden replicar diseños antiguos?', answer: 'Sí, somos especialistas en restauración y réplica de forja antigua y elementos patrimoniales.' },
     ],
+    subtitle: 'Arte Tradicional',
   },
   {
     slug: 'mobiliario-urbano',
@@ -190,6 +196,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Qué materiales utilizan para mobiliario urbano?', answer: 'Principalmente acero galvanizado, acero inoxidable, aluminio y madera tratada para exteriores.' },
       { question: '¿Pueden instalar en toda Andalucía?', answer: 'Sí, realizamos instalaciones en toda la comunidad autónoma.' },
     ],
+    subtitle: 'Entornos Funcionales',
   },
   {
     slug: 'manipulado-vidrio',
@@ -218,6 +225,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Pueden sustituir cristales rotos urgentemente?', answer: 'Sí, disponemos de servicio de urgencias para sustitución de vidrios rotos en 24-48 horas.' },
       { question: '¿Trabajan con vidrios especiales?', answer: 'Sí, trabajamos con vidrios acústicos, antibalas, antirrobo, espejos y vidrios decorativos.' },
     ],
+    subtitle: 'Claridad y Seguridad',
   },
   {
     slug: 'metalisteria',
@@ -246,6 +254,7 @@ export const servicesData: ServiceData[] = [
       { question: '¿Qué certificaciones tienen para soldadura?', answer: 'Nuestros soldadores están certificados según normas EN ISO 9606 para soldadura de acero y aluminio.' },
       { question: '¿Realizan trabajos de reparación?', answer: 'Sí, reparamos piezas metálicas, maquinaria industrial y elementos estructurales.' },
     ],
+    subtitle: 'Precisión en Metal',
   },
 ]
 

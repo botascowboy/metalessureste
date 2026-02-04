@@ -28,7 +28,7 @@ const CerrajerosZonaPage = () => {
                                 <motion.div
                                     initial={{ opacity: 0, scale: 0.9 }}
                                     animate={{ opacity: 1, scale: 1 }}
-                                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-100 text-red-700 border border-red-200 mb-6"
+                                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-500/10 text-red-500 border border-red-500/20 mb-6"
                                 >
                                     <span className="relative flex h-3 w-3">
                                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
@@ -38,7 +38,7 @@ const CerrajerosZonaPage = () => {
                                 </motion.div>
 
                                 <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6 leading-tight">
-                                    Cerrajeros 24 Horas en <span className="text-red-600">Almería y Levante</span>
+                                    Cerrajeros 24 Horas en <span className="text-red-500">Almería y Levante</span>
                                 </h1>
 
                                 <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
@@ -71,7 +71,7 @@ const CerrajerosZonaPage = () => {
                                                         </span>
                                                     </div>
 
-                                                    <h2 className="text-xl font-display font-bold text-foreground mb-2 group-hover:text-red-600 transition-colors">
+                                                    <h2 className="text-xl font-display font-bold text-foreground mb-2 group-hover:text-red-500 transition-colors">
                                                         Cerrajero en {town.name}
                                                     </h2>
 
@@ -80,11 +80,11 @@ const CerrajerosZonaPage = () => {
                                                     </p>
 
                                                     <div className="flex items-center justify-between mt-auto">
-                                                        <span className="text-sm font-semibold text-red-600 flex items-center gap-2">
+                                                        <span className="text-sm font-semibold text-red-500 flex items-center gap-2">
                                                             <Phone className="w-4 h-4" />
                                                             Disponible
                                                         </span>
-                                                        <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-red-600 group-hover:text-white transition-colors duration-300">
+                                                        <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-red-500 group-hover:text-white transition-colors duration-300">
                                                             <ArrowRight className="w-4 h-4" />
                                                         </div>
                                                     </div>
@@ -97,17 +97,17 @@ const CerrajerosZonaPage = () => {
 
                             {/* SEO Content Section */}
                             <div className="mt-20 max-w-4xl mx-auto prose prose-lg prose-red">
-                                <h2 className="text-3xl font-display font-bold text-foreground mb-6">
+                                <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6 leading-tight">
                                     Servicio Integral de Cerrajería en el Levante Almeriense
-                                </h2>
+                                </h1>
                                 <div className="grid md:grid-cols-2 gap-8 not-prose mb-12">
                                     <div className="card-premium p-6 rounded-2xl">
-                                        <Shield className="w-8 h-8 text-red-600 mb-4" />
+                                        <Shield className="w-8 h-8 text-red-500 mb-4" />
                                         <h3 className="text-lg font-bold mb-2">Garantía Total</h3>
                                         <p className="text-sm text-muted-foreground">Todos nuestros trabajos cuentan con garantía por escrito y factura oficial.</p>
                                     </div>
                                     <div className="card-premium p-6 rounded-2xl">
-                                        <Clock className="w-8 h-8 text-red-600 mb-4" />
+                                        <Clock className="w-8 h-8 text-red-500 mb-4" />
                                         <h3 className="text-lg font-bold mb-2">Rapidez Absoluta</h3>
                                         <p className="text-sm text-muted-foreground">Unidades móviles distribuidas estratégicamente para llegar antes.</p>
                                     </div>
@@ -118,6 +118,24 @@ const CerrajerosZonaPage = () => {
                                 <p className="text-muted-foreground mt-4">
                                     Ya sea que necesites abrir una puerta en Huércal-Overa, cambiar una cerradura en Vera Playa o una reparación urgente en Mojácar, nuestro equipo está listo para acudir en minutos. No utilizamos intermediarios, lo que nos permite ofrecer precios competitivos y un trato directo y transparente.
                                 </p>
+
+                                {/* CTA Section */}
+                                <div className="mt-12 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-red-600/20 to-primary/10 border border-red-500/20 text-center">
+                                    <h3 className="text-xl sm:text-2xl font-display font-bold text-foreground mb-4">
+                                        ¿Necesitas un cerrajero urgente?
+                                    </h3>
+                                    <p className="text-muted-foreground mb-6">
+                                        Estamos disponibles 24/7 para atender tu emergencia
+                                    </p>
+                                    <a
+                                        href="tel:+34653940750"
+                                        className="inline-flex items-center justify-center gap-2 w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white text-base sm:text-lg font-semibold px-6 sm:px-10 py-4 sm:py-5 rounded-xl shadow-lg shadow-red-600/30 transition-all"
+                                    >
+                                        <Phone className="w-5 h-5" />
+                                        <span className="sm:hidden">Llamar Ahora</span>
+                                        <span className="hidden sm:inline">+34 653 94 07 50</span>
+                                    </a>
+                                </div>
                             </div>
 
                         </div>

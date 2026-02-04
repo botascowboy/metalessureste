@@ -10,7 +10,7 @@ interface SEOHeadProps {
 const defaultMeta = {
   title: 'Metales Del Sureste Andaluz | Carpintería Metálica en Andalucía',
   description: 'Expertos en carpintería metálica, estructuras de aluminio, cerrajería, forja artística y automatización de puertas. Más de 20 años de experiencia en Andalucía.',
-  ogImage: '/og-image.jpg',
+  ogImage: '/og-image.png',
   url: 'https://metalesdelsureste.com',
 }
 
@@ -30,7 +30,7 @@ export const SEOHead = ({
     name: 'Metales Del Sureste Andaluz',
     description: fullDescription,
     url: canonical,
-    telephone: '+34600000000',
+    telephone: '+34 653 94 07 50',
     email: 'info@metalesdelsureste.com',
     address: {
       '@type': 'PostalAddress',
@@ -49,8 +49,8 @@ export const SEOHead = ({
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '08:00',
-        closes: '18:00',
+        opens: '09:00',
+        closes: '20:00',
       },
     ],
     sameAs: [

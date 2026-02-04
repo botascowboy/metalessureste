@@ -79,21 +79,21 @@ export const Header = () => {
       </div>
 
       {/* Main navigation */}
-      <nav className={`container mx-auto px-6 transition-all duration-500 ${isScrolled ? 'py-4' : 'py-5'}`}>
+      <nav className={`container mx-auto px-6 transition-all duration-500 ${isScrolled ? 'py-4' : 'py-6 lg:py-7'}`}>
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-4 group">
-            <div className="relative">
-              <div className="w-14 h-14 bg-gradient-gold rounded-xl flex items-center justify-center shadow-gold group-hover:shadow-gold-intense transition-all duration-300">
-                <span className="text-primary-foreground font-bold text-2xl font-display">M</span>
+            <div className="relative flex-shrink-0">
+              <div className="w-10 h-10 sm:w-14 sm:h-14 bg-gradient-gold rounded-lg sm:rounded-xl flex items-center justify-center shadow-gold group-hover:shadow-gold-intense transition-all duration-300">
+                <span className="text-primary-foreground font-bold text-xl sm:text-2xl font-display">M</span>
               </div>
-              <div className="absolute -inset-1 bg-gradient-gold rounded-xl opacity-0 group-hover:opacity-30 blur-lg transition-opacity duration-300" />
+              <div className="absolute -inset-1 bg-gradient-gold rounded-lg sm:rounded-xl opacity-0 group-hover:opacity-30 blur-lg transition-opacity duration-300" />
             </div>
-            <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-foreground leading-tight tracking-tight">
+            <div className="flex flex-col min-w-0">
+              <h1 className="text-lg sm:text-2xl font-bold text-foreground leading-none tracking-tight truncate sm:whitespace-nowrap font-display">
                 Metales Del Sureste
               </h1>
-              <p className="text-sm text-primary font-semibold tracking-[0.2em] uppercase">Andaluz</p>
+              <p className="text-[10px] sm:text-sm text-primary font-bold tracking-[0.3em] uppercase mt-1">Andaluz</p>
             </div>
           </Link>
 

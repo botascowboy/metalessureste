@@ -95,19 +95,20 @@ const categories = ['Todos', 'Estructuras Metálicas', 'Carpintería de Aluminio
 const ProyectosPage = () => {
   return (
     <HelmetProvider>
-      <SEOHead 
+      <SEOHead
         title="Proyectos Realizados | Metales Del Sureste Andaluz"
         description="Descubre nuestros proyectos de carpintería metálica en Almería: estructuras industriales, fachadas de aluminio, forja artística, puertas automáticas y más."
       />
       <div className="min-h-screen bg-background">
         <Header />
-        
+
         <main className="pt-32">
           {/* Hero Section */}
-          <section className="relative py-20 overflow-hidden">
+          <section className="relative py-24 overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background to-background" />
             <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
-            
+            <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
+
             <div className="container mx-auto px-6 relative z-10">
               <motion.div
                 initial={{ opacity: 0, y: 40 }}
@@ -120,8 +121,8 @@ const ProyectosPage = () => {
                   Proyectos{' '}
                   <span className="text-gradient-gold">Realizados</span>
                 </h1>
-                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                  Cada proyecto es una muestra de nuestra dedicación, experiencia y 
+                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+                  Cada proyecto es una muestra de nuestra dedicación, experiencia y
                   compromiso con la excelencia en carpintería metálica.
                 </p>
                 <div className="ornament-line mx-auto mt-10" />
@@ -130,7 +131,7 @@ const ProyectosPage = () => {
           </section>
 
           {/* Stats */}
-          <section className="py-12 border-y border-border/30">
+          <section className="py-16 border-y border-border/30 bg-card/30">
             <div className="container mx-auto px-6">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {[
@@ -147,10 +148,10 @@ const ProyectosPage = () => {
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                     className="text-center"
                   >
-                    <span className="text-4xl md:text-5xl font-display font-bold text-gradient-gold">
+                    <span className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-gradient-gold">
                       {stat.value}
                     </span>
-                    <p className="text-sm text-muted-foreground mt-2">{stat.label}</p>
+                    <p className="text-sm md:text-base text-muted-foreground mt-2">{stat.label}</p>
                   </motion.div>
                 ))}
               </div>
@@ -170,11 +171,10 @@ const ProyectosPage = () => {
                 {categories.map((category, index) => (
                   <button
                     key={category}
-                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                      index === 0
-                        ? 'bg-gradient-gold text-primary-foreground'
-                        : 'bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground'
-                    }`}
+                    className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${index === 0
+                      ? 'bg-gradient-gold text-primary-foreground'
+                      : 'bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground'
+                      }`}
                   >
                     {category}
                   </button>
@@ -196,7 +196,7 @@ const ProyectosPage = () => {
                       {/* Image placeholder with gradient */}
                       <div className="relative aspect-[16/10] overflow-hidden">
                         <div className={`absolute inset-0 bg-gradient-to-br ${project.accent} opacity-60 group-hover:opacity-80 transition-opacity duration-500`} />
-                        
+
                         {/* Grid pattern */}
                         <div className="absolute inset-0 opacity-10" style={{
                           backgroundImage: 'linear-gradient(hsl(var(--primary) / 0.3) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary) / 0.3) 1px, transparent 1px)',
@@ -277,7 +277,7 @@ const ProyectosPage = () => {
                   ¿Tienes un proyecto en <span className="text-gradient-gold">mente</span>?
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Cuéntanos tu idea y te ayudaremos a hacerla realidad. 
+                  Cuéntanos tu idea y te ayudaremos a hacerla realidad.
                   Solicita un presupuesto sin compromiso.
                 </p>
                 <Link to="/contacto" className="btn-premium inline-flex items-center gap-2">

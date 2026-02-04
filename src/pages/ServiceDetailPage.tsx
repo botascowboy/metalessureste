@@ -1,7 +1,8 @@
 import { useParams, Navigate } from 'react-router-dom'
-import { HelmetProvider, Helmet } from 'react-helmet-async'
+import { HelmetProvider } from 'react-helmet-async'
 import { ServiceDetailTemplate } from '@/components/ServiceDetailTemplate'
 import { getServiceBySlug } from '@/data/servicesData'
+import { SEOHead } from '@/components/SEOHead'
 
 const ServiceDetailPage = () => {
   const { serviceSlug } = useParams<{ serviceSlug: string }>()
@@ -13,13 +14,11 @@ const ServiceDetailPage = () => {
 
   return (
     <HelmetProvider>
-      <Helmet>
-        <title>{`${service.title} | Metales Del Sureste Andaluz`}</title>
-        <meta name="description" content={service.shortDescription} />
-        <meta property="og:title" content={`${service.title} | Metales Del Sureste Andaluz`} />
-        <meta property="og:description" content={service.shortDescription} />
-        <link rel="canonical" href={`https://metalesdelsureste.com/servicio/${service.slug}`} />
-      </Helmet>
+      <SEOHead
+        title={`${service.title} | Metales Del Sureste Andaluz`}
+        description={service.shortDescription}
+        canonical={`https://metalesdelsureste.com/servicio/${service.slug}`}
+      />
       <ServiceDetailTemplate service={service} />
     </HelmetProvider>
   )
