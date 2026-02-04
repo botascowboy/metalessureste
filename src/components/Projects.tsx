@@ -1,40 +1,43 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Eye } from 'lucide-react'
 import { Link } from 'react-router-dom'
-
-const projects = [
-  {
-    title: 'Nave Industrial',
-    category: 'Estructuras Metálicas',
-    description: 'Construcción de estructura metálica para nave de 2000m² con cubierta autoportante.',
-    accent: 'from-amber-500/20 to-orange-500/20',
-  },
-  {
-    title: 'Fachada de Aluminio',
-    category: 'Carpintería de Aluminio',
-    description: 'Cerramiento completo de fachada con sistema de muro cortina de alta eficiencia.',
-    accent: 'from-blue-500/20 to-cyan-500/20',
-  },
-  {
-    title: 'Escalera de Forja',
-    category: 'Forja Artística',
-    description: 'Diseño y fabricación de escalera ornamental en hierro forjado con barandilla.',
-    accent: 'from-purple-500/20 to-pink-500/20',
-  },
-  {
-    title: 'Puerta Automática',
-    category: 'Automatización',
-    description: 'Instalación de puerta seccional industrial motorizada con sistema de seguridad.',
-    accent: 'from-emerald-500/20 to-teal-500/20',
-  },
-]
+import { useTranslation } from 'react-i18next'
 
 export const Projects = () => {
+  const { t } = useTranslation()
+
+  const projects = [
+    {
+      title: t('projects_section.items.nave.title'),
+      category: t('projects_section.items.nave.category'),
+      description: t('projects_section.items.nave.desc'),
+      accent: 'from-amber-500/20 to-orange-500/20',
+    },
+    {
+      title: t('projects_section.items.fachada.title'),
+      category: t('projects_section.items.fachada.category'),
+      description: t('projects_section.items.fachada.desc'),
+      accent: 'from-blue-500/20 to-cyan-500/20',
+    },
+    {
+      title: t('projects_section.items.escalera.title'),
+      category: t('projects_section.items.escalera.category'),
+      description: t('projects_section.items.escalera.desc'),
+      accent: 'from-purple-500/20 to-pink-500/20',
+    },
+    {
+      title: t('projects_section.items.puerta.title'),
+      category: t('projects_section.items.puerta.category'),
+      description: t('projects_section.items.puerta.desc'),
+      accent: 'from-emerald-500/20 to-teal-500/20',
+    },
+  ]
+
   return (
     <section id="proyectos" className="relative py-32 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-background" />
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+      {/* Background layer for section separation */}
+      <div className="absolute inset-0 bg-card/40" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
 
       {/* Decorative elements */}
       <div className="absolute top-1/3 -left-32 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
@@ -50,14 +53,15 @@ export const Projects = () => {
           className="text-center mb-20"
         >
           <span className="tag-premium inline-block mb-6">
-            Proyectos
+            {t('projects_section.badge')}
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-8 leading-tight">
-            Nuestros <span className="text-gradient-gold">Trabajos</span> Destacados
+            {t('projects_section.title_start')}
+            <span className="text-gradient-gold">{t('projects_section.title_highlight')}</span>
+            {t('projects_section.title_end')}
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Cada proyecto es una oportunidad para demostrar nuestra calidad,
-            creatividad y compromiso con la excelencia.
+            {t('projects_section.description')}
           </p>
           <div className="ornament-line mx-auto mt-10" />
         </motion.div>
@@ -112,7 +116,7 @@ export const Projects = () => {
                     </p>
                     <div className="flex items-center gap-2 text-primary font-semibold text-sm opacity-0 group-hover:opacity-100 transition-all duration-300 delay-200">
                       <Eye className="w-4 h-4" />
-                      <span>Ver proyecto</span>
+                      <span>{t('projects_section.view_project')}</span>
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-2 transition-transform" />
                     </div>
                   </motion.div>
@@ -131,7 +135,7 @@ export const Projects = () => {
           className="text-center mt-16"
         >
           <Link to="/proyectos" className="btn-outline-premium inline-flex items-center">
-            Ver Todos los Proyectos
+            {t('projects_section.view_all')}
             <ArrowRight className="w-5 h-5 ml-2" />
           </Link>
         </motion.div>
@@ -139,3 +143,4 @@ export const Projects = () => {
     </section>
   )
 }
+

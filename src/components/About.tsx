@@ -1,28 +1,25 @@
 import { motion } from 'framer-motion'
 import { CheckCircle2, Award, Users, Clock, Shield, Zap } from 'lucide-react'
-
-const features = [
-  { icon: Award, text: 'Calidad Certificada', description: 'Materiales premium' },
-  { icon: Users, text: 'Equipo Profesional', description: '+15 especialistas' },
-  { icon: Clock, text: 'Cumplimiento', description: 'Plazos garantizados' },
-  { icon: Shield, text: 'Garantía Total', description: 'En todos los trabajos' },
-]
-
-const highlights = [
-  'Presupuestos personalizados sin compromiso',
-  'Asesoramiento técnico especializado',
-  'Materiales de primera calidad',
-  'Garantía de satisfacción',
-  'Servicio post-venta',
-]
+import { useTranslation, Trans } from 'react-i18next'
 
 export const About = () => {
+  const { t } = useTranslation()
+
+  const features = [
+    { icon: Award, text: t('about_section.features.quality.title'), description: t('about_section.features.quality.desc') },
+    { icon: Users, text: t('about_section.features.professional.title'), description: t('about_section.features.professional.desc') },
+    { icon: Clock, text: t('about_section.features.compliance.title'), description: t('about_section.features.compliance.desc') },
+    { icon: Shield, text: t('about_section.features.warranty.title'), description: t('about_section.features.warranty.desc') },
+  ]
+
+  const highlights = t('about_section.highlights', { returnObjects: true }) as string[]
+
   return (
     <section id="nosotros" className="relative py-20 lg:py-32 overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-card" />
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
+      {/* Background layer with more distinct contrast */}
+      <div className="absolute inset-0 bg-muted/20" />
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
 
       {/* Decorative gradients */}
       <div className="absolute top-1/4 -right-20 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -38,27 +35,26 @@ export const About = () => {
             transition={{ duration: 0.7 }}
           >
             <span className="tag-premium inline-block mb-6">
-              Sobre Nosotros
+              {t('about_section.badge')}
             </span>
-            <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6 md:mb-8 leading-tight">
-              Tradición y{' '}
-              <span className="text-gradient-gold">Excelencia</span>
-              <br className="hidden md:block" /> en Cada Proyecto
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6 md:mb-8 leading-tight drop-shadow-sm">
+              {t('about_section.title_start')}
+              <span className="text-gradient-gold">{t('about_section.title_highlight')}</span>
+              <br className="hidden md:block" /> {t('about_section.title_end')}
             </h2>
-            <p className="text-muted-foreground text-lg md:text-xl mb-6 leading-relaxed">
-              En <strong className="text-foreground">Metales Del Sureste Andaluz</strong>,
-              combinamos la artesanía tradicional con las últimas tecnologías para ofrecer
-              soluciones de carpintería metálica de la más alta calidad.
-            </p>
+            <div className="text-muted-foreground text-lg md:text-xl mb-6 leading-relaxed">
+              <Trans
+                i18nKey="about_section.desc_1"
+                components={{ strong: <strong className="text-foreground" /> }}
+              />
+            </div>
             <p className="text-muted-foreground text-base md:text-lg leading-relaxed mb-10">
-              Con más de dos décadas de experiencia en el sector, nos hemos convertido en
-              referentes en Andalucía por nuestra dedicación, profesionalismo y compromiso
-              con la satisfacción del cliente.
+              {t('about_section.desc_2')}
             </p>
 
             {/* Highlights list */}
             <div className="space-y-4 mb-12">
-              {highlights.map((item, index) => (
+              {Array.isArray(highlights) && highlights.map((item, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: -20 }}
@@ -130,27 +126,32 @@ export const About = () => {
                     Metales Del Sureste
                   </h3>
                   <p className="text-primary font-semibold tracking-[0.2em] uppercase text-base md:text-lg mb-6 md:mb-8">
-                    Andaluz
+                    {t('about_section.card.subtitle')}
                   </p>
 
                   <div className="section-divider w-20 mx-auto mb-6 md:mb-8" />
 
-                  <p className="text-muted-foreground mb-8 md:mb-10 text-sm md:text-base">
-                    Desde <span className="text-primary font-bold">2004</span> creando excelencia
-                  </p>
+                  <div className="text-muted-foreground mb-8 md:mb-10 text-sm md:text-base">
+                    <Trans
+                      i18nKey="about_section.card.since"
+                      components={{
+                        span: <span className="text-primary font-bold" />
+                      }}
+                    />
+                  </div>
 
                   <div className="grid grid-cols-2 gap-6 md:gap-10">
                     <div className="group">
                       <p className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-gradient-gold mb-1 md:mb-2 group-hover:scale-110 transition-transform">
                         500+
                       </p>
-                      <p className="text-xs md:text-sm text-muted-foreground font-medium">Proyectos</p>
+                      <p className="text-xs md:text-sm text-muted-foreground font-medium">{t('about_section.card.stats.projects')}</p>
                     </div>
                     <div className="group">
                       <p className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-gradient-gold mb-1 md:mb-2 group-hover:scale-110 transition-transform">
                         20+
                       </p>
-                      <p className="text-xs md:text-sm text-muted-foreground font-medium">Años</p>
+                      <p className="text-xs md:text-sm text-muted-foreground font-medium">{t('about_section.card.stats.years')}</p>
                     </div>
                   </div>
                 </div>
@@ -168,8 +169,8 @@ export const About = () => {
                   <div className="flex items-center gap-2 md:gap-3">
                     <Zap className="w-5 h-5 md:w-6 md:h-6" />
                     <div className="text-left">
-                      <p className="text-[10px] md:text-sm font-medium opacity-90 uppercase tracking-wider">Presupuesto Gratis</p>
-                      <p className="text-lg md:text-2xl font-display font-bold leading-none">Consultar</p>
+                      <p className="text-[10px] md:text-sm font-medium opacity-90 uppercase tracking-wider">{t('about_section.badges.budget')}</p>
+                      <p className="text-lg md:text-2xl font-display font-bold leading-none">{t('about_section.badges.consult')}</p>
                     </div>
                   </div>
                 </div>
@@ -186,7 +187,7 @@ export const About = () => {
                 <div className="card-premium px-4 md:px-6 py-2 md:py-4 rounded-xl border-gold-gradient">
                   <div className="flex items-center gap-2 text-primary">
                     <Award className="w-4 h-4 md:w-5 md:h-5" />
-                    <span className="text-xs md:text-base font-bold">Calidad Premium</span>
+                    <span className="text-xs md:text-base font-bold">{t('about_section.badges.premium')}</span>
                   </div>
                 </div>
               </motion.div>
@@ -197,3 +198,4 @@ export const About = () => {
     </section>
   )
 }
+

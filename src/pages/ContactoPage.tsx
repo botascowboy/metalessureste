@@ -13,58 +13,22 @@ import { WhatsAppButton } from '@/components/WhatsAppButton'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Button } from '@/components/ui/button'
-
-const formSchema = z.object({
-  name: z.string().min(2, 'El nombre debe tener al menos 2 caracteres'),
-  email: z.string().email('Introduce un email válido'),
-  phone: z.string().min(9, 'Introduce un teléfono válido'),
-  subject: z.string().min(5, 'El asunto debe tener al menos 5 caracteres'),
-  message: z.string().min(10, 'El mensaje debe tener al menos 10 caracteres'),
-})
-
-type FormData = z.infer<typeof formSchema>
-
-const contactInfo = [
-  {
-    icon: Phone,
-    title: 'Teléfono',
-    value: '+34 653 94 07 50',
-    href: 'tel:+34653940750',
-    description: 'Llámanos para consultas inmediatas'
-  },
-  {
-    icon: MessageCircle,
-    title: 'WhatsApp',
-    value: '+34 653 94 07 50',
-    href: 'https://wa.me/34653940750?text=Hola,%20me%20gustar%C3%ADa%20informaci%C3%B3n',
-    description: 'Chat directo y rápido'
-  },
-  {
-    icon: Mail,
-    title: 'Email',
-    value: 'info@metalesdelsureste.com',
-    href: 'mailto:info@metalesdelsureste.com',
-    description: 'Respuesta en menos de 24 horas'
-  },
-  {
-    icon: MapPin,
-    title: 'Dirección',
-    value: 'C/ Paraje La Ventica, 8',
-    subtitle: 'Pedanía de Santa María de Nieva, 04600 Huércal-Overa, Almería, España',
-    href: 'https://maps.google.com/?q=C/+Paraje+La+Ventica,+8,+04600+Huércal-Overa,+Almería',
-    description: 'Visítanos en nuestro taller'
-  },
-  {
-    icon: Clock,
-    title: 'Horario',
-    value: 'Lunes a Viernes: 9:00 - 20:00',
-    subtitle: 'Urgencias 24h disponibles',
-    description: 'Servicio de cerrajería 24/7'
-  }
-]
+import { useTranslation } from 'react-i18next'
 
 const ContactoPage = () => {
+  const { t } = useTranslation()
   const [isSubmitting, setIsSubmitting] = useState(false)
+
+  // Move schema inside component to use translations
+  const formSchema = z.object({
+    name: z.string().min(2, t('contact_page.form.validation.name')),
+    email: z.string().email(t('contact_page.form.validation.email')),
+    phone: z.string().min(9, t('contact_page.form.validation.phone')),
+    subject: z.string().min(5, t('contact_page.form.validation.subject')),
+    message: z.string().min(10, t('contact_page.form.validation.message')),
+  })
+
+  type FormData = z.infer<typeof formSchema>
 
   const {
     register,
@@ -74,6 +38,45 @@ const ContactoPage = () => {
   } = useForm<FormData>({
     resolver: zodResolver(formSchema)
   })
+
+  const contactInfo = [
+    {
+      icon: Phone,
+      title: t('common.form.phone'),
+      value: '+34 653 94 07 50',
+      href: 'tel:+34653940750',
+      description: t('contact_page.info.phone_desc')
+    },
+    {
+      icon: MessageCircle,
+      title: 'WhatsApp',
+      value: '+34 653 94 07 50',
+      href: 'https://wa.me/34653940750?text=Hola,%20me%20gustar%C3%ADa%20informaci%C3%B3n',
+      description: t('contact_page.info.whatsapp_desc')
+    },
+    {
+      icon: Mail,
+      title: t('common.form.email'),
+      value: 'info@metalesdelsureste.com',
+      href: 'mailto:info@metalesdelsureste.com',
+      description: t('contact_page.info.email_desc')
+    },
+    {
+      icon: MapPin,
+      title: t('contact.address'),
+      value: 'C/ Paraje La Ventica, 8',
+      subtitle: t('contact_page.info.address_subtitle'),
+      href: 'https://maps.google.com/?q=C/+Paraje+La+Ventica,+8,+04600+Huércal-Overa,+Almería',
+      description: t('contact_page.info.address_desc')
+    },
+    {
+      icon: Clock,
+      title: t('contact.schedule'),
+      value: 'Lunes a Viernes: 9:00 - 20:00',
+      subtitle: t('contact_page.info.schedule_subtitle'),
+      description: t('contact_page.info.schedule_desc')
+    }
+  ]
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true)
@@ -89,11 +92,11 @@ const ContactoPage = () => {
 
       if (!response.ok) throw new Error('Error al enviar el formulario')
 
-      toast.success('¡Mensaje enviado correctamente! Te contactaremos pronto.')
+      toast.success(t('contact_page.form.success'))
       reset()
     } catch (error) {
       console.error('Error sending form:', error)
-      toast.error('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo o llámanos.')
+      toast.error(t('contact_page.form.error'))
     } finally {
       setIsSubmitting(false)
     }
@@ -102,8 +105,8 @@ const ContactoPage = () => {
   return (
     <HelmetProvider>
       <SEOHead
-        title="Contacto | Metales Del Sureste Andaluz"
-        description="Contacta con Metales Del Sureste Andaluz SL. Teléfono: +34 653 94 07 50. Dirección: C/ Paraje La Ventica, 8, Huércal-Overa, Almería. Presupuesto sin compromiso."
+        title={t('contact_page.seo.title')}
+        description={t('contact_page.seo.description')}
       />
       <div className="min-h-screen bg-background">
         <Header />
@@ -124,14 +127,13 @@ const ContactoPage = () => {
               >
                 <span className="tag-premium inline-flex items-center gap-2 mb-6">
                   <MessageSquare className="w-4 h-4" />
-                  Estamos aquí para ayudarte
+                  {t('contact_page.hero.badge')}
                 </span>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-foreground mb-8 leading-tight">
-                  <span className="text-gradient-gold">Contacta</span> con Nosotros
+                  {t('contact_page.hero.title_start')}<span className="text-gradient-gold">{t('contact_page.hero.title_highlight')}</span>{t('contact_page.hero.title_end')}
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                  ¿Tienes un proyecto en mente? Cuéntanos tu idea y te ayudaremos
-                  a hacerla realidad con la mejor calidad.
+                  {t('contact_page.hero.description')}
                 </p>
                 <div className="ornament-line mx-auto mt-10" />
               </motion.div>
@@ -204,22 +206,22 @@ const ContactoPage = () => {
                 >
                   <div className="card-premium rounded-3xl p-8 lg:p-10">
                     <h2 className="text-3xl font-display font-bold text-foreground mb-2">
-                      Envíanos un mensaje
+                      {t('contact_page.form.title')}
                     </h2>
                     <p className="text-muted-foreground mb-8">
-                      Rellena el formulario y te responderemos en menos de 24 horas.
+                      {t('contact_page.form.description')}
                     </p>
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6" name="contact" data-netlify="true">
+                    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6" name="contact" netlify="true" data-netlify="true">
                       <input type="hidden" name="form-name" value="contact" />
                       <div className="grid md:grid-cols-2 gap-6">
                         <div>
                           <label className="block text-sm font-medium text-foreground mb-2">
-                            Nombre completo *
+                            {t('contact_page.form.name_label')}
                           </label>
                           <Input
                             {...register('name')}
-                            placeholder="Tu nombre"
+                            placeholder={t('common.form.name_placeholder')}
                             className="bg-muted/50 border-border/50 focus:border-primary"
                           />
                           {errors.name && (
@@ -228,12 +230,12 @@ const ContactoPage = () => {
                         </div>
                         <div>
                           <label className="block text-sm font-medium text-foreground mb-2">
-                            Email *
+                            {t('contact_page.form.email_label')}
                           </label>
                           <Input
                             {...register('email')}
                             type="email"
-                            placeholder="tu@email.com"
+                            placeholder={t('common.form.email_placeholder')}
                             className="bg-muted/50 border-border/50 focus:border-primary"
                           />
                           {errors.email && (
@@ -245,7 +247,7 @@ const ContactoPage = () => {
                       <div className="grid md:grid-cols-2 gap-6">
                         <div>
                           <label className="block text-sm font-medium text-foreground mb-2">
-                            Teléfono *
+                            {t('contact_page.form.phone_label')}
                           </label>
                           <Input
                             {...register('phone')}
@@ -259,11 +261,11 @@ const ContactoPage = () => {
                         </div>
                         <div>
                           <label className="block text-sm font-medium text-foreground mb-2">
-                            Asunto *
+                            {t('contact_page.form.subject_label')}
                           </label>
                           <Input
                             {...register('subject')}
-                            placeholder="¿En qué podemos ayudarte?"
+                            placeholder={t('contact_page.form.subject_placeholder')}
                             className="bg-muted/50 border-border/50 focus:border-primary"
                           />
                           {errors.subject && (
@@ -274,11 +276,11 @@ const ContactoPage = () => {
 
                       <div>
                         <label className="block text-sm font-medium text-foreground mb-2">
-                          Mensaje *
+                          {t('contact_page.form.message_label')}
                         </label>
                         <Textarea
                           {...register('message')}
-                          placeholder="Cuéntanos los detalles de tu proyecto..."
+                          placeholder={t('contact_page.form.message_placeholder')}
                           rows={5}
                           className="bg-muted/50 border-border/50 focus:border-primary resize-none"
                         />
@@ -295,12 +297,12 @@ const ContactoPage = () => {
                         {isSubmitting ? (
                           <>
                             <div className="w-5 h-5 border-2 border-primary-foreground/30 border-t-primary-foreground rounded-full animate-spin mr-2" />
-                            Enviando...
+                            {t('contact_page.form.sending')}
                           </>
                         ) : (
                           <>
                             <Send className="w-5 h-5 mr-2" />
-                            Enviar Mensaje
+                            {t('contact_page.form.send')}
                           </>
                         )}
                       </Button>
@@ -338,7 +340,7 @@ const ContactoPage = () => {
                       </div>
                       <div>
                         <h3 className="text-xl font-display font-bold text-foreground">
-                          Metales Del Sureste Andaluz SL
+                          {t('contact_page.company.title')}
                         </h3>
                         <p className="text-muted-foreground">CIF: B04738415</p>
                       </div>
@@ -348,22 +350,22 @@ const ContactoPage = () => {
                       <div className="flex items-start gap-3">
                         <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                         <div>
-                          <p className="font-medium text-foreground">Empresa constituida</p>
-                          <p className="text-sm text-muted-foreground">02 de Marzo de 2012</p>
+                          <p className="font-medium text-foreground">{t('contact_page.company.constituted')}</p>
+                          <p className="text-sm text-muted-foreground">{t('contact_page.company.constituted_date')}</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                         <div>
-                          <p className="font-medium text-foreground">Más de 12 años de experiencia</p>
-                          <p className="text-sm text-muted-foreground">Especialistas en carpintería metálica</p>
+                          <p className="font-medium text-foreground">{t('contact_page.company.experience')}</p>
+                          <p className="text-sm text-muted-foreground">{t('contact_page.company.experience_desc')}</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                         <div>
-                          <p className="font-medium text-foreground">Servicio en toda la provincia</p>
-                          <p className="text-sm text-muted-foreground">Almería y alrededores</p>
+                          <p className="font-medium text-foreground">{t('contact_page.company.service')}</p>
+                          <p className="text-sm text-muted-foreground">{t('contact_page.company.service_desc')}</p>
                         </div>
                       </div>
                     </div>
@@ -372,11 +374,10 @@ const ContactoPage = () => {
                   {/* Quick Contact */}
                   <div className="card-premium rounded-3xl p-8 bg-gradient-to-br from-primary/10 to-accent/10">
                     <h3 className="text-xl font-display font-bold text-foreground mb-4">
-                      ¿Prefieres llamarnos?
+                      {t('contact_page.quick.title')}
                     </h3>
                     <p className="text-muted-foreground mb-6">
-                      Estamos disponibles para atenderte de lunes a viernes de 9:00 a 20:00.
-                      Para urgencias de cerrajería, disponemos de servicio 24 horas.
+                      {t('contact_page.quick.description')}
                     </p>
                     <a
                       href="tel:+34653940750"

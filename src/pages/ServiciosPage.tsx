@@ -7,13 +7,16 @@ import { Footer } from '@/components/Footer'
 import { SEOHead } from '@/components/SEOHead'
 import { WhatsAppButton } from '@/components/WhatsAppButton'
 import { servicesData } from '@/data/servicesData'
+import { useTranslation } from 'react-i18next'
 
 const ServiciosPage = () => {
+  const { t } = useTranslation()
+
   return (
     <HelmetProvider>
       <SEOHead
-        title="Nuestros Servicios | Metales Del Sureste Andaluz"
-        description="Descubre todos nuestros servicios de carpintería metálica: estructuras metálicas, carpintería de aluminio, cerrajería, automatización, forja artística y más."
+        title={t('services_page.seo.title')}
+        description={t('services_page.seo.description')}
       />
       <div className="min-h-screen bg-background">
         <Header />
@@ -34,15 +37,14 @@ const ServiciosPage = () => {
               >
                 <span className="tag-premium inline-flex items-center gap-2 mb-6">
                   <Sparkles className="w-4 h-4" />
-                  Excelencia en Metal
+                  {t('services_page.hero.badge')}
                 </span>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-foreground mb-8 leading-tight">
-                  Nuestros{' '}
-                  <span className="text-gradient-gold">Servicios</span>
+                  {t('services_page.hero.title_start')}
+                  <span className="text-gradient-gold">{t('services_page.hero.title_highlight')}</span>
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                  Soluciones integrales en carpintería metálica con más de una década
-                  de experiencia y los más altos estándares de calidad.
+                  {t('services_page.hero.description')}
                 </p>
                 <div className="ornament-line mx-auto mt-10" />
               </motion.div>
@@ -55,12 +57,12 @@ const ServiciosPage = () => {
                 className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 max-w-4xl mx-auto"
               >
                 {[
-                  { value: '9', label: 'Servicios especializados' },
-                  { value: '20+', label: 'Años de experiencia' },
-                  { value: '500+', label: 'Proyectos completados' },
-                  { value: '100%', label: 'Satisfacción garantizada' }
+                  { value: '9', label: t('services_page.hero.stats.services') },
+                  { value: '20+', label: t('services_page.hero.stats.years') },
+                  { value: '500+', label: t('services_page.hero.stats.projects') },
+                  { value: '100%', label: t('services_page.hero.stats.satisfaction') }
                 ].map((stat, index) => (
-                  <div key={index} className="text-center p-4 rounded-2xl bg-card/30 border border-border/30">
+                  <div key={index} className="text-center p-4 rounded-2xl bg-card/60 backdrop-blur-md border border-border/50 shadow-lg">
                     <span className="text-3xl md:text-4xl font-display font-bold text-gradient-gold">{stat.value}</span>
                     <p className="text-sm text-muted-foreground mt-1">{stat.label}</p>
                   </div>
@@ -97,17 +99,17 @@ const ServiciosPage = () => {
                               </div>
                               <div>
                                 <span className="text-sm font-semibold text-primary uppercase tracking-wider">
-                                  {service.subtitle}
+                                  {t(service.subtitle)}
                                 </span>
                                 <h2 className="text-2xl lg:text-3xl font-display font-bold text-foreground mt-2 group-hover:text-gradient-gold transition-all duration-300">
-                                  {service.title}
+                                  {t(service.title)}
                                 </h2>
                               </div>
                             </div>
 
                             {/* Description */}
                             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                              {service.description}
+                              {t(service.description)}
                             </p>
 
                             {/* Features preview */}
@@ -115,14 +117,14 @@ const ServiciosPage = () => {
                               {service.features.slice(0, 4).map((feature, i) => (
                                 <div key={i} className="flex items-center gap-2 text-sm text-muted-foreground">
                                   <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                                  <span>{feature.title}</span>
+                                  <span>{t(feature.title)}</span>
                                 </div>
                               ))}
                             </div>
 
                             {/* CTA */}
                             <div className="flex items-center gap-2 text-primary font-semibold group-hover:gap-4 transition-all duration-300">
-                              <span>Ver detalles del servicio</span>
+                              <span>{t('services_page.card.view_details')}</span>
                               <ArrowRight className="w-5 h-5" />
                             </div>
                           </div>
@@ -156,17 +158,16 @@ const ServiciosPage = () => {
                 <div className="absolute bottom-0 right-0 w-40 h-40 bg-accent/10 rounded-full blur-3xl" />
 
                 <div className="relative z-10">
-                  <span className="tag-premium inline-block mb-6">Presupuesto Gratuito</span>
+                  <span className="tag-premium inline-block mb-6">{t('services_page.cta.badge')}</span>
                   <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-6">
-                    ¿Listo para empezar tu <span className="text-gradient-gold">proyecto</span>?
+                    {t('services_page.cta.title_start')}<span className="text-gradient-gold">{t('services_page.cta.title_highlight')}</span>{t('services_page.cta.title_end')}
                   </h2>
                   <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-                    Contacta con nosotros para obtener un presupuesto personalizado sin compromiso.
-                    Más de 500 proyectos nos avalan.
+                    {t('services_page.cta.description')}
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                     <Link to="/contacto" className="btn-premium inline-flex items-center gap-2 text-lg px-8 py-4">
-                      Solicitar Presupuesto
+                      {t('services_page.cta.button_request')}
                       <ArrowRight className="w-5 h-5" />
                     </Link>
                     <a href="tel:+34653940750" className="btn-outline-premium inline-flex items-center gap-2">

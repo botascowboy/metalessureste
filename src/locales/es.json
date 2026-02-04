@@ -1,0 +1,1692 @@
+{
+  "common": {
+    "phone": "+34 653 94 07 50",
+    "email": "info@metalesdelsureste.com",
+    "call_now": "Llamar Ahora",
+    "request_quote": "Solicitar Presupuesto",
+    "emergency": "Urgencias 24h disponibles",
+    "schedule": "Lun - Vie: 9:00 - 20:00",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Email",
+      "phone": "Teléfono",
+      "message": "Describe tu proyecto",
+      "send": "Solicitar Presupuesto",
+      "sending": "Enviando...",
+      "success": "¡Solicitud enviada! Te contactaremos pronto.",
+      "error": "Hubo un error al enviar el mensaje. Inténtalo de nuevo."
+    },
+    "skip_to_content": "Saltar al contenido principal",
+    "max_chars": "Máximo {{count}} caracteres",
+    "need_help": "¿Necesitas ayuda?",
+    "back_to_home": "Volver al Inicio",
+    "arrival_in": "Llegamos en",
+    "professional_locksmiths": "Cerrajeros Profesionales",
+    "in": "en",
+    "immediate_response": "Respuesta Inmediata",
+    "expert_professionals": "Profesionales Expertos",
+    "fair_prices": "Precios Justos",
+    "urgent_locksmith_service": "Servicio de Cerrajería Urgente",
+    "call_us": "Llámanos"
+  },
+  "not_found": {
+    "title_start": "Página No ",
+    "title_highlight": "Encontrada",
+    "description": "Lo sentimos, la página que buscas no existe o ha sido movida. Pero no te preocupes, ¡te ayudamos a encontrar lo que necesitas!",
+    "button_home": "Volver al Inicio",
+    "button_services": "Ver Servicios",
+    "looking_for": "¿Qué estás buscando?",
+    "nav": {
+      "services": "Nuestros Servicios",
+      "projects": "Ver Proyectos",
+      "about": "Sobre Nosotros",
+      "contact": "Contacto"
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "locksmith_24h": "Cerrajero 24h",
+    "metal_carpentry": "Carpintería Metálica",
+    "subtitle": "ANDALUZ",
+    "menu_open": "Abrir menú",
+    "menu_close": "Cerrar menú"
+  },
+  "service_details": {
+    "back": "Volver a Servicios",
+    "about": "Sobre Este Servicio",
+    "sample": "Muestra de Trabajo",
+    "benefits": "Ventajas",
+    "offer": "¿Qué Ofrecemos?",
+    "faqs": "Preguntas Frecuentes",
+    "cta_desc": "Cuéntanos tu proyecto y te contactaremos sin compromiso.",
+    "prefer_call": "¿Prefieres llamarnos?"
+  },
+  "contact": {
+    "badge": "Contacto",
+    "title": "¿Tienes un ",
+    "title_highlight": "Proyecto",
+    "title_end": " en Mente?",
+    "description": "Cuéntanos tu idea y te ofreceremos un presupuesto personalizado sin compromiso. Estamos aquí para ayudarte a hacer realidad tu visión.",
+    "info_title": "Información de Contacto",
+    "form_title": "Envíanos un Mensaje",
+    "response_guarantee": "Respuesta garantizada en menos de 24 horas",
+    "address": "Dirección",
+    "schedule": "Horario"
+  },
+  "footer": {
+    "description": "Especialistas en carpintería metálica con más de 20 años de experiencia. Calidad, profesionalismo y compromiso en cada proyecto.",
+    "company": "Empresa",
+    "service_zones": "Zonas de Servicio",
+    "select_town": "Selecciona tu pueblo",
+    "zone_desc": "Carpintería metálica por zona",
+    "zone_urgent_desc": "Urgencias 24h en tu zona",
+    "rights": "Todos los derechos reservados.",
+    "designed_by": "Diseñado con",
+    "privacy": "Política de Privacidad",
+    "legal": "Aviso Legal",
+    "scroll_top": "Volver arriba"
+  },
+  "services_page": {
+    "seo": {
+      "title": "Nuestros Servicios | Metales Del Sureste Andaluz",
+      "description": "Descubre todos nuestros servicios de carpintería metálica: estructuras metálicas, carpintería de aluminio, cerrajería, automatización, forja artística y más."
+    },
+    "hero": {
+      "badge": "Excelencia en Metal",
+      "title_start": "Nuestros ",
+      "title_highlight": "Servicios",
+      "description": "Soluciones integrales en carpintería metálica con más de una década de experiencia y los más altos estándares de calidad.",
+      "stats": {
+        "services": "Servicios especializados",
+        "years": "Años de experiencia",
+        "projects": "Proyectos completados",
+        "satisfaction": "Satisfacción garantizada"
+      }
+    },
+    "card": {
+      "view_details": "Ver detalles del servicio"
+    },
+    "cta": {
+      "badge": "Presupuesto Gratuito",
+      "title_start": "¿Listo para empezar tu ",
+      "title_highlight": "proyecto",
+      "title_end": "?",
+      "description": "Contacta con nosotros para obtener un presupuesto personalizado sin compromiso. Más de 500 proyectos nos avalan.",
+      "button_request": "Solicitar Presupuesto"
+    }
+  },
+  "about_page": {
+    "seo": {
+      "title": "Sobre Nosotros | Metales Del Sureste Andaluz",
+      "description": "Conoce a Metales Del Sureste Andaluz SL: más de 12 años de experiencia en carpintería metálica en Almería. Profesionalidad, calidad y compromiso."
+    },
+    "hero": {
+      "badge": "Nuestra Historia",
+      "title_start": "Expertos en ",
+      "title_highlight": "Carpintería Metálica",
+      "description": "Desde 2012, <strong>Metales Del Sureste Andaluz SL</strong> se ha consolidado como referente en carpintería metálica en la provincia de Almería. Nuestra pasión por el metal y el compromiso con la excelencia nos han llevado a completar más de 500 proyectos satisfactoriamente.",
+      "button_contact": "Contactar",
+      "button_services": "Ver Servicios",
+      "stats": {
+        "years": "Años de experiencia",
+        "projects": "Proyectos completados",
+        "clients": "Clientes satisfechos",
+        "urgent": "Servicio de urgencias"
+      }
+    },
+    "company_info": {
+      "reason": "Razón Social",
+      "foundation": "Fundación",
+      "foundation_date": "02 de Marzo de 2012"
+    },
+    "values": {
+      "badge": "Nuestros Valores",
+      "title_start": "Lo que nos ",
+      "title_highlight": "define",
+      "description": "Nuestros valores son la base de todo lo que hacemos y nos guían en cada proyecto.",
+      "items": {
+        "quality": {
+          "title": "Calidad",
+          "description": "Utilizamos los mejores materiales y técnicas para garantizar resultados duraderos."
+        },
+        "professionalism": {
+          "title": "Profesionalidad",
+          "description": "Equipo altamente cualificado con años de experiencia en el sector."
+        },
+        "punctuality": {
+          "title": "Puntualidad",
+          "description": "Cumplimos con los plazos acordados en cada proyecto."
+        },
+        "commitment": {
+          "title": "Compromiso",
+          "description": "Nos involucramos en cada proyecto como si fuera propio."
+        }
+      }
+    },
+    "milestones": {
+      "badge": "Nuestra Trayectoria",
+      "title_start": "Hitos ",
+      "title_highlight": "importantes",
+      "items": {
+        "2012": {
+          "title": "Fundación",
+          "description": "Nace Metales Del Sureste Andaluz SL en Huércal-Overa."
+        },
+        "2015": {
+          "title": "Expansión",
+          "description": "Ampliamos nuestros servicios a toda la comarca del Levante Almeriense."
+        },
+        "2018": {
+          "title": "Automatización",
+          "description": "Incorporamos el servicio de puertas automáticas y sistemas de seguridad."
+        },
+        "2020": {
+          "title": "Innovación",
+          "description": "Inversión en maquinaria de última generación para mayor precisión."
+        },
+        "2023": {
+          "title": "Liderazgo",
+          "description": "Consolidados como referentes en carpintería metálica en Almería."
+        }
+      }
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Ofrecer soluciones integrales en carpintería metálica que superen las expectativas de nuestros clientes, combinando tradición artesanal con las últimas tecnologías del sector.",
+      "items": [
+        "Excelencia en cada proyecto",
+        "Innovación constante",
+        "Satisfacción del cliente"
+      ]
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Ser la empresa de referencia en carpintería metálica en el sureste español, reconocidos por nuestra calidad, innovación y compromiso con el desarrollo sostenible.",
+      "items": [
+        "Liderazgo regional",
+        "Sostenibilidad",
+        "Crecimiento continuo"
+      ]
+    },
+    "cta": {
+      "title_start": "¿Listo para trabajar ",
+      "title_highlight": "con nosotros",
+      "title_end": "?",
+      "description": "Contacta con nuestro equipo y descubre cómo podemos ayudarte con tu próximo proyecto.",
+      "button": "Contactar Ahora"
+    }
+  },
+  "projects_page": {
+    "seo": {
+      "title": "Proyectos Realizados | Metales Del Sureste Andaluz",
+      "description": "Descubre nuestros proyectos de carpintería metálica en Almería: estructuras industriales, fachadas de aluminio, forja artística, puertas automáticas y más."
+    },
+    "hero": {
+      "badge": "Nuestro Portfolio",
+      "title_start": "Proyectos ",
+      "title_highlight": "Realizados",
+      "description": "Cada proyecto es una muestra de nuestra dedicación, experiencia y compromiso con la excelencia en carpintería metálica."
+    },
+    "stats": {
+      "projects": "Proyectos completados",
+      "years": "Años de experiencia",
+      "clients": "Clientes satisfechos",
+      "specialties": "Especialidades"
+    },
+    "categories": {
+      "all": "Todos",
+      "structures": "Estructuras Metálicas",
+      "aluminum": "Carpintería de Aluminio",
+      "locksmith": "Cerrajería",
+      "automation": "Automatización",
+      "forge": "Forja Artística",
+      "furniture": "Mobiliario Urbano",
+      "glass": "Manipulado de Vidrio",
+      "metalwork": "Metalistería"
+    },
+    "project_card": {
+      "view_details": "Ver detalles del proyecto"
+    },
+    "items": {
+      "nave": {
+        "title": "Nave Industrial Agroalimentaria",
+        "description": "Construcción de estructura metálica para nave industrial de 2000m² destinada al sector agroalimentario, con cubierta autoportante y sistema de ventilación integrado.",
+        "location": "Huércal-Overa, Almería",
+        "size": "2.000 m²"
+      },
+      "fachada": {
+        "title": "Fachada Muro Cortina",
+        "description": "Cerramiento completo de fachada con sistema de muro cortina de aluminio de alta eficiencia energética para edificio de oficinas.",
+        "location": "Vera, Almería",
+        "size": "450 m²"
+      },
+      "escalera": {
+        "title": "Escalera Ornamental de Forja",
+        "description": "Diseño y fabricación de escalera helicoidal en hierro forjado con barandilla artística para vivienda unifamiliar de lujo.",
+        "location": "Mojácar, Almería",
+        "size": "35 ml"
+      },
+      "puertas": {
+        "title": "Puertas Seccionales Industriales",
+        "description": "Instalación de 6 puertas seccionales industriales motorizadas con sistema de seguridad avanzado para centro logístico.",
+        "location": "Cuevas de Almanzora, Almería",
+        "size": "6 unidades"
+      },
+      "cierre": {
+        "title": "Cerramientos de Seguridad",
+        "description": "Fabricación e instalación de puertas de seguridad y rejas decorativas para urbanización residencial de 20 viviendas.",
+        "location": "Garrucha, Almería",
+        "size": "20 viviendas"
+      },
+      "parque": {
+        "title": "Mobiliario Urbano Parque Municipal",
+        "description": "Diseño y fabricación de bancos, papeleras, pérgolas y elementos decorativos para la renovación del parque municipal.",
+        "location": "Albox, Almería",
+        "size": "5.000 m²"
+      },
+      "escaparates": {
+        "title": "Escaparates Comerciales",
+        "description": "Instalación de escaparates de vidrio templado con perfilería de aluminio para centro comercial.",
+        "location": "Vera Playa, Almería",
+        "size": "120 m²"
+      },
+      "invernadero": {
+        "title": "Estructura para Invernadero",
+        "description": "Fabricación de estructura metálica en acero galvanizado para invernadero tipo multitúnel con sistema de ventilación.",
+        "location": "Palomares, Almería",
+        "size": "8.000 m²"
+      }
+    },
+    "cta": {
+      "title_start": "¿Tienes un proyecto en ",
+      "title_highlight": "mente",
+      "title_end": "?",
+      "description": "Cuéntanos tu idea y te ayudaremos a hacerla realidad. Solicita un presupuesto sin compromiso.",
+      "button": "Solicitar Presupuesto"
+    }
+  },
+  "contact_page": {
+    "seo": {
+      "title": "Contacto | Metales Del Sureste Andaluz",
+      "description": "Contacta con Metales Del Sureste Andaluz SL. Teléfono: +34 653 94 07 50. Dirección: C/ Paraje La Ventica, 8, Huércal-Overa, Almería. Presupuesto sin compromiso."
+    },
+    "hero": {
+      "badge": "Estamos aquí para ayudarte",
+      "title_start": "",
+      "title_highlight": "Contacta",
+      "title_end": " con Nosotros",
+      "description": "¿Tienes un proyecto en mente? Cuéntanos tu idea y te ayudaremos a hacerla realidad con la mejor calidad."
+    },
+    "info": {
+      "phone_desc": "Llámanos para consultas inmediatas",
+      "whatsapp_desc": "Chat directo y rápido",
+      "email_desc": "Respuesta en menos de 24 horas",
+      "address_subtitle": "Pedanía de Santa María de Nieva, 04600 Huércal-Overa, Almería, España",
+      "address_desc": "Visítanos en nuestro taller",
+      "schedule_title": "Horario",
+      "schedule_subtitle": "Urgencias 24h disponibles",
+      "schedule_desc": "Servicio de cerrajería 24/7"
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "description": "Rellena el formulario y te responderemos en menos de 24 horas.",
+      "name_label": "Nombre completo *",
+      "email_label": "Email *",
+      "phone_label": "Teléfono *",
+      "subject_label": "Asunto *",
+      "subject_placeholder": "¿En qué podemos ayudarte?",
+      "message_label": "Mensaje *",
+      "message_placeholder": "Cuéntanos los detalles de tu proyecto...",
+      "sending": "Enviando...",
+      "send": "Enviar Mensaje",
+      "success": "¡Mensaje enviado correctamente! Te contactaremos pronto.",
+      "error": "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo o llámanos.",
+      "validation": {
+        "name": "El nombre debe tener al menos 2 caracteres",
+        "email": "Introduce un email válido",
+        "phone": "Introduce un teléfono válido",
+        "subject": "El asunto debe tener al menos 5 caracteres",
+        "message": "El mensaje debe tener al menos 10 caracteres"
+      }
+    },
+    "company": {
+      "title": "Metales Del Sureste Andaluz SL",
+      "constituted": "Empresa constituida",
+      "constituted_date": "02 de Marzo de 2012",
+      "experience": "Más de 12 años de experiencia",
+      "experience_desc": "Especialistas en carpintería metálica",
+      "service": "Servicio en toda la provincia",
+      "service_desc": "Almería y alrededores"
+    },
+    "quick": {
+      "title": "¿Prefieres llamarnos?",
+      "description": "Estamos disponibles para atenderte de lunes a viernes de 9:00 a 20:00. Para urgencias de cerrajería, disponemos de servicio 24 horas."
+    }
+  },
+  "hero": {
+    "badge": "Especialistas en Carpintería Metálica",
+    "title_start": "Transformamos el ",
+    "title_highlight": "Metal",
+    "title_end": " en Obras de Arte",
+    "description": "Fabricación de estructuras metálicas, carpintería de aluminio, cerrajería, forja artística y automatización de puertas. Más de 20 años de experiencia en Andalucía.",
+    "stats": {
+      "experience": {
+        "value": "20+",
+        "label": "Años de Experiencia"
+      },
+      "projects": {
+        "value": "500+",
+        "label": "Proyectos Completados"
+      },
+      "clients": {
+        "value": "100%",
+        "label": "Clientes Satisfechos"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Respuesta Garantizada"
+      }
+    },
+    "view_projects": "Ver Proyectos",
+    "scroll_down": "Descubre más",
+    "image_alt": "Taller de carpintería metálica con chispas de soldadura",
+    "scroll_aria": "Scroll hacia servicios"
+  },
+  "services_section": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones Integrales en ",
+    "title_highlight": "Carpintería Metálica",
+    "description": "Ofrecemos una amplia gama de servicios especializados con los más altos estándares de calidad para satisfacer todas las necesidades de nuestros clientes.",
+    "more_info": "Más información"
+  },
+  "about_section": {
+    "badge": "Sobre Nosotros",
+    "title_start": "Tradición y ",
+    "title_highlight": "Excelencia",
+    "title_end": " en Cada Proyecto",
+    "desc_1": "En <strong className=\"text-foreground\">Metales Del Sureste Andaluz</strong>, combinamos la artesanía tradicional con las últimas tecnologías para ofrecer soluciones de carpintería metálica de la más alta calidad.",
+    "desc_2": "Con más de dos décadas de experiencia en el sector, nos hemos convertido en referentes en Andalucía por nuestra dedicación, profesionalismo y compromiso con la satisfacción del cliente.",
+    "features": {
+      "quality": {
+        "title": "Calidad Certificada",
+        "desc": "Materiales premium"
+      },
+      "professional": {
+        "title": "Equipo Profesional",
+        "desc": "+15 especialistas"
+      },
+      "compliance": {
+        "title": "Cumplimiento",
+        "desc": "Plazos garantizados"
+      },
+      "warranty": {
+        "title": "Garantía Total",
+        "desc": "En todos los trabajos"
+      }
+    },
+    "highlights": [
+      "Presupuestos personalizados sin compromiso",
+      "Asesoramiento técnico especializado",
+      "Materiales de primera calidad",
+      "Garantía de satisfacción",
+      "Servicio post-venta"
+    ],
+    "card": {
+      "subtitle": "Andaluz",
+      "since": "Desde <span className=\"text-primary font-bold\">2004</span> creando excelencia",
+      "stats": {
+        "projects": "Proyectos",
+        "years": "Años"
+      }
+    },
+    "badges": {
+      "budget": "Presupuesto Gratis",
+      "consult": "Consultar",
+      "premium": "Calidad Premium"
+    }
+  },
+  "projects_section": {
+    "badge": "Proyectos",
+    "title_start": "Nuestros ",
+    "title_highlight": "Trabajos",
+    "title_end": " Destacados",
+    "description": "Cada proyecto es una oportunidad para demostrar nuestra calidad, creatividad y compromiso con la excelencia.",
+    "items": {
+      "nave": {
+        "title": "Nave Industrial",
+        "category": "Estructuras Metálicas",
+        "desc": "Construcción de estructura metálica para nave de 2000m² con cubierta autoportante."
+      },
+      "fachada": {
+        "title": "Fachada de Aluminio",
+        "category": "Carpintería de Aluminio",
+        "desc": "Cerramiento completo de fachada con sistema de muro cortina de alta eficiencia."
+      },
+      "escalera": {
+        "title": "Escalera de Forja",
+        "category": "Forja Artística",
+        "desc": "Diseño y fabricación de escalera ornamental en hierro forjado con barandilla."
+      },
+      "puerta": {
+        "title": "Puerta Automática",
+        "category": "Automatización",
+        "desc": "Instalación de puerta seccional industrial motorizada con sistema de seguridad."
+      }
+    },
+    "view_project": "Ver proyecto",
+    "view_all": "Ver Todos los Proyectos"
+  },
+  "services_data": {
+    "estructuras-metalicas": {
+      "title": "Estructuras Metálicas",
+      "short_description": "Diseño y fabricación de estructuras metálicas para naves industriales, edificios y proyectos arquitectónicos de gran envergadura.",
+      "description": "Somos especialistas en el diseño, fabricación y montaje de estructuras metálicas para todo tipo de proyectos. Desde naves industriales hasta edificios residenciales, nuestro equipo de ingenieros y soldadores certificados garantiza estructuras seguras, duraderas y eficientes. Utilizamos acero de primera calidad y las últimas técnicas de soldadura para crear soluciones estructurales que cumplen con todas las normativas vigentes.",
+      "subtitle": "Solidez Industrial",
+      "benefits": [
+        "Mayor rapidez de construcción frente al hormigón",
+        "Excelente relación resistencia-peso",
+        "Posibilidad de grandes luces sin pilares intermedios",
+        "Flexibilidad para futuras ampliaciones",
+        "Material 100% reciclable y sostenible",
+        "Menor coste de cimentación"
+      ],
+      "features": [
+        {
+          "title": "Naves Industriales",
+          "description": "Estructuras para almacenes, fábricas y centros logísticos de cualquier tamaño."
+        },
+        {
+          "title": "Edificios Comerciales",
+          "description": "Estructuras metálicas para oficinas, centros comerciales y edificios públicos."
+        },
+        {
+          "title": "Estructuras Agrícolas",
+          "description": "Invernaderos, almacenes agrícolas y estructuras para explotaciones ganaderas."
+        },
+        {
+          "title": "Pérgolas y Cubiertas",
+          "description": "Estructuras ligeras para terrazas, parkings y espacios al aire libre."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Cuánto tarda el montaje de una estructura metálica?",
+          "answer": "El tiempo depende del tamaño del proyecto. Una nave de 500m² puede montarse en 2-3 semanas. Proyectos más grandes pueden requerir 1-2 meses."
+        },
+        {
+          "question": "¿Qué mantenimiento requieren las estructuras metálicas?",
+          "answer": "Con el tratamiento anticorrosión adecuado, las estructuras metálicas requieren un mantenimiento mínimo. Recomendamos revisiones cada 5-10 años."
+        },
+        {
+          "question": "¿Ofrecen garantía en sus estructuras?",
+          "answer": "Sí, ofrecemos garantía de 10 años en todas nuestras estructuras metálicas, cubriendo defectos de fabricación y montaje."
+        }
+      ]
+    },
+    "carpinteria-aluminio": {
+      "title": "Carpintería de Aluminio",
+      "short_description": "Ventanas, puertas, cerramientos y fachadas de aluminio con acabados premium y máximo aislamiento térmico y acústico.",
+      "description": "Fabricamos e instalamos carpintería de aluminio de alta calidad para proyectos residenciales, comerciales e industriales. Trabajamos con los mejores sistemas del mercado (Cortizo, Technal, Schüco) para garantizar el máximo aislamiento térmico y acústico. Nuestras ventanas y puertas de aluminio combinan diseño, durabilidad y eficiencia energética.",
+      "subtitle": "Máximo Aislamiento",
+      "benefits": [
+        "Máximo aislamiento térmico con rotura de puente térmico",
+        "Aislamiento acústico hasta 47 dB",
+        "Resistencia a la corrosión y al salitre",
+        "Amplia gama de colores y acabados",
+        "Bajo mantenimiento",
+        "Perfiles estrechos para mayor luminosidad"
+      ],
+      "features": [
+        {
+          "title": "Ventanas",
+          "description": "Ventanas correderas, practicables, oscilobatientes y de grandes dimensiones."
+        },
+        {
+          "title": "Puertas",
+          "description": "Puertas de entrada, balconeras, plegables y correderas elevables."
+        },
+        {
+          "title": "Cerramientos",
+          "description": "Cerramientos de terrazas, porches y balcones con cristal."
+        },
+        {
+          "title": "Fachadas",
+          "description": "Fachadas ligeras y muros cortina para edificios."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué diferencia hay entre aluminio con y sin rotura de puente térmico?",
+          "answer": "La rotura de puente térmico (RPT) incorpora un aislante entre los perfiles interior y exterior, mejorando el aislamiento hasta un 60% y evitando condensaciones."
+        },
+        {
+          "question": "¿Cuánto se tarda en fabricar e instalar ventanas de aluminio?",
+          "answer": "El plazo habitual es de 2-3 semanas desde la toma de medidas hasta la instalación, dependiendo de la cantidad y complejidad."
+        },
+        {
+          "question": "¿Qué garantía ofrecen?",
+          "answer": "Ofrecemos 5 años de garantía en la carpintería y 2 años en la instalación."
+        }
+      ]
+    },
+    "cerrajeria": {
+      "title": "Cerrajería",
+      "short_description": "Servicios integrales de cerrajería: puertas de seguridad, rejas decorativas, verjas y sistemas de protección personalizados.",
+      "description": "Ofrecemos servicios completos de cerrajería para proteger tu hogar o negocio. Fabricamos puertas de seguridad, rejas, verjas y todo tipo de elementos de protección combinando seguridad y estética. Nuestro equipo de cerrajeros profesionales trabaja tanto en obra nueva como en reformas, adaptándose a las necesidades específicas de cada cliente.",
+      "subtitle": "Protección con Estilo",
+      "benefits": [
+        "Máxima seguridad con cerraduras de alta gama",
+        "Diseños personalizados y decorativos",
+        "Materiales resistentes y duraderos",
+        "Tratamiento anticorrosión incluido",
+        "Instalación profesional",
+        "Servicio de urgencias 24h"
+      ],
+      "features": [
+        {
+          "title": "Puertas de Seguridad",
+          "description": "Puertas acorazadas y blindadas con cerraduras de máxima seguridad."
+        },
+        {
+          "title": "Rejas y Verjas",
+          "description": "Rejas para ventanas, verjas de acceso y vallas perimetrales."
+        },
+        {
+          "title": "Barandillas",
+          "description": "Barandillas de seguridad para escaleras, balcones y terrazas."
+        },
+        {
+          "title": "Cerraduras",
+          "description": "Instalación y cambio de cerraduras, bombines y sistemas de acceso."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Cuánto cuesta una reja para ventana?",
+          "answer": "El precio depende del tamaño y diseño. Una reja estándar para ventana de 1x1m puede costar entre 150€ y 400€ según el modelo."
+        },
+        {
+          "question": "¿Ofrecen servicio de urgencias?",
+          "answer": "Sí, disponemos de servicio de cerrajería urgente 24 horas para aperturas, cambios de cerraduras y reparaciones."
+        },
+        {
+          "question": "¿Pueden fabricar diseños personalizados?",
+          "answer": "Absolutamente. Fabricamos cualquier diseño a medida según las preferencias del cliente."
+        }
+      ]
+    },
+    "automatizacion": {
+      "title": "Automatización",
+      "short_description": "Instalación y mantenimiento de puertas automáticas: correderas, batientes, seccionales y enrollables de última generación.",
+      "description": "Especializados en la automatización de puertas y accesos, ofrecemos soluciones completas para garajes, comercios, naves industriales y comunidades de vecinos. Trabajamos con las mejores marcas del mercado (Nice, BFT, CAME, Hörmann) e instalamos todo tipo de automatismos: puertas correderas, batientes, seccionales, enrollables y barreras. Nuestro servicio incluye instalación, programación y mantenimiento preventivo.",
+      "subtitle": "Confort Inteligente",
+      "benefits": [
+        "Mayor comodidad y seguridad",
+        "Acceso controlado y registro de entradas",
+        "Motores silenciosos y de bajo consumo",
+        "Sistemas de seguridad integrados",
+        "Compatibilidad con domótica",
+        "Mantenimiento preventivo incluido"
+      ],
+      "features": [
+        {
+          "title": "Puertas de Garaje",
+          "description": "Automatización de puertas seccionales, basculantes y enrollables."
+        },
+        {
+          "title": "Puertas Correderas",
+          "description": "Motores para puertas correderas de hasta 2000 kg."
+        },
+        {
+          "title": "Puertas Batientes",
+          "description": "Automatismos para puertas batientes de 1 o 2 hojas."
+        },
+        {
+          "title": "Barreras y Bolardos",
+          "description": "Sistemas de control de acceso para parkings y recintos."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Cuánto cuesta automatizar una puerta de garaje?",
+          "answer": "El precio depende del tipo y tamaño de la puerta. Un motor para puerta seccional doméstica puede costar entre 400€ y 800€ instalado."
+        },
+        {
+          "question": "¿Qué mantenimiento necesitan los automatismos?",
+          "answer": "Recomendamos un mantenimiento anual que incluye engrase, ajuste de finales de carrera y revisión de seguridades."
+        },
+        {
+          "question": "¿Pueden reparar cualquier marca?",
+          "answer": "Sí, reparamos y mantenemos automatismos de todas las marcas del mercado."
+        }
+      ]
+    },
+    "forja-artistica": {
+      "title": "Forja Artística",
+      "short_description": "Creación de piezas de forja artesanal: barandillas, escaleras, mobiliario y elementos decorativos únicos.",
+      "description": "La forja artística es nuestro sello distintivo. Creamos piezas únicas trabajadas a mano por maestros forjadores con décadas de experiencia. Desde barandillas y escaleras hasta mobiliario y elementos decorativos, cada pieza es una obra de arte que combina tradición artesanal con diseño contemporáneo. Perfecta para quienes buscan exclusividad y personalización total.",
+      "subtitle": "Arte Tradicional",
+      "benefits": [
+        "Piezas únicas y exclusivas",
+        "Trabajo artesanal de calidad",
+        "Diseños personalizados",
+        "Durabilidad excepcional",
+        "Valor estético y patrimonial",
+        "Combinación de tradición e innovación"
+      ],
+      "features": [
+        {
+          "title": "Barandillas de Forja",
+          "description": "Barandillas artísticas para escaleras, balcones y terrazas."
+        },
+        {
+          "title": "Escaleras",
+          "description": "Escaleras de caracol y rectas con diseños exclusivos."
+        },
+        {
+          "title": "Mobiliario",
+          "description": "Mesas, sillas, camas y elementos decorativos de forja."
+        },
+        {
+          "title": "Elementos Decorativos",
+          "description": "Apliques, lámparas, espejos y complementos de decoración."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Cuánto tarda una barandilla de forja a medida?",
+          "answer": "Dependiendo de la complejidad del diseño, entre 2 y 4 semanas desde la aprobación del diseño."
+        },
+        {
+          "question": "¿La forja es más cara que otros materiales?",
+          "answer": "La forja artística es una inversión en calidad y exclusividad. Los precios son superiores al hierro estándar pero el resultado es incomparable."
+        },
+        {
+          "question": "¿Pueden replicar diseños antiguos?",
+          "answer": "Sí, somos especialistas en restauración y réplica de forja antigua y elementos patrimoniales."
+        }
+      ]
+    },
+    "mobiliario-urbano": {
+      "title": "Mobiliario Urbano",
+      "short_description": "Fabricación de bancos, papeleras, marquesinas, pérgolas y elementos para espacios públicos y jardines.",
+      "description": "Diseñamos y fabricamos mobiliario urbano para ayuntamientos, urbanizaciones, parques y espacios públicos. Nuestros productos combinan funcionalidad, durabilidad y estética, creando espacios más agradables y acogedores. Todos nuestros elementos cumplen con las normativas de accesibilidad y seguridad vigentes.",
+      "subtitle": "Entornos Funcionales",
+      "benefits": [
+        "Diseño funcional y estético",
+        "Materiales de alta resistencia",
+        "Tratamiento anti-vandálico",
+        "Cumplimiento de normativas de accesibilidad",
+        "Fácil mantenimiento",
+        "Personalización de colores y acabados"
+      ],
+      "features": [
+        {
+          "title": "Bancos y Asientos",
+          "description": "Bancos de madera y metal, jardineras con asientos y mobiliario de descanso."
+        },
+        {
+          "title": "Papeleras",
+          "description": "Papeleras de reciclaje, ceniceros y contenedores urbanos."
+        },
+        {
+          "title": "Pérgolas",
+          "description": "Pérgolas, marquesinas y estructuras de sombra para espacios públicos."
+        },
+        {
+          "title": "Vallado Urbano",
+          "description": "Vallas peatonales, bolardos y elementos de ordenación del tráfico."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Trabajan con ayuntamientos?",
+          "answer": "Sí, tenemos amplia experiencia trabajando con administraciones públicas y estamos inscritos en los registros de contratistas correspondientes."
+        },
+        {
+          "question": "¿Qué materiales utilizan para mobiliario urbano?",
+          "answer": "Principalmente acero galvanizado, acero inoxidable, aluminio y madera tratada para exteriores."
+        },
+        {
+          "question": "¿Pueden instalar en toda Andalucía?",
+          "answer": "Sí, realizamos instalaciones en toda la comunidad autónoma."
+        }
+      ]
+    },
+    "manipulado-vidrio": {
+      "title": "Manipulado de Vidrio",
+      "short_description": "Corte, templado e instalación de vidrios para ventanas, escaparates, mamparas y cerramientos de cristal.",
+      "description": "Ofrecemos servicios completos de manipulado e instalación de vidrio para construcción y decoración. Trabajamos con vidrios simples, dobles, laminados, templados y especiales para todo tipo de aplicaciones: ventanas, escaparates, mamparas, barandillas de cristal, puertas y cerramientos. Nuestro taller cuenta con maquinaria de última generación para corte, pulido, taladrado y biselado.",
+      "subtitle": "Claridad y Seguridad",
+      "benefits": [
+        "Amplia variedad de tipos de vidrio",
+        "Corte de precisión milimétrica",
+        "Templado para máxima seguridad",
+        "Vidrios de control solar y térmico",
+        "Instalación profesional",
+        "Servicio de urgencias para roturas"
+      ],
+      "features": [
+        {
+          "title": "Vidrio para Ventanas",
+          "description": "Doble y triple acristalamiento, vidrios de baja emisividad y control solar."
+        },
+        {
+          "title": "Escaparates",
+          "description": "Vidrios de seguridad y laminados para comercios."
+        },
+        {
+          "title": "Mamparas",
+          "description": "Mamparas de baño de cristal templado y divisorias de oficina."
+        },
+        {
+          "title": "Barandillas de Cristal",
+          "description": "Sistemas de barandilla con vidrio templado o laminado."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Qué diferencia hay entre vidrio templado y laminado?",
+          "answer": "El templado es más resistente a impactos y al romperse se fragmenta en pequeños trozos. El laminado mantiene los fragmentos unidos gracias a una lámina intermedia."
+        },
+        {
+          "question": "¿Pueden sustituir cristales rotos urgentemente?",
+          "answer": "Sí, disponemos de servicio de urgencias para sustitución de vidrios rotos en 24-48 horas."
+        },
+        {
+          "question": "¿Trabajan con vidrios especiales?",
+          "answer": "Sí, trabajamos con vidrios acústicos, antibalas, antirrobo, espejos y vidrios decorativos."
+        }
+      ]
+    },
+    "metalisteria": {
+      "title": "Metalistería",
+      "short_description": "Trabajos especializados en acero inoxidable, hierro, aluminio y aleaciones para proyectos industriales y decorativos.",
+      "description": "Nuestro taller de metalistería está equipado para trabajar con todo tipo de metales: acero al carbono, acero inoxidable, aluminio, cobre, latón y aleaciones especiales. Realizamos trabajos de corte, plegado, soldadura, torneado y fresado para proyectos industriales, comerciales y decorativos. Desde pequeñas piezas hasta grandes estructuras, garantizamos precisión y calidad.",
+      "subtitle": "Precisión en Metal",
+      "benefits": [
+        "Trabajo con todo tipo de metales",
+        "Maquinaria CNC de precisión",
+        "Soldadura TIG, MIG y electrodo",
+        "Acabados personalizados",
+        "Fabricación de piezas únicas",
+        "Servicio de reparación y restauración"
+      ],
+      "features": [
+        {
+          "title": "Acero Inoxidable",
+          "description": "Mobiliario, barandillas, cocinas industriales y elementos decorativos."
+        },
+        {
+          "title": "Hierro",
+          "description": "Estructuras, rejas, puertas y elementos de construcción."
+        },
+        {
+          "title": "Aluminio",
+          "description": "Perfiles, carpintería y elementos ligeros de precisión."
+        },
+        {
+          "title": "Trabajos Especiales",
+          "description": "Piezas a medida, prototipos y restauraciones."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "¿Pueden fabricar piezas a partir de planos?",
+          "answer": "Sí, trabajamos con planos técnicos en cualquier formato (PDF, DWG, DXF) y también podemos crear planos a partir de piezas existentes o bocetos."
+        },
+        {
+          "question": "¿Qué certificaciones tienen para soldadura?",
+          "answer": "Nuestros soldadores están certificados según normas EN ISO 9606 para soldadura de acero y aluminio."
+        },
+        {
+          "question": "¿Realizan trabajos de reparación?",
+          "answer": "Sí, reparamos piezas metálicas, maquinaria industrial y elementos estructurales."
+        }
+      ]
+    }
+  },
+  "legal_page": {
+    "seo": {
+      "title": "Aviso Legal | Metales Del Sureste Andaluz",
+      "description": "Aviso Legal y Condiciones de Uso de Metales Del Sureste Andaluz SL. Información legal sobre el uso del sitio web."
+    },
+    "hero": {
+      "back": "Volver al inicio",
+      "badge": "Información Legal",
+      "title_start": "Aviso ",
+      "title_highlight": "Legal",
+      "description": "Información legal sobre el uso de nuestro sitio web y las condiciones que regulan la navegación y contratación de nuestros servicios."
+    },
+    "company_info": {
+      "title": "Datos Identificativos",
+      "intro": "En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSICE):",
+      "fields": {
+        "name": "Denominación Social",
+        "nif": "NIF",
+        "phone": "Teléfono",
+        "address": "Domicilio",
+        "email": "Email"
+      }
+    },
+    "sections": {
+      "object": {
+        "title": "1. Objeto",
+        "content": "El presente Aviso Legal regula el uso del sitio web <strong class=\"text-foreground\">metalesdelsureste.com</strong>, del que es titular Metales Del Sureste Andaluz SL. La navegación por el sitio web atribuye la condición de usuario del mismo e implica la aceptación plena y sin reservas de todas y cada una de las disposiciones incluidas en este Aviso Legal."
+      },
+      "access": {
+        "title": "2. Acceso y Utilización",
+        "intro": "El acceso a la web tiene carácter gratuito. Los usuarios se comprometen a utilizar el sitio web de conformidad con la Ley, el presente Aviso Legal, y las buenas costumbres generalmente aceptadas.",
+        "obligations_title": "El usuario se obliga a:",
+        "items": [
+          "No utilizar el sitio web con fines fraudulentos",
+          "No realizar actividades ilícitas o contrarias a la buena fe",
+          "No difundir contenidos de carácter racista, xenófobo o pornográfico",
+          "No provocar daños en los sistemas del prestador o de terceros"
+        ]
+      },
+      "property": {
+        "title": "3. Propiedad Intelectual e Industrial",
+        "intro": "Todos los contenidos del sitio web, incluyendo a título enunciativo pero no limitativo:",
+        "items": [
+          "Textos",
+          "Fotografías",
+          "Gráficos",
+          "Imágenes",
+          "Iconos",
+          "Logotipos",
+          "Software",
+          "Diseño"
+        ],
+        "outro": "Son propiedad de <strong class=\"text-foreground\">Metales Del Sureste Andaluz SL</strong> o de terceros que han autorizado su uso, y están protegidos por las leyes de propiedad intelectual e industrial. Queda expresamente prohibida la reproducción total o parcial de estos contenidos sin autorización expresa del titular."
+      },
+      "responsibility": {
+        "title": "4. Exclusión de Responsabilidad",
+        "intro": "Metales Del Sureste Andaluz SL no se hace responsable de:",
+        "items": [
+          "Los errores u omisiones de los contenidos del sitio web",
+          "La falta de disponibilidad del portal",
+          "La transmisión de virus o programas maliciosos en los contenidos",
+          "Los daños que pudieran ocasionarse por el uso indebido de la web",
+          "La infracción de los derechos de propiedad intelectual por parte de terceros"
+        ]
+      },
+      "links": {
+        "title": "5. Enlaces Externos",
+        "content": "El sitio web puede contener enlaces a otras páginas web gestionadas por terceros. Metales Del Sureste Andaluz SL no se hace responsable del contenido ni del estado de dichos sitios web, y el acceso a ellos a través de nuestra web no implica que recomendemos o aprobemos sus contenidos. Estos enlaces se proporcionan únicamente para conveniencia del usuario."
+      },
+      "modifications": {
+        "title": "6. Modificaciones",
+        "content": "Metales Del Sureste Andaluz SL se reserva el derecho de realizar las modificaciones que considere oportunas, sin aviso previo, en el contenido de su sitio web. Tanto en lo referente a los contenidos del sitio web, como en las condiciones de uso del mismo. Dichas modificaciones podrán realizarse a través de su página web por cualquier forma admisible en derecho y serán de obligado cumplimiento durante el tiempo en que se encuentren publicadas en la web."
+      },
+      "jurisdiction": {
+        "title": "7. Ley Aplicable y Jurisdicción",
+        "content": "Para la resolución de todas las controversias o cuestiones relacionadas con el presente sitio web o de las actividades en él desarrolladas, será de aplicación la <strong class=\"text-foreground\">legislación española</strong>, a la que se someten expresamente las partes, siendo competentes para la resolución de todos los conflictos derivados o relacionados con su uso los <strong class=\"text-foreground\">Juzgados y Tribunales de Almería</strong>."
+      }
+    },
+    "cta": {
+      "title_start": "¿Necesitas más ",
+      "title_highlight": "información",
+      "title_end": "?",
+      "description": "Si tienes alguna consulta sobre nuestro aviso legal o necesitas información adicional, estamos a tu disposición.",
+      "email_btn": "Contactar por Email"
+    },
+    "last_updated": "Última actualización: Febrero 2024"
+  },
+  "privacy_page": {
+    "seo": {
+      "title": "Política de Privacidad | Metales Del Sureste Andaluz",
+      "description": "Política de Privacidad y Protección de Datos de Metales Del Sureste Andaluz SL. Conoce cómo tratamos y protegemos tus datos personales."
+    },
+    "hero": {
+      "back": "Volver al inicio",
+      "badge": "Protección de Datos",
+      "title_start": "Política de ",
+      "title_highlight": "Privacidad",
+      "description": "En Metales Del Sureste Andaluz nos comprometemos a proteger tu privacidad y garantizar la seguridad de tus datos personales."
+    },
+    "sections": {
+      "responsible": {
+        "title": "1. Responsable del Tratamiento",
+        "content": "En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales, le informamos de los siguientes aspectos:",
+        "fields": {
+          "identity": "Identidad",
+          "nif": "NIF",
+          "address": "Dirección",
+          "email": "Email"
+        }
+      },
+      "purpose": {
+        "title": "2. Finalidad del Tratamiento",
+        "intro": "Tratamos la información que nos facilitan los interesados con las siguientes finalidades:",
+        "items": [
+          "Gestionar el envío de la información que nos soliciten a través de los formularios de contacto.",
+          "Facilitar a los interesados ofertas de productos y servicios de su interés.",
+          "Mantener la relación comercial con nuestros clientes.",
+          "Enviar comunicaciones comerciales sobre nuestros servicios, siempre que hayan dado su consentimiento."
+        ]
+      },
+      "legitimacy": {
+        "title": "3. Legitimación",
+        "content": "La base legal para el tratamiento de sus datos personales es el <strong class=\"text-foreground\">consentimiento del interesado</strong> al rellenar los formularios de contacto y aceptar la presente política de privacidad. En caso de relación contractual, la base legal será la <strong class=\"text-foreground\">ejecución de un contrato</strong>. Para el envío de comunicaciones comerciales, el tratamiento se realiza en base al <strong class=\"text-foreground\">interés legítimo</strong> del responsable o al consentimiento del interesado."
+      },
+      "recipients": {
+        "title": "4. Destinatarios",
+        "content": "Los datos personales no se cederán a terceros salvo obligación legal. No se realizan transferencias internacionales de datos a países fuera del Espacio Económico Europeo. En caso de ser necesaria alguna cesión de datos, se informará previamente al interesado y se solicitará su consentimiento expreso."
+      },
+      "rights": {
+        "title": "5. Derechos del Interesado",
+        "intro": "Cualquier persona tiene derecho a obtener confirmación sobre si tratamos datos personales que le conciernan. Los interesados tienen derecho a:",
+        "items": {
+          "access": {
+            "title": "Acceso",
+            "desc": "Conocer qué datos suyos tratamos"
+          },
+          "rectification": {
+            "title": "Rectificación",
+            "desc": "Corregir datos inexactos"
+          },
+          "deletion": {
+            "title": "Supresión",
+            "desc": "Solicitar la eliminación de datos"
+          },
+          "opposition": {
+            "title": "Oposición",
+            "desc": "Oponerse al tratamiento"
+          },
+          "portability": {
+            "title": "Portabilidad",
+            "desc": "Recibir sus datos en formato estructurado"
+          },
+          "limitation": {
+            "title": "Limitación",
+            "desc": "Limitar el tratamiento de datos"
+          }
+        },
+        "outro": "Para ejercer estos derechos, puede dirigirse a nosotros mediante escrito a nuestra dirección postal o por correo electrónico a <a href=\"mailto:info@metalesdelsureste.com\" class=\"text-primary hover:underline\">info@metalesdelsureste.com</a>."
+      },
+      "conservation": {
+        "title": "6. Conservación de Datos",
+        "content": "Los datos personales se conservarán durante el tiempo necesario para cumplir con la finalidad para la que se recabaron y para determinar las posibles responsabilidades que se pudieran derivar de dicha finalidad. En caso de solicitudes de información, los datos se conservarán durante un plazo máximo de 2 años desde la última comunicación. Los datos de clientes se conservarán durante la relación contractual y posteriormente durante los plazos legales aplicables."
+      }
+    },
+    "cta": {
+      "title_start": "¿Tienes alguna ",
+      "title_highlight": "pregunta",
+      "title_end": "?",
+      "description": "Si tienes alguna duda sobre nuestra política de privacidad o deseas ejercer tus derechos, no dudes en contactarnos.",
+      "email_btn": "Contactar por Email"
+    },
+    "last_updated": "Última actualización: Febrero 2024"
+  },
+  "zones_page": {
+    "seo": {
+      "title": "Carpintería Metálica en Almería y Levante | Cobertura y Servicios",
+      "description": "Servicios de carpintería metálica, estructuras y aluminio en toda la zona del Levante Almeriense. Huércal-Overa, Vera, Mojácar y más. Calidad Premium."
+    },
+    "hero": {
+      "badge": "Excelencia en Metal",
+      "title_start": "Carpintería Metálica en",
+      "title_highlight": "Almería y Levante",
+      "description": "Desplegamos nuestra experiencia y artesanía en toda la comarca. Desde grandes estructuras industriales en Huércal-Overa hasta cerramientos de diseño en la costa de Mojácar.",
+      "view_projects": "Ver Proyectos"
+    },
+    "info": {
+      "title": "Líderes en Metalistería y Estructuras",
+      "content": "<p>Nuestra presencia en el Levante Almeriense no es casualidad. Llevamos más de una década transformando espacios con metal, vidrio y aluminio.</p><p>Entendemos las necesidades específicas de cada localidad: la resistencia a la salinidad necesaria en <strong>Vera Playa</strong> y <strong>Garrucha</strong>, la robustez industrial requerida en <strong>Huércal-Overa</strong> y <strong>Cuevas de Almanzora</strong>, y la integración estética fundamental en pueblos como <strong>Mojácar</strong>.</p>",
+      "features": {
+        "fab": {
+          "title": "Fabricación Propia",
+          "desc": "Taller equipado con tecnología CNC."
+        },
+        "assembly": {
+          "title": "Montaje Certificado",
+          "desc": "Equipo técnico cualificado y seguro."
+        },
+        "warranty": {
+          "title": "Garantía Premium",
+          "desc": "Respaldo total en cada instalación."
+        }
+      }
+    },
+    "cta": {
+      "title_start": "¿Listo para comenzar tu",
+      "title_highlight": "proyecto",
+      "title_end": "?",
+      "description": "Cuéntanos tu idea y te ofreceremos un presupuesto personalizado sin compromiso."
+    }
+  },
+  "locksmith_zones_page": {
+    "seo": {
+      "title": "Cerrajeros 24 Horas en Almería y Levante | Cobertura Urgente",
+      "description": "Servicio de cerrajería urgente 24h en toda la zona del Levante Almeriense. Huércal-Overa, Vera, Garrucha, Mojácar y alrededores. Llegamos en 20-30 min."
+    },
+    "hero": {
+      "badge": "Servicio Urgente Activo",
+      "title_start": "Cerrajeros 24 Horas en",
+      "title_highlight": "Almería y Levante",
+      "description": "Cobertura completa en toda la comarca. Nuestros técnicos están patrullando la zona para garantizar tiempos de respuesta mínimos de 15 a 30 minutos.",
+      "locksmith_in": "Cerrajero en",
+      "available": "Disponible"
+    },
+    "info": {
+      "title": "Servicio Integral de Cerrajería en el Levante Almeriense",
+      "warranty": {
+        "title": "Garantía Total",
+        "desc": "Todos nuestros trabajos cuentan con garantía por escrito y factura oficial."
+      },
+      "speed": {
+        "title": "Rapidez Absoluta",
+        "desc": "Unidades móviles distribuidas estratégicamente para llegar antes."
+      },
+      "p1": "En Metales del Sureste, entendemos que una urgencia de cerrajería requiere una solución inmediata y profesional. Por eso, hemos desplegado una red de técnicos cualificados en toda la provincia de Almería, con especial foco en la zona del Levante y el Valle del Almanzora.",
+      "p2": "Ya sea que necesites abrir una puerta en Huércal-Overa, cambiar una cerradura en Vera Playa o una reparación urgente en Mojácar, nuestro equipo está listo para acudir en minutos. No utilizamos intermediarios, lo que nos permite ofrecer precios competitivos y un trato directo y transparente."
+    },
+    "cta": {
+      "title": "¿Necesitas un cerrajero urgente?",
+      "description": "Estamos disponibles 24/7 para atender tu emergencia"
+    }
+  },
+  "locksmith_page": {
+    "seo": {
+      "services_title_start": "Servicios Profesionales de"
+    },
+    "why_choose_us_desc": "Somos tu mejor opción para cualquier urgencia de cerrajería en {{town}}. Atendemos todo tipo de avisos con la mayor rapidez y profesionalidad.",
+    "availability_desc": "Servicio disponible las 24 horas, todos los días del año.",
+    "experts_desc": "Técnicos certificados con años de experiencia. Aperturas sin daños y trabajos garantizados.",
+    "prices_desc": "Presupuesto sin compromiso antes de empezar. Sin sorpresas ni costes ocultos.",
+    "locked_out_title": "¿Te has quedado fuera de casa?",
+    "locked_out_desc": "No te preocupes, un cerrajero de confianza está de camino a {{town}} para ayudarte.",
+    "cta": {
+      "title": "¿Necesitas un cerrajero ahora mismo?",
+      "desc": "Estamos listos para salir hacia tu ubicación."
+    },
+    "seo_desc_1": "Si necesitas un <strong>cerrajero urgente en {{town}}</strong>, has llegado al lugar correcto. Nuestro equipo de profesionales está disponible las <strong>24 horas del día, los 365 días del año</strong> para atender cualquier emergencia de cerrajería en {{town}} y alrededores.",
+    "seo_desc_2": "Ofrecemos servicios de <strong>apertura de puertas en {{town}}</strong> sin causar daños, <strong>cambio de cerraduras</strong>, instalación de <strong>cerraduras de alta seguridad</strong>, reparación de cerrojos y mucho más. Somos especialistas en todo tipo de cerraduras y sistemas de seguridad.",
+    "seo_desc_3": "Contamos con técnicos locales que conocen perfectamente la zona de {{town}}, lo que nos permite llegar rápidamente a tu ubicación. No importa la hora ni el día, siempre tendrás un <strong>cerrajero de confianza en {{town}}</strong> a tu disposición."
+  },
+  "towns_data": {
+    "huercal-overa": {
+      "description": "Servicios de carpintería metálica en Huércal-Overa. Especialistas en estructuras, cerrajería y automatización.",
+      "longDescription": "Huércal-Overa, capital del Alto Almanzora, cuenta con nuestros servicios especializados de carpintería metálica desde hace más de 20 años. Atendemos tanto a particulares como a empresas del sector agrícola e industrial de la zona, ofreciendo soluciones a medida para naves agrícolas, invernaderos, viviendas y locales comerciales.",
+      "services": [
+        "Estructuras Metálicas",
+        "Carpintería de Aluminio",
+        "Cerrajería",
+        "Automatización",
+        "Forja Artística",
+        "Metalistería"
+      ],
+      "features": [
+        "Servicio de urgencias 24h",
+        "Presupuestos sin compromiso",
+        "Garantía de 5 años",
+        "Materiales de primera calidad"
+      ],
+      "testimonial": {
+        "quote": "Excelente trabajo en la estructura de nuestra nave agrícola. Profesionales y puntuales.",
+        "location": "Huércal-Overa"
+      }
+    },
+    "vera": {
+      "description": "Carpintería metálica profesional en Vera. Cerramientos, puertas automáticas y estructuras a medida.",
+      "longDescription": "En Vera ofrecemos servicios completos de carpintería metálica para el sector residencial, comercial e industrial. Nuestra experiencia nos permite abordar proyectos de cualquier envergadura, desde pequeñas reformas hasta grandes estructuras para el sector turístico y agrícola de la comarca.",
+      "services": [
+        "Carpintería de Aluminio",
+        "Cerramientos",
+        "Puertas Automáticas",
+        "Estructuras Metálicas",
+        "Rejas y Verjas",
+        "Barandillas"
+      ],
+      "features": [
+        "Atención personalizada",
+        "Diseño a medida",
+        "Instalación profesional",
+        "Mantenimiento incluido"
+      ],
+      "testimonial": {
+        "quote": "Instalaron los cerramientos de nuestro hotel. Resultado impecable y en plazo.",
+        "location": "Vera"
+      }
+    },
+    "overa": {
+      "description": "Servicios de metalistería y cerrajería en Overa. Soluciones para agricultura e industria.",
+      "longDescription": "Overa y su entorno agrícola confían en nosotros para sus necesidades de carpintería metálica. Especializados en estructuras para invernaderos, naves de almacenamiento y sistemas de riego, también atendemos las necesidades residenciales de la zona con cerramientos, puertas y rejas de seguridad.",
+      "services": [
+        "Estructuras para Invernaderos",
+        "Naves Agrícolas",
+        "Cerrajería",
+        "Puertas de Seguridad",
+        "Vallados",
+        "Metalistería"
+      ],
+      "features": [
+        "Especialistas en sector agrícola",
+        "Rapidez en urgencias",
+        "Materiales anticorrosión",
+        "Asesoramiento técnico"
+      ],
+      "testimonial": {
+        "quote": "Nos montaron toda la estructura del invernadero en tiempo récord. Muy satisfechos.",
+        "location": "Overa"
+      }
+    },
+    "vera-playa": {
+      "description": "Carpintería metálica especializada para zona costera en Vera Playa. Materiales anticorrosión.",
+      "longDescription": "Vera Playa requiere soluciones especiales debido al ambiente marino. Utilizamos materiales y tratamientos anticorrosión específicos para garantizar la durabilidad de nuestros trabajos en esta zona costera. Especializados en cerramientos para apartamentos, hoteles y locales comerciales del paseo marítimo.",
+      "services": [
+        "Cerramientos Anticorrosión",
+        "Aluminio Marino",
+        "Barandillas Inoxidables",
+        "Puertas Automáticas",
+        "Pérgolas",
+        "Toldos"
+      ],
+      "features": [
+        "Materiales resistentes al salitre",
+        "Tratamiento anticorrosión",
+        "Garantía extendida",
+        "Mantenimiento preventivo"
+      ],
+      "testimonial": {
+        "quote": "Las barandillas llevan 10 años perfectas a pesar del salitre. Gran calidad.",
+        "location": "Vera Playa"
+      }
+    },
+    "puerto-rey": {
+      "description": "Servicios de carpintería metálica en Puerto Rey. Especialistas en cerramientos costeros.",
+      "longDescription": "Puerto Rey, con su urbanización residencial junto al mar, cuenta con nuestros servicios especializados para ambiente marino. Realizamos cerramientos de terrazas, barandillas de acero inoxidable, puertas de seguridad y todo tipo de trabajos en metal adaptados a las condiciones de la costa.",
+      "services": [
+        "Cerramientos de Terrazas",
+        "Barandillas Inoxidables",
+        "Puertas de Seguridad",
+        "Ventanas de Aluminio",
+        "Pérgolas",
+        "Vallados"
+      ],
+      "features": [
+        "Acero inoxidable marino",
+        "Diseños personalizados",
+        "Instalación rápida",
+        "Presupuesto gratuito"
+      ],
+      "testimonial": {
+        "quote": "Cerramiento de terraza espectacular. Ahora disfrutamos de las vistas todo el año.",
+        "location": "Puerto Rey"
+      }
+    },
+    "garrucha": {
+      "description": "Carpintería metálica en Garrucha. Expertos en cerramientos náuticos y estructuras portuarias.",
+      "longDescription": "Garrucha, pueblo marinero por excelencia, confía en nosotros para sus proyectos de carpintería metálica. Trabajamos con el puerto pesquero, restaurantes del paseo marítimo y viviendas de la zona, utilizando siempre materiales de máxima resistencia al ambiente salino.",
+      "services": [
+        "Estructuras Portuarias",
+        "Cerramientos de Terrazas",
+        "Carpintería Náutica",
+        "Barandillas",
+        "Puertas Automáticas",
+        "Toldos"
+      ],
+      "features": [
+        "Experiencia en sector náutico",
+        "Materiales de alta resistencia",
+        "Servicio integral",
+        "Atención 24 horas"
+      ],
+      "testimonial": {
+        "quote": "Montaron la estructura de la terraza de nuestro restaurante. Trabajo excelente.",
+        "location": "Garrucha"
+      }
+    },
+    "villaricos": {
+      "description": "Servicios de metalistería en Villaricos. Cerramientos, estructuras y trabajos a medida.",
+      "longDescription": "Villaricos, pequeño pueblo costero con encanto, cuenta con nuestros servicios de carpintería metálica. Realizamos trabajos para viviendas, apartamentos turísticos y comercios locales, siempre con materiales adaptados al ambiente marino y diseños que respetan la estética tradicional del pueblo.",
+      "services": [
+        "Cerramientos",
+        "Puertas y Ventanas",
+        "Rejas Decorativas",
+        "Barandillas",
+        "Pérgolas",
+        "Vallados"
+      ],
+      "features": [
+        "Respeto por la estética local",
+        "Materiales duraderos",
+        "Diseño personalizado",
+        "Precio competitivo"
+      ],
+      "testimonial": {
+        "quote": "Rejas preciosas que combinan perfectamente con nuestra casa tradicional.",
+        "location": "Villaricos"
+      }
+    },
+    "mojacar": {
+      "description": "Carpintería metálica en Mojácar. Diseños que respetan la arquitectura tradicional del pueblo.",
+      "longDescription": "Mojácar, uno de los pueblos más bonitos de España, requiere un cuidado especial en cualquier trabajo de carpintería metálica. Nuestros diseños respetan la estética tradicional del pueblo blanco mientras incorporan las últimas tecnologías en cerramientos, puertas automáticas y sistemas de seguridad.",
+      "services": [
+        "Forja Artística",
+        "Rejas Tradicionales",
+        "Barandillas de Diseño",
+        "Cerramientos",
+        "Puertas Automáticas",
+        "Estructuras"
+      ],
+      "features": [
+        "Diseños tradicionales",
+        "Forja artesanal",
+        "Respeto arquitectónico",
+        "Acabados premium"
+      ],
+      "testimonial": {
+        "quote": "La barandilla de forja que nos hicieron es una obra de arte. Perfecta para Mojácar.",
+        "location": "Mojácar"
+      }
+    },
+    "palomares": {
+      "description": "Servicios de carpintería metálica en Palomares. Estructuras agrícolas y cerramientos residenciales.",
+      "longDescription": "Palomares combina zonas agrícolas con desarrollos residenciales, y nosotros atendemos ambos sectores. Realizamos estructuras para invernaderos y naves agrícolas, así como cerramientos, puertas y trabajos de cerrajería para las viviendas de la zona.",
+      "services": [
+        "Estructuras Agrícolas",
+        "Invernaderos",
+        "Cerramientos",
+        "Puertas de Seguridad",
+        "Vallados",
+        "Metalistería"
+      ],
+      "features": [
+        "Especialistas agrícolas",
+        "Doble servicio",
+        "Rapidez de ejecución",
+        "Precio ajustado"
+      ],
+      "testimonial": {
+        "quote": "Nos hicieron la estructura del almacén agrícola. Muy profesionales.",
+        "location": "Palomares"
+      }
+    },
+    "cuevas-de-almanzora": {
+      "description": "Carpintería metálica en Cuevas de Almanzora. Servicios completos para industria y residencial.",
+      "longDescription": "Cuevas de Almanzora, con su rico patrimonio industrial minero, cuenta con nuestros servicios de carpintería metálica. Atendemos tanto las necesidades del sector industrial y de canteras como los proyectos residenciales del casco urbano y las pedanías.",
+      "services": [
+        "Estructuras Industriales",
+        "Carpintería de Aluminio",
+        "Cerrajería",
+        "Puertas Automáticas",
+        "Forja",
+        "Metalistería"
+      ],
+      "features": [
+        "Experiencia industrial",
+        "Grandes proyectos",
+        "Equipo especializado",
+        "Maquinaria propia"
+      ],
+      "testimonial": {
+        "quote": "Realizaron toda la estructura de nuestra planta de procesado. Impecable.",
+        "location": "Cuevas de Almanzora"
+      }
+    },
+    "albox": {
+      "description": "Servicios de carpintería metálica en Albox. Centro comercial del Almanzora.",
+      "longDescription": "Albox, centro comercial del Valle del Almanzora, confía en nosotros para sus proyectos de carpintería metálica. Trabajamos con comercios, industrias y particulares de la zona, ofreciendo desde cerramientos para locales hasta grandes estructuras industriales.",
+      "services": [
+        "Cerramientos Comerciales",
+        "Estructuras Metálicas",
+        "Carpintería de Aluminio",
+        "Puertas Automáticas",
+        "Persianas",
+        "Escaparates"
+      ],
+      "features": [
+        "Servicio comercial",
+        "Instalación rápida",
+        "Mínima molestia",
+        "Horarios flexibles"
+      ],
+      "testimonial": {
+        "quote": "Nos renovaron el escaparate del negocio. Quedó espectacular.",
+        "location": "Albox"
+      }
+    },
+    "zurgena": {
+      "description": "Carpintería metálica en Zurgena y La Alfoquia. Servicios para agricultura y viviendas.",
+      "longDescription": "Zurgena y su pedanía La Alfoquia cuentan con nuestros servicios de carpintería metálica. La zona combina actividad agrícola con desarrollos residenciales, y nosotros atendemos ambos sectores con soluciones a medida: desde estructuras para invernaderos hasta cerramientos y puertas para viviendas.",
+      "services": [
+        "Estructuras Agrícolas",
+        "Cerramientos",
+        "Puertas y Ventanas",
+        "Cerrajería",
+        "Vallados",
+        "Barandillas"
+      ],
+      "features": [
+        "Servicio rural",
+        "Conocimiento local",
+        "Trato cercano",
+        "Precios competitivos"
+      ],
+      "testimonial": {
+        "quote": "Muy atentos y profesionales. Las ventanas quedaron perfectas.",
+        "location": "Zurgena"
+      }
+    }
+  },
+  "locksmith_24h_data": {
+    "huercal-overa": {
+      "metaTitle": "Cerrajero 24 Horas en Huércal-Overa | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Huércal-Overa, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Huércal-Overa",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Somos tu cerrajero de confianza en Huércal-Overa. Ofrecemos servicios de cerrajería urgente las 24 horas: apertura de puertas, cambio de cerraduras, instalación de cerraduras de seguridad and atención inmediata ante cualquier emergencia. Profesionales cualificados con años de experiencia en la comarca.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas y acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-30 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-30 minutos"
+    },
+    "vera": {
+      "metaTitle": "Cerrajero 24 Horas en Vera | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Vera, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Vera",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Tu cerrajero de emergencia en Vera. Atendemos urgencias de cerrajería a cualquier hora: aperturas de puertas sin daños, sustitución de cerraduras, refuerzo de seguridad and todo tipo de servicios de cerrajería. Cobertura en todo el municipio de Vera and alrededores.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas y acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-30 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-30 minutos"
+    },
+    "overa": {
+      "metaTitle": "Cerrajero 24 Horas en Overa | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Overa, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Overa",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Cerrajeros profesionales en Overa con servicio de urgencias 24 horas. Resolvemos cualquier problema con tu cerradura de forma rápida y eficaz: aperturas, cambios, reparaciones and mejoras de seguridad. Atención inmediata garantizada.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas y acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 20-35 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "20-35 minutos"
+    },
+    "vera-playa": {
+      "metaTitle": "Cerrajero 24 Horas en Vera Playa | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Vera Playa, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Vera Playa",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Cerrajero de emergencias en Vera Playa. Especializados en aperturas de apartamentos, hoteles and viviendas turísticas. Servicio rápido and discreto las 24 horas. Cobertura completa en toda la zona costera.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Cerrajería para hoteles and apartamentos",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-30 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-30 minutos"
+    },
+    "puerto-rey": {
+      "metaTitle": "Cerrajero 24 Horas en Puerto Rey | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Puerto Rey, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Puerto Rey",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Servicio de cerrajería urgente en Puerto Rey. Atendemos emergencias en viviendas, apartamentos turísticos and locales comerciales. Respuesta rápida and profesional a cualquier hora del día o la noche.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Cerrajería para apartamentos turísticos",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-30 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-30 minutos"
+    },
+    "garrucha": {
+      "metaTitle": "Cerrajero 24 Horas en Garrucha | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Garrucha, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-25 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Garrucha",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Cerrajeros de confianza en Garrucha. Ofrecemos soluciones inmediatas para cualquier emergencia de cerrajería: aperturas sin daños, cambios de cerraduras, instalación de sistemas de seguridad and mucho más.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-25 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-25 minutos"
+    },
+    "villaricos": {
+      "metaTitle": "Cerrajero 24 Horas en Villaricos | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Villaricos, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Villaricos",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Tu cerrajero 24 horas en Villaricos. Especialistas en aperturas de emergencia and seguridad para el hogar. Llegamos rápidamente a tu ubicación para resolver cualquier problema con tu cerradura.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 20-35 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "20-35 minutos"
+    },
+    "mojacar": {
+      "metaTitle": "Cerrajero 24 Horas en Mojácar | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Mojácar, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-25 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Mojácar",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Cerrajería de urgencias en Mojácar pueblo and playa. Atendemos hoteles, apartamentos turísticos and viviendas particulares. Servicio rápido, profesional and con garantía. Disponibles todos los días del año.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Cerrajería para hoteles",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-25 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-25 minutos"
+    },
+    "palomares": {
+      "metaTitle": "Cerrajero 24 Horas en Palomares | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Palomares, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Palomares",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Cerrajeros profesionales en Palomares con atención 24 horas. Resolvemos emergencias de cerrajería de forma rápida and eficiente: aperturas, cambios de cerraduras, reparaciones and sistemas de seguridad.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 15-30 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "15-30 minutos"
+    },
+    "cuevas-de-almanzora": {
+      "metaTitle": "Cerrajero 24 Horas en Cuevas de Almanzora | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Cuevas de Almanzora, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Cuevas de Almanzora",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Servicio de cerrajería urgente en Cuevas de Almanzora and pedanías. Profesionales con amplia experiencia en todo tipo de cerraduras and sistemas de seguridad. Atención inmediata las 24 horas.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 20-35 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "20-35 minutos"
+    },
+    "albox": {
+      "metaTitle": "Cerrajero 24 Horas en Albox | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Albox, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 25-40 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Albox",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Cerrajeros de emergencia en Albox. Ofrecemos servicios de cerrajería urgente para viviendas, comercios e industrias. Profesionales cualificados con respuesta rápida ante cualquier situación.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 25-40 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "25-40 minutos"
+    },
+    "zurgena": {
+      "metaTitle": "Cerrajero 24 Horas en Zurgena | Urgencias ☎ Disponible Ya",
+      "metaDescription": "Cerrajero de urgencias 24h en Zurgena, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.",
+      "heroTitle": "Cerrajero 24 Horas en Zurgena",
+      "heroSubtitle": "Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año",
+      "description": "Tu cerrajero de confianza en Zurgena. Servicio de urgencias 24 horas para todo tipo de problemas con cerraduras: aperturas, cambios, reparaciones e instalación de sistemas de alta seguridad.",
+      "services": [
+        "Apertura de puertas urgente",
+        "Cambio de cerraduras de seguridad",
+        "Reparación de cerraduras",
+        "Instalación de bombillos antibumping",
+        "Apertura de cajas fuertes",
+        "Cerraduras para comunidades",
+        "Puertas blindadas and acorazadas",
+        "Amaestramiento de llaves"
+      ],
+      "emergencyFeatures": [
+        "Disponibilidad 24/7",
+        "Llegada en 20-35 minutos",
+        "Sin daños en su puerta",
+        "Presupuesto sin compromiso",
+        "Profesionales certificados",
+        "Garantía en todos los trabajos"
+      ],
+      "responseTime": "20-35 minutos"
+    }
+  }
+}

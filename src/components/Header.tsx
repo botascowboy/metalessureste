@@ -1,20 +1,23 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X, Phone, Mail, Clock, Siren } from 'lucide-react'
-
-const navLinks = [
-  { href: '/', label: 'Inicio' },
-  { href: '/servicios', label: 'Servicios' },
-  { href: '/nosotros', label: 'Nosotros' },
-  { href: '/proyectos', label: 'Proyectos' },
-  { href: '/contacto', label: 'Contacto' },
-]
+import { Menu, X, Phone, Mail, Clock } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import LanguageSelector from './LanguageSelector'
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const location = useLocation()
+  const { t } = useTranslation()
+
+  const navLinks = [
+    { href: '/', label: t('nav.home') },
+    { href: '/servicios', label: t('nav.services') },
+    { href: '/nosotros', label: t('nav.about') },
+    { href: '/proyectos', label: t('nav.projects') },
+    { href: '/contacto', label: t('nav.contact') },
+  ]
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,13 +47,13 @@ export const Header = () => {
               <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 <Phone className="w-3.5 h-3.5 text-primary" />
               </div>
-              <span className="font-medium">+34 653 94 07 50</span>
+              <span className="font-medium">{t('common.phone')}</span>
             </a>
             <a href="mailto:info@metalesdelsureste.com" className="flex items-center gap-2 hover:text-primary transition-colors duration-300 group">
               <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 <Mail className="w-3.5 h-3.5 text-primary" />
               </div>
-              <span className="font-medium">info@metalesdelsureste.com</span>
+              <span className="font-medium">{t('common.email')}</span>
             </a>
           </div>
 
@@ -60,20 +63,23 @@ export const Header = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
               </div>
-              <span className="font-bold text-red-600 group-hover:text-red-700 transition-colors uppercase tracking-wide text-[10px] sm:text-xs">Cerrajero 24h</span>
+              <span className="font-bold text-red-600 group-hover:text-red-700 transition-colors uppercase tracking-wide text-[10px] sm:text-xs">{t('nav.locksmith_24h')}</span>
             </Link>
 
             <Link to="/carpinteria-metalica-zona" className="flex items-center gap-2 group">
               <div className="relative flex h-2.5 w-2.5">
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary"></span>
               </div>
-              <span className="font-bold text-primary group-hover:text-yellow-600 transition-colors uppercase tracking-wide text-[10px] sm:text-xs">Carpintería Metálica</span>
+              <span className="font-bold text-primary group-hover:text-yellow-600 transition-colors uppercase tracking-wide text-[10px] sm:text-xs">{t('nav.metal_carpentry')}</span>
             </Link>
           </div>
 
-          <div className="flex items-center gap-2 text-muted-foreground">
-            <Clock className="w-4 h-4 text-primary" />
-            <span>Lun - Vie: 9:00 - 20:00</span>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 text-muted-foreground">
+              <Clock className="w-4 h-4 text-primary" />
+              <span>{t('common.schedule')}</span>
+            </div>
+            <LanguageSelector />
           </div>
         </div>
       </div>
@@ -93,7 +99,7 @@ export const Header = () => {
               <h1 className="text-lg sm:text-2xl font-bold text-foreground leading-none tracking-tight truncate sm:whitespace-nowrap font-display">
                 Metales Del Sureste
               </h1>
-              <p className="text-[10px] sm:text-sm text-primary font-bold tracking-[0.3em] uppercase mt-1">Andaluz</p>
+              <p className="text-[10px] sm:text-sm text-primary font-bold tracking-[0.4em] uppercase mt-1">{t('nav.subtitle')}</p>
             </div>
           </Link>
 
@@ -113,18 +119,21 @@ export const Header = () => {
               )
             })}
             <Link to="/contacto" className="btn-premium ml-4">
-              Pedir Presupuesto
+              {t('common.request_quote')}
             </Link>
           </div>
 
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-3 rounded-xl bg-muted/50 text-foreground hover:text-primary hover:bg-muted transition-all duration-300"
-            aria-label={isMobileMenuOpen ? 'Cerrar menú' : 'Abrir menú'}
-          >
-            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile menu button and language selector */}
+          <div className="lg:hidden flex items-center gap-4">
+            <LanguageSelector />
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="p-3 rounded-xl bg-muted/50 text-foreground hover:text-primary hover:bg-muted transition-all duration-300"
+              aria-label={isMobileMenuOpen ? t('nav.menu_close') : t('nav.menu_open')}
+            >
+              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -164,7 +173,7 @@ export const Header = () => {
                 transition={{ delay: 0.4 }}
               >
                 <Link to="/contacto" className="btn-premium mt-6 w-full text-center block">
-                  Pedir Presupuesto
+                  {t('common.request_quote')}
                 </Link>
               </motion.div>
               <motion.div
@@ -177,13 +186,13 @@ export const Header = () => {
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                     <Phone className="w-4 h-4 text-primary" />
                   </div>
-                  <span className="font-medium">+34 653 94 07 50</span>
+                  <span className="font-medium">{t('common.phone')}</span>
                 </a>
                 <a href="mailto:info@metalesdelsureste.com" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                   <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                     <Mail className="w-4 h-4 text-primary" />
                   </div>
-                  <span className="font-medium">info@metalesdelsureste.com</span>
+                  <span className="font-medium">{t('common.email')}</span>
                 </a>
               </motion.div>
             </div>

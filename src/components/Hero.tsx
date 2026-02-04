@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion'
 import { ChevronDown, Sparkles } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import heroImage from '@/assets/hero-metalwork.jpg'
 
 export const Hero = () => {
+  const { t } = useTranslation()
+
   return (
     <section
       id="inicio"
@@ -15,7 +18,7 @@ export const Hero = () => {
           animate={{ scale: 1 }}
           transition={{ duration: 1.5, ease: 'easeOut' }}
           src={heroImage}
-          alt="Taller de carpintería metálica con chispas de soldadura"
+          alt={t('hero.image_alt', 'Taller de carpintería metálica con chispas de soldadura')}
           className="w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -44,7 +47,7 @@ export const Hero = () => {
           >
             <span className="tag-premium inline-flex items-center gap-2 mb-8">
               <Sparkles className="w-4 h-4" />
-              Expertos en Carpintería Metálica
+              {t('hero.badge')}
             </span>
           </motion.div>
 
@@ -54,7 +57,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.15, ease: 'easeOut' }}
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display font-bold text-foreground leading-[1.1] mb-8"
           >
-            Transformamos el{' '}
+            {t('hero.title_start')}
             <span className="text-gradient-gold relative inline-block">
               <motion.span
                 animate={{
@@ -70,7 +73,7 @@ export const Hero = () => {
                   ease: "easeInOut"
                 }}
               >
-                Metal
+                {t('hero.title_highlight')}
               </motion.span>
               <svg className="absolute -bottom-1 left-0 w-full h-2" viewBox="0 0 200 8" preserveAspectRatio="none" fill="none">
                 <path d="M0 4C50 0 150 8 200 4" stroke="url(#gold-gradient)" strokeWidth="4" strokeLinecap="round" />
@@ -84,7 +87,7 @@ export const Hero = () => {
               </svg>
             </span>
             <br />
-            <span className="text-foreground/90">en Obras de Arte</span>
+            <span className="text-foreground/90">{t('hero.title_end')}</span>
           </motion.h1>
 
           <motion.p
@@ -93,9 +96,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
             className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl leading-relaxed"
           >
-            Fabricación de estructuras metálicas, carpintería de aluminio,
-            cerrajería, forja artística y automatización de puertas.
-            <span className="text-foreground font-medium"> Más de 20 años de experiencia en Andalucía.</span>
+            {t('hero.description')}
           </motion.p>
 
           <motion.div
@@ -105,10 +106,10 @@ export const Hero = () => {
             className="flex flex-col sm:flex-row gap-5"
           >
             <a href="#contacto" className="btn-premium text-lg px-10 py-5 text-center">
-              Solicitar Presupuesto
+              {t('common.request_quote')}
             </a>
             <a href="#proyectos" className="btn-outline-premium text-lg px-10 py-5 text-center">
-              Ver Proyectos
+              {t('hero.view_projects')}
             </a>
           </motion.div>
 
@@ -120,14 +121,14 @@ export const Hero = () => {
             className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6"
           >
             {[
-              { number: '20+', label: 'Años de Experiencia' },
-              { number: '500+', label: 'Proyectos Completados' },
-              { number: '100%', label: 'Clientes Satisfechos' },
-              { number: '24h', label: 'Respuesta Garantizada' },
+              { number: t('hero.stats.experience.value'), label: t('hero.stats.experience.label') },
+              { number: t('hero.stats.projects.value'), label: t('hero.stats.projects.label') },
+              { number: t('hero.stats.clients.value'), label: t('hero.stats.clients.label') },
+              { number: t('hero.stats.response.value'), label: t('hero.stats.response.label') },
             ].map((stat, index) => (
               <motion.div
                 key={index}
-                className="text-center p-4 lg:p-6 rounded-2xl bg-card/30 backdrop-blur-sm border border-border/30 group hover:border-primary/30 hover:bg-card/50 transition-all duration-300"
+                className="text-center p-4 lg:p-6 rounded-2xl bg-card/60 backdrop-blur-md border border-border/50 group hover:border-primary/50 hover:bg-card/80 transition-all duration-300 shadow-lg"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.7 + index * 0.1 }}
@@ -153,9 +154,9 @@ export const Hero = () => {
         <a
           href="#servicios"
           className="flex flex-col items-center gap-3 text-muted-foreground hover:text-primary transition-colors duration-300 group"
-          aria-label="Scroll hacia servicios"
+          aria-label={t('hero.scroll_aria', 'Scroll hacia servicios')}
         >
-          <span className="text-sm uppercase tracking-[0.3em] font-medium">Descubre más</span>
+          <span className="text-sm uppercase tracking-[0.3em] font-medium">{t('hero.scroll_down')}</span>
           <div className="w-10 h-16 rounded-full border-2 border-current flex items-start justify-center pt-2 group-hover:border-primary transition-colors">
             <motion.div
               animate={{ y: [0, 12, 0] }}

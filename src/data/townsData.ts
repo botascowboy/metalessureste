@@ -19,183 +19,387 @@ export interface TownData {
 
 export const townsData: TownData[] = [
   {
-    slug: 'huercal-overa',
-    name: 'Huércal-Overa',
-    province: 'Almería',
-    description: 'Servicios de carpintería metálica en Huércal-Overa. Especialistas en estructuras, cerrajería y automatización.',
-    longDescription: 'Huércal-Overa, capital del Alto Almanzora, cuenta con nuestros servicios especializados de carpintería metálica desde hace más de 20 años. Atendemos tanto a particulares como a empresas del sector agrícola e industrial de la zona, ofreciendo soluciones a medida para naves agrícolas, invernaderos, viviendas y locales comerciales.',
-    services: ['Estructuras Metálicas', 'Carpintería de Aluminio', 'Cerrajería', 'Automatización', 'Forja Artística', 'Metalistería'],
-    features: ['Servicio de urgencias 24h', 'Presupuestos sin compromiso', 'Garantía de 5 años', 'Materiales de primera calidad'],
-    images: [{ src: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72', alt: 'Estructura metálica industrial' }],
-    testimonial: {
-      quote: 'Excelente trabajo en la estructura de nuestra nave agrícola. Profesionales y puntuales.',
-      author: 'José García',
-      location: 'Huércal-Overa'
+    "slug": "huercal-overa",
+    "name": "Huércal-Overa",
+    "province": "Almería",
+    "description": "towns_data.huercal-overa.description",
+    "longDescription": "towns_data.huercal-overa.longDescription",
+    "services": [
+      "towns_data.huercal-overa.services.0",
+      "towns_data.huercal-overa.services.1",
+      "towns_data.huercal-overa.services.2",
+      "towns_data.huercal-overa.services.3",
+      "towns_data.huercal-overa.services.4",
+      "towns_data.huercal-overa.services.5"
+    ],
+    "features": [
+      "towns_data.huercal-overa.features.0",
+      "towns_data.huercal-overa.features.1",
+      "towns_data.huercal-overa.features.2",
+      "towns_data.huercal-overa.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+        "alt": "Estructura metálica industrial"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.huercal-overa.testimonial.quote",
+      "author": "José García",
+      "location": "towns_data.huercal-overa.testimonial.location"
     }
   },
   {
-    slug: 'vera',
-    name: 'Vera',
-    province: 'Almería',
-    description: 'Carpintería metálica profesional en Vera. Cerramientos, puertas automáticas y estructuras a medida.',
-    longDescription: 'En Vera ofrecemos servicios completos de carpintería metálica para el sector residencial, comercial e industrial. Nuestra experiencia nos permite abordar proyectos de cualquier envergadura, desde pequeñas reformas hasta grandes estructuras para el sector turístico y agrícola de la comarca.',
-    services: ['Carpintería de Aluminio', 'Cerramientos', 'Puertas Automáticas', 'Estructuras Metálicas', 'Rejas y Verjas', 'Barandillas'],
-    features: ['Atención personalizada', 'Diseño a medida', 'Instalación profesional', 'Mantenimiento incluido'],
-    images: [{ src: 'https://images.unsplash.com/photo-1525570665650-76bb26af503d?q=80', alt: 'Edificio con carpintería de aluminio' }],
-    testimonial: {
-      quote: 'Instalaron los cerramientos de nuestro hotel. Resultado impecable y en plazo.',
-      author: 'María López',
-      location: 'Vera'
+    "slug": "vera",
+    "name": "Vera",
+    "province": "Almería",
+    "description": "towns_data.vera.description",
+    "longDescription": "towns_data.vera.longDescription",
+    "services": [
+      "towns_data.vera.services.0",
+      "towns_data.vera.services.1",
+      "towns_data.vera.services.2",
+      "towns_data.vera.services.3",
+      "towns_data.vera.services.4",
+      "towns_data.vera.services.5"
+    ],
+    "features": [
+      "towns_data.vera.features.0",
+      "towns_data.vera.features.1",
+      "towns_data.vera.features.2",
+      "towns_data.vera.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1525570665650-76bb26af503d?q=80",
+        "alt": "Edificio con carpintería de aluminio"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.vera.testimonial.quote",
+      "author": "María López",
+      "location": "towns_data.vera.testimonial.location"
     }
   },
   {
-    slug: 'overa',
-    name: 'Overa',
-    province: 'Almería',
-    description: 'Servicios de metalistería y cerrajería en Overa. Soluciones para agricultura e industria.',
-    longDescription: 'Overa y su entorno agrícola confían en nosotros para sus necesidades de carpintería metálica. Especializados en estructuras para invernaderos, naves de almacenamiento y sistemas de riego, también atendemos las necesidades residenciales de la zona con cerramientos, puertas y rejas de seguridad.',
-    services: ['Estructuras para Invernaderos', 'Naves Agrícolas', 'Cerrajería', 'Puertas de Seguridad', 'Vallados', 'Metalistería'],
-    features: ['Especialistas en sector agrícola', 'Rapidez en urgencias', 'Materiales anticorrosión', 'Asesoramiento técnico'],
-    images: [{ src: 'https://images.unsplash.com/photo-1662624915046-02d9d4ee724d', alt: 'Estructura de invernadero' }],
-    testimonial: {
-      quote: 'Nos montaron toda la estructura del invernadero en tiempo récord. Muy satisfechos.',
-      author: 'Antonio Martínez',
-      location: 'Overa'
+    "slug": "overa",
+    "name": "Overa",
+    "province": "Almería",
+    "description": "towns_data.overa.description",
+    "longDescription": "towns_data.overa.longDescription",
+    "services": [
+      "towns_data.overa.services.0",
+      "towns_data.overa.services.1",
+      "towns_data.overa.services.2",
+      "towns_data.overa.services.3",
+      "towns_data.overa.services.4",
+      "towns_data.overa.services.5"
+    ],
+    "features": [
+      "towns_data.overa.features.0",
+      "towns_data.overa.features.1",
+      "towns_data.overa.features.2",
+      "towns_data.overa.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1662624915046-02d9d4ee724d",
+        "alt": "Estructura de invernadero"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.overa.testimonial.quote",
+      "author": "Antonio Martínez",
+      "location": "towns_data.overa.testimonial.location"
     }
   },
   {
-    slug: 'vera-playa',
-    name: 'Vera Playa',
-    province: 'Almería',
-    description: 'Carpintería metálica especializada para zona costera en Vera Playa. Materiales anticorrosión.',
-    longDescription: 'Vera Playa requiere soluciones especiales debido al ambiente marino. Utilizamos materiales y tratamientos anticorrosión específicos para garantizar la durabilidad de nuestros trabajos en esta zona costera. Especializados en cerramientos para apartamentos, hoteles y locales comerciales del paseo marítimo.',
-    services: ['Cerramientos Anticorrosión', 'Aluminio Marino', 'Barandillas Inoxidables', 'Puertas Automáticas', 'Pérgolas', 'Toldos'],
-    features: ['Materiales resistentes al salitre', 'Tratamiento anticorrosión', 'Garantía extendida', 'Mantenimiento preventivo'],
-    images: [{ src: 'https://plus.unsplash.com/premium_photo-1661906854568-8964f58ed859', alt: 'Apartamentos en la costa' }],
-    testimonial: {
-      quote: 'Las barandillas llevan 10 años perfectas a pesar del salitre. Gran calidad.',
-      author: 'Carmen Ruiz',
-      location: 'Vera Playa'
+    "slug": "vera-playa",
+    "name": "Vera Playa",
+    "province": "Almería",
+    "description": "towns_data.vera-playa.description",
+    "longDescription": "towns_data.vera-playa.longDescription",
+    "services": [
+      "towns_data.vera-playa.services.0",
+      "towns_data.vera-playa.services.1",
+      "towns_data.vera-playa.services.2",
+      "towns_data.vera-playa.services.3",
+      "towns_data.vera-playa.services.4",
+      "towns_data.vera-playa.services.5"
+    ],
+    "features": [
+      "towns_data.vera-playa.features.0",
+      "towns_data.vera-playa.features.1",
+      "towns_data.vera-playa.features.2",
+      "towns_data.vera-playa.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://plus.unsplash.com/premium_photo-1661906854568-8964f58ed859",
+        "alt": "Apartamentos en la costa"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.vera-playa.testimonial.quote",
+      "author": "Carmen Ruiz",
+      "location": "towns_data.vera-playa.testimonial.location"
     }
   },
   {
-    slug: 'puerto-rey',
-    name: 'Puerto Rey',
-    province: 'Almería',
-    description: 'Servicios de carpintería metálica en Puerto Rey. Especialistas en cerramientos costeros.',
-    longDescription: 'Puerto Rey, con su urbanización residencial junto al mar, cuenta con nuestros servicios especializados para ambiente marino. Realizamos cerramientos de terrazas, barandillas de acero inoxidable, puertas de seguridad y todo tipo de trabajos en metal adaptados a las condiciones de la costa.',
-    services: ['Cerramientos de Terrazas', 'Barandillas Inoxidables', 'Puertas de Seguridad', 'Ventanas de Aluminio', 'Pérgolas', 'Vallados'],
-    features: ['Acero inoxidable marino', 'Diseños personalizados', 'Instalación rápida', 'Presupuesto gratuito'],
-    images: [{ src: 'https://images.unsplash.com/photo-1662624919582-007c57fdc3dd', alt: 'Trabajo de metal' }],
-    testimonial: {
-      quote: 'Cerramiento de terraza espectacular. Ahora disfrutamos de las vistas todo el año.',
-      author: 'Pedro Sánchez',
-      location: 'Puerto Rey'
+    "slug": "puerto-rey",
+    "name": "Puerto Rey",
+    "province": "Almería",
+    "description": "towns_data.puerto-rey.description",
+    "longDescription": "towns_data.puerto-rey.longDescription",
+    "services": [
+      "towns_data.puerto-rey.services.0",
+      "towns_data.puerto-rey.services.1",
+      "towns_data.puerto-rey.services.2",
+      "towns_data.puerto-rey.services.3",
+      "towns_data.puerto-rey.services.4",
+      "towns_data.puerto-rey.services.5"
+    ],
+    "features": [
+      "towns_data.puerto-rey.features.0",
+      "towns_data.puerto-rey.features.1",
+      "towns_data.puerto-rey.features.2",
+      "towns_data.puerto-rey.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1662624919582-007c57fdc3dd",
+        "alt": "Trabajo de metal"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.puerto-rey.testimonial.quote",
+      "author": "Pedro Sánchez",
+      "location": "towns_data.puerto-rey.testimonial.location"
     }
   },
   {
-    slug: 'garrucha',
-    name: 'Garrucha',
-    province: 'Almería',
-    description: 'Carpintería metálica en Garrucha. Expertos en cerramientos náuticos y estructuras portuarias.',
-    longDescription: 'Garrucha, pueblo marinero por excelencia, confía en nosotros para sus proyectos de carpintería metálica. Trabajamos con el puerto pesquero, restaurantes del paseo marítimo y viviendas de la zona, utilizando siempre materiales de máxima resistencia al ambiente salino.',
-    services: ['Estructuras Portuarias', 'Cerramientos de Terrazas', 'Carpintería Náutica', 'Barandillas', 'Puertas Automáticas', 'Toldos'],
-    features: ['Experiencia en sector náutico', 'Materiales de alta resistencia', 'Servicio integral', 'Atención 24 horas'],
-    images: [{ src: 'https://images.unsplash.com/photo-1765728614194-881a2a837b97', alt: 'Puerto pesquero' }],
-    testimonial: {
-      quote: 'Montaron la estructura de la terraza de nuestro restaurante. Trabajo excelente.',
-      author: 'Francisco Navarro',
-      location: 'Garrucha'
+    "slug": "garrucha",
+    "name": "Garrucha",
+    "province": "Almería",
+    "description": "towns_data.garrucha.description",
+    "longDescription": "towns_data.garrucha.longDescription",
+    "services": [
+      "towns_data.garrucha.services.0",
+      "towns_data.garrucha.services.1",
+      "towns_data.garrucha.services.2",
+      "towns_data.garrucha.services.3",
+      "towns_data.garrucha.services.4",
+      "towns_data.garrucha.services.5"
+    ],
+    "features": [
+      "towns_data.garrucha.features.0",
+      "towns_data.garrucha.features.1",
+      "towns_data.garrucha.features.2",
+      "towns_data.garrucha.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1765728614194-881a2a837b97",
+        "alt": "Puerto pesquero"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.garrucha.testimonial.quote",
+      "author": "Francisco Navarro",
+      "location": "towns_data.garrucha.testimonial.location"
     }
   },
   {
-    slug: 'villaricos',
-    name: 'Villaricos',
-    province: 'Almería',
-    description: 'Servicios de metalistería en Villaricos. Cerramientos, estructuras y trabajos a medida.',
-    longDescription: 'Villaricos, pequeño pueblo costero con encanto, cuenta con nuestros servicios de carpintería metálica. Realizamos trabajos para viviendas, apartamentos turísticos y comercios locales, siempre con materiales adaptados al ambiente marino y diseños que respetan la estética tradicional del pueblo.',
-    services: ['Cerramientos', 'Puertas y Ventanas', 'Rejas Decorativas', 'Barandillas', 'Pérgolas', 'Vallados'],
-    features: ['Respeto por la estética local', 'Materiales duraderos', 'Diseño personalizado', 'Precio competitivo'],
-    images: [{ src: 'https://images.unsplash.com/photo-1579424098101-7249e9009151', alt: 'Carpintería metálica' }],
-    testimonial: {
-      quote: 'Rejas preciosas que combinan perfectamente con nuestra casa tradicional.',
-      author: 'Ana Fernández',
-      location: 'Villaricos'
+    "slug": "villaricos",
+    "name": "Villaricos",
+    "province": "Almería",
+    "description": "towns_data.villaricos.description",
+    "longDescription": "towns_data.villaricos.longDescription",
+    "services": [
+      "towns_data.villaricos.services.0",
+      "towns_data.villaricos.services.1",
+      "towns_data.villaricos.services.2",
+      "towns_data.villaricos.services.3",
+      "towns_data.villaricos.services.4",
+      "towns_data.villaricos.services.5"
+    ],
+    "features": [
+      "towns_data.villaricos.features.0",
+      "towns_data.villaricos.features.1",
+      "towns_data.villaricos.features.2",
+      "towns_data.villaricos.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1579424098101-7249e9009151",
+        "alt": "Carpintería metálica"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.villaricos.testimonial.quote",
+      "author": "Ana Fernández",
+      "location": "towns_data.villaricos.testimonial.location"
     }
   },
   {
-    slug: 'mojacar',
-    name: 'Mojácar',
-    province: 'Almería',
-    description: 'Carpintería metálica en Mojácar. Diseños que respetan la arquitectura tradicional del pueblo.',
-    longDescription: 'Mojácar, uno de los pueblos más bonitos de España, requiere un cuidado especial en cualquier trabajo de carpintería metálica. Nuestros diseños respetan la estética tradicional del pueblo blanco mientras incorporan las últimas tecnologías en cerramientos, puertas automáticas y sistemas de seguridad.',
-    services: ['Forja Artística', 'Rejas Tradicionales', 'Barandillas de Diseño', 'Cerramientos', 'Puertas Automáticas', 'Estructuras'],
-    features: ['Diseños tradicionales', 'Forja artesanal', 'Respeto arquitectónico', 'Acabados premium'],
-    images: [{ src: 'https://images.unsplash.com/photo-1769394002578-3a3e359130bd', alt: 'Trabajo de forja' }],
-    testimonial: {
-      quote: 'La barandilla de forja que nos hicieron es una obra de arte. Perfecta para Mojácar.',
-      author: 'Isabel Torres',
-      location: 'Mojácar'
+    "slug": "mojacar",
+    "name": "Mojácar",
+    "province": "Almería",
+    "description": "towns_data.mojacar.description",
+    "longDescription": "towns_data.mojacar.longDescription",
+    "services": [
+      "towns_data.mojacar.services.0",
+      "towns_data.mojacar.services.1",
+      "towns_data.mojacar.services.2",
+      "towns_data.mojacar.services.3",
+      "towns_data.mojacar.services.4",
+      "towns_data.mojacar.services.5"
+    ],
+    "features": [
+      "towns_data.mojacar.features.0",
+      "towns_data.mojacar.features.1",
+      "towns_data.mojacar.features.2",
+      "towns_data.mojacar.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1769394002578-3a3e359130bd",
+        "alt": "Trabajo de forja"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.mojacar.testimonial.quote",
+      "author": "Isabel Torres",
+      "location": "towns_data.mojacar.testimonial.location"
     }
   },
   {
-    slug: 'palomares',
-    name: 'Palomares',
-    province: 'Almería',
-    description: 'Servicios de carpintería metálica en Palomares. Estructuras agrícolas y cerramientos residenciales.',
-    longDescription: 'Palomares combina zonas agrícolas con desarrollos residenciales, y nosotros atendemos ambos sectores. Realizamos estructuras para invernaderos y naves agrícolas, así como cerramientos, puertas y trabajos de cerrajería para las viviendas de la zona.',
-    services: ['Estructuras Agrícolas', 'Invernaderos', 'Cerramientos', 'Puertas de Seguridad', 'Vallados', 'Metalistería'],
-    features: ['Especialistas agrícolas', 'Doble servicio', 'Rapidez de ejecución', 'Precio ajustado'],
-    images: [{ src: 'https://images.unsplash.com/photo-1605317039225-0001f706cdef', alt: 'Carpintería metálica' }],
-    testimonial: {
-      quote: 'Nos hicieron la estructura del almacén agrícola. Muy profesionales.',
-      author: 'Miguel Hernández',
-      location: 'Palomares'
+    "slug": "palomares",
+    "name": "Palomares",
+    "province": "Almería",
+    "description": "towns_data.palomares.description",
+    "longDescription": "towns_data.palomares.longDescription",
+    "services": [
+      "towns_data.palomares.services.0",
+      "towns_data.palomares.services.1",
+      "towns_data.palomares.services.2",
+      "towns_data.palomares.services.3",
+      "towns_data.palomares.services.4",
+      "towns_data.palomares.services.5"
+    ],
+    "features": [
+      "towns_data.palomares.features.0",
+      "towns_data.palomares.features.1",
+      "towns_data.palomares.features.2",
+      "towns_data.palomares.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1605317039225-0001f706cdef",
+        "alt": "Carpintería metálica"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.palomares.testimonial.quote",
+      "author": "Miguel Hernández",
+      "location": "towns_data.palomares.testimonial.location"
     }
   },
   {
-    slug: 'cuevas-de-almanzora',
-    name: 'Cuevas de Almanzora',
-    province: 'Almería',
-    description: 'Carpintería metálica en Cuevas de Almanzora. Servicios completos para industria y residencial.',
-    longDescription: 'Cuevas de Almanzora, con su rico patrimonio industrial minero, cuenta con nuestros servicios de carpintería metálica. Atendemos tanto las necesidades del sector industrial y de canteras como los proyectos residenciales del casco urbano y las pedanías.',
-    services: ['Estructuras Industriales', 'Carpintería de Aluminio', 'Cerrajería', 'Puertas Automáticas', 'Forja', 'Metalistería'],
-    features: ['Experiencia industrial', 'Grandes proyectos', 'Equipo especializado', 'Maquinaria propia'],
-    images: [{ src: 'https://images.unsplash.com/photo-1680034733365-ad7263988417', alt: 'Carpintería industrial' }],
-    testimonial: {
-      quote: 'Realizaron toda la estructura de nuestra planta de procesado. Impecable.',
-      author: 'Roberto Jiménez',
-      location: 'Cuevas de Almanzora'
+    "slug": "cuevas-de-almanzora",
+    "name": "Cuevas de Almanzora",
+    "province": "Almería",
+    "description": "towns_data.cuevas-de-almanzora.description",
+    "longDescription": "towns_data.cuevas-de-almanzora.longDescription",
+    "services": [
+      "towns_data.cuevas-de-almanzora.services.0",
+      "towns_data.cuevas-de-almanzora.services.1",
+      "towns_data.cuevas-de-almanzora.services.2",
+      "towns_data.cuevas-de-almanzora.services.3",
+      "towns_data.cuevas-de-almanzora.services.4",
+      "towns_data.cuevas-de-almanzora.services.5"
+    ],
+    "features": [
+      "towns_data.cuevas-de-almanzora.features.0",
+      "towns_data.cuevas-de-almanzora.features.1",
+      "towns_data.cuevas-de-almanzora.features.2",
+      "towns_data.cuevas-de-almanzora.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1680034733365-ad7263988417",
+        "alt": "Carpintería industrial"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.cuevas-de-almanzora.testimonial.quote",
+      "author": "Roberto Jiménez",
+      "location": "towns_data.cuevas-de-almanzora.testimonial.location"
     }
   },
   {
-    slug: 'albox',
-    name: 'Albox',
-    province: 'Almería',
-    description: 'Servicios de carpintería metálica en Albox. Centro comercial del Almanzora.',
-    longDescription: 'Albox, centro comercial del Valle del Almanzora, confía en nosotros para sus proyectos de carpintería metálica. Trabajamos con comercios, industrias y particulares de la zona, ofreciendo desde cerramientos para locales hasta grandes estructuras industriales.',
-    services: ['Cerramientos Comerciales', 'Estructuras Metálicas', 'Carpintería de Aluminio', 'Puertas Automáticas', 'Persianas', 'Escaparates'],
-    features: ['Servicio comercial', 'Instalación rápida', 'Mínima molestia', 'Horarios flexibles'],
-    images: [{ src: 'https://images.unsplash.com/photo-1759691555010-7f3f8674d2f2', alt: 'Carpintería metálica local' }],
-    testimonial: {
-      quote: 'Nos renovaron el escaparate del negocio. Quedó espectacular.',
-      author: 'Laura Gómez',
-      location: 'Albox'
+    "slug": "albox",
+    "name": "Albox",
+    "province": "Almería",
+    "description": "towns_data.albox.description",
+    "longDescription": "towns_data.albox.longDescription",
+    "services": [
+      "towns_data.albox.services.0",
+      "towns_data.albox.services.1",
+      "towns_data.albox.services.2",
+      "towns_data.albox.services.3",
+      "towns_data.albox.services.4",
+      "towns_data.albox.services.5"
+    ],
+    "features": [
+      "towns_data.albox.features.0",
+      "towns_data.albox.features.1",
+      "towns_data.albox.features.2",
+      "towns_data.albox.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1759691555010-7f3f8674d2f2",
+        "alt": "Carpintería metálica local"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.albox.testimonial.quote",
+      "author": "Laura Gómez",
+      "location": "towns_data.albox.testimonial.location"
     }
   },
   {
-    slug: 'zurgena',
-    name: 'Zurgena',
-    province: 'Almería',
-    description: 'Carpintería metálica en Zurgena y La Alfoquia. Servicios para agricultura y viviendas.',
-    longDescription: 'Zurgena y su pedanía La Alfoquia cuentan con nuestros servicios de carpintería metálica. La zona combina actividad agrícola con desarrollos residenciales, y nosotros atendemos ambos sectores con soluciones a medida: desde estructuras para invernaderos hasta cerramientos y puertas para viviendas.',
-    services: ['Estructuras Agrícolas', 'Cerramientos', 'Puertas y Ventanas', 'Cerrajería', 'Vallados', 'Barandillas'],
-    features: ['Servicio rural', 'Conocimiento local', 'Trato cercano', 'Precios competitivos'],
-    images: [{ src: 'https://images.unsplash.com/photo-1758565811272-e79917ca0adc', alt: 'Trabajo de metal rural' }],
-    testimonial: {
-      quote: 'Muy atentos y profesionales. Las ventanas quedaron perfectas.',
-      author: 'Juan Pérez',
-      location: 'Zurgena'
+    "slug": "zurgena",
+    "name": "Zurgena",
+    "province": "Almería",
+    "description": "towns_data.zurgena.description",
+    "longDescription": "towns_data.zurgena.longDescription",
+    "services": [
+      "towns_data.zurgena.services.0",
+      "towns_data.zurgena.services.1",
+      "towns_data.zurgena.services.2",
+      "towns_data.zurgena.services.3",
+      "towns_data.zurgena.services.4",
+      "towns_data.zurgena.services.5"
+    ],
+    "features": [
+      "towns_data.zurgena.features.0",
+      "towns_data.zurgena.features.1",
+      "towns_data.zurgena.features.2",
+      "towns_data.zurgena.features.3"
+    ],
+    "images": [
+      {
+        "src": "https://images.unsplash.com/photo-1758565811272-e79917ca0adc",
+        "alt": "Trabajo de metal rural"
+      }
+    ],
+    "testimonial": {
+      "quote": "towns_data.zurgena.testimonial.quote",
+      "author": "Juan Pérez",
+      "location": "towns_data.zurgena.testimonial.location"
     }
   }
 ]

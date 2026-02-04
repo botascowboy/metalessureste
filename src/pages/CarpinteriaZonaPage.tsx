@@ -6,13 +6,16 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { SEOHead } from '@/components/SEOHead'
 import { townsData } from '@/data/townsData'
+import { useTranslation, Trans } from 'react-i18next'
 
 const CarpinteriaZonaPage = () => {
+    const { t } = useTranslation()
+
     return (
         <HelmetProvider>
             <SEOHead
-                title="Carpintería Metálica en Almería y Levante | Cobertura y Servicios"
-                description="Servicios de carpintería metálica, estructuras y aluminio en toda la zona del Levante Almeriense. Huércal-Overa, Vera, Mojácar y más. Calidad Premium."
+                title={t('zones_page.seo.title')}
+                description={t('zones_page.seo.description')}
             />
             <div className="min-h-screen bg-background">
                 <Header />
@@ -31,15 +34,15 @@ const CarpinteriaZonaPage = () => {
                                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20 mb-6"
                                 >
                                     <Star className="w-4 h-4 fill-primary" />
-                                    <span className="font-bold text-sm uppercase tracking-wide">Excelencia en Metal</span>
+                                    <span className="font-bold text-sm uppercase tracking-wide">{t('zones_page.hero.badge')}</span>
                                 </motion.div>
 
                                 <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6 leading-tight">
-                                    Carpintería Metálica en <span className="text-gradient-gold">Almería y Levante</span>
+                                    {t('zones_page.hero.title_start')} <span className="text-gradient-gold">{t('zones_page.hero.title_highlight')}</span>
                                 </h1>
 
                                 <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-                                    Desplegamos nuestra experiencia y artesanía en toda la comarca. Desde grandes estructuras industriales en Huércal-Overa hasta cerramientos de diseño en la costa de Mojácar.
+                                    {t('zones_page.hero.description')}
                                 </p>
                             </div>
 
@@ -77,21 +80,21 @@ const CarpinteriaZonaPage = () => {
 
                                                 <div className="p-6 flex-grow flex flex-col relative bg-card/50 backdrop-blur-sm">
                                                     <p className="text-muted-foreground mb-6 line-clamp-3 leading-relaxed">
-                                                        {town.description}
+                                                        {t(town.description)}
                                                     </p>
 
                                                     <div className="space-y-3 mb-6">
                                                         {town.services.slice(0, 3).map((service, i) => (
                                                             <div key={i} className="flex items-center gap-2 text-sm text-foreground/80">
                                                                 <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                                                                {service}
+                                                                {t(service)}
                                                             </div>
                                                         ))}
                                                     </div>
 
                                                     <div className="mt-auto flex items-center justify-between border-t border-border/50 pt-4 group-hover:border-primary/30 transition-colors">
                                                         <span className="text-sm font-semibold text-primary">
-                                                            Ver Proyectos
+                                                            {t('zones_page.hero.view_projects')}
                                                         </span>
                                                         <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all duration-300">
                                                             <ArrowRight className="w-4 h-4" />
@@ -112,23 +115,18 @@ const CarpinteriaZonaPage = () => {
                                     <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
                                         <div>
                                             <h2 className="text-3xl font-display font-bold text-foreground mb-6">
-                                                Líderes en Metalistería y Estructuras
+                                                {t('zones_page.info.title')}
                                             </h2>
                                             <div className="prose prose-invert text-muted-foreground">
-                                                <p>
-                                                    Nuestra presencia en el Levante Almeriense no es casualidad. Llevamos más de una década transformando espacios con metal, vidrio y aluminio.
-                                                </p>
-                                                <p>
-                                                    Entendemos las necesidades específicas de cada localidad: la resistencia a la salinidad necesaria en <strong>Vera Playa</strong> y <strong>Garrucha</strong>, la robustez industrial requerida en <strong>Huércal-Overa</strong> y <strong>Cuevas de Almanzora</strong>, y la integración estética fundamental en pueblos como <strong>Mojácar</strong>.
-                                                </p>
+                                                <Trans i18nKey="zones_page.info.content" components={{ p: <p className="mb-4" />, strong: <strong /> }} />
                                             </div>
                                         </div>
 
                                         <div className="grid gap-4">
                                             {[
-                                                { icon: Hammer, title: "Fabricación Propia", desc: "Taller equipado con tecnología CNC." },
-                                                { icon: Construction, title: "Montaje Certificado", desc: "Equipo técnico cualificado y seguro." },
-                                                { icon: Shield, title: "Garantía Premium", desc: "Respaldo total en cada instalación." }
+                                                { icon: Hammer, title: t('zones_page.info.features.fab.title'), desc: t('zones_page.info.features.fab.desc') },
+                                                { icon: Construction, title: t('zones_page.info.features.assembly.title'), desc: t('zones_page.info.features.assembly.desc') },
+                                                { icon: Shield, title: t('zones_page.info.features.warranty.title'), desc: t('zones_page.info.features.warranty.desc') }
                                             ].map((item, i) => (
                                                 <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-background/50 border border-white/5 hover:border-primary/20 transition-colors">
                                                     <div className="p-3 rounded-lg bg-primary/10 text-primary">
@@ -143,17 +141,17 @@ const CarpinteriaZonaPage = () => {
                                         </div>
 
                                         {/* CTA Section */}
-                                        <div className="mt-16 p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-background to-accent/5 border border-primary/20 text-center relative overflow-hidden">
+                                        <div className="mt-16 p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-background to-accent/5 border border-primary/20 text-center relative overflow-hidden lg:col-span-2">
                                             {/* Decorative background elements */}
                                             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
                                             <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
 
                                             <div className="relative z-10">
                                                 <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-4">
-                                                    ¿Listo para comenzar tu <span className="text-gradient-gold">proyecto</span>?
+                                                    {t('zones_page.cta.title_start')} <span className="text-gradient-gold">{t('zones_page.cta.title_highlight')}</span>{t('zones_page.cta.title_end')}
                                                 </h3>
                                                 <p className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto">
-                                                    Cuéntanos tu idea y te ofreceremos un presupuesto personalizado sin compromiso.
+                                                    {t('zones_page.cta.description')}
                                                 </p>
                                                 <div className="flex flex-col gap-4 max-w-md mx-auto w-full">
                                                     <a
@@ -167,7 +165,7 @@ const CarpinteriaZonaPage = () => {
                                                         to="/contacto"
                                                         className="inline-flex items-center justify-center gap-2 w-full btn-outline-premium text-base sm:text-lg px-8 py-4 bg-background/50 backdrop-blur-sm"
                                                     >
-                                                        Solicitar Presupuesto
+                                                        {t('common.request_quote')}
                                                     </Link>
                                                 </div>
                                             </div>

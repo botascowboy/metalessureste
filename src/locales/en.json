@@ -1,0 +1,1692 @@
+{
+    "common": {
+        "phone": "+34 653 94 07 50",
+        "email": "info@metalesdelsureste.com",
+        "call_now": "Call Now",
+        "request_quote": "Request Quote",
+        "emergency": "24h Emergency Service",
+        "schedule": "Mon - Fri: 9:00 - 20:00",
+        "form": {
+            "name": "Full Name",
+            "email": "Email",
+            "phone": "Phone",
+            "message": "Describe your project",
+            "send": "Request Quote",
+            "sending": "Sending...",
+            "success": "Request sent! We will contact you soon.",
+            "error": "There was an error sending the message. Please try again."
+        },
+        "skip_to_content": "Skip to main content",
+        "max_chars": "Maximum {{count}} characters",
+        "need_help": "Need help?",
+        "back_to_home": "Back to Home",
+        "arrival_in": "Arriving in",
+        "professional_locksmiths": "Professional Locksmiths",
+        "in": "in",
+        "immediate_response": "Immediate Response",
+        "expert_professionals": "Expert Professionals",
+        "fair_prices": "Fair Prices",
+        "urgent_locksmith_service": "Urgent Locksmith Service",
+        "call_us": "Call us"
+    },
+    "not_found": {
+        "title_start": "Page Not ",
+        "title_highlight": "Found",
+        "description": "Sorry, the page you are looking for does not exist or has been moved. But don't worry, we'll help you find what you need!",
+        "button_home": "Back to Home",
+        "button_services": "View Services",
+        "looking_for": "What are you looking for?",
+        "nav": {
+            "services": "Our Services",
+            "projects": "View Projects",
+            "about": "About Us",
+            "contact": "Contact"
+        }
+    },
+    "nav": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "locksmith_24h": "24h Locksmith",
+        "metal_carpentry": "Metal Carpentry",
+        "subtitle": "ANDALUZ",
+        "menu_open": "Open menu",
+        "menu_close": "Close menu"
+    },
+    "service_details": {
+        "back": "Back to Services",
+        "about": "About This Service",
+        "sample": "Work Sample",
+        "benefits": "Benefits",
+        "offer": "What We Offer?",
+        "faqs": "Frequently Asked Questions",
+        "cta_desc": "Tell us about your project and we will contact you without obligation.",
+        "prefer_call": "Prefer to call us?"
+    },
+    "contact": {
+        "badge": "Contact",
+        "title": "Do you have a ",
+        "title_highlight": "Project",
+        "title_end": " in mind?",
+        "description": "Tell us your idea and we will offer you a personalized quote without obligation. We are here to help you make your vision a reality.",
+        "info_title": "Contact Information",
+        "form_title": "Send us a Message",
+        "response_guarantee": "Guaranteed response in less than 24 hours",
+        "address": "Address",
+        "schedule": "Schedule"
+    },
+    "footer": {
+        "description": "Specialists in metal carpentry with over 20 years of experience. Quality, professionalism, and commitment in every project.",
+        "company": "Company",
+        "service_zones": "Service Zones",
+        "select_town": "Select your town",
+        "zone_desc": "Metal carpentry by zone",
+        "zone_urgent_desc": "24h emergencies in your zone",
+        "rights": "All rights reserved.",
+        "designed_by": "Designed with",
+        "privacy": "Privacy Policy",
+        "legal": "Legal Notice",
+        "scroll_top": "Back to top"
+    },
+    "services_page": {
+        "seo": {
+            "title": "Our Services | Metales Del Sureste Andaluz",
+            "description": "Discover all our metal carpentry services: metal structures, aluminum carpentry, locksmithing, automation, artistic forging, and more."
+        },
+        "hero": {
+            "badge": "Excellence in Metal",
+            "title_start": "Our ",
+            "title_highlight": "Services",
+            "description": "Comprehensive solutions in metal carpentry with more than a decade of experience and the highest quality standards.",
+            "stats": {
+                "services": "Specialized services",
+                "years": "Years of experience",
+                "projects": "Completed projects",
+                "satisfaction": "Guaranteed satisfaction"
+            }
+        },
+        "card": {
+            "view_details": "View service details"
+        },
+        "cta": {
+            "badge": "Free Quote",
+            "title_start": "Ready to start your ",
+            "title_highlight": "project",
+            "title_end": "?",
+            "description": "Contact us for a personalized quote without obligation. More than 500 projects endorse us.",
+            "button_request": "Request Quote"
+        }
+    },
+    "about_page": {
+        "seo": {
+            "title": "About Us | Metales Del Sureste Andaluz",
+            "description": "Meet Metales Del Sureste Andaluz SL: more than 12 years of experience in metal carpentry in Almería. Professionalism, quality, and commitment."
+        },
+        "hero": {
+            "badge": "Our History",
+            "title_start": "Experts in ",
+            "title_highlight": "Metal Carpentry",
+            "description": "Since 2012, <strong>Metales Del Sureste Andaluz SL</strong> has established itself as a benchmark in metal carpentry in the province of Almería. Our passion for metal and commitment to excellence have led us to complete more than 500 projects successfully.",
+            "button_contact": "Contact",
+            "button_services": "View Services",
+            "stats": {
+                "years": "Years of experience",
+                "projects": "Completed projects",
+                "clients": "Satisfied clients",
+                "urgent": "Emergency service"
+            }
+        },
+        "company_info": {
+            "reason": "Registered Name",
+            "foundation": "Foundation",
+            "foundation_date": "March 2nd, 2012"
+        },
+        "values": {
+            "badge": "Our Values",
+            "title_start": "What ",
+            "title_highlight": "defines us",
+            "description": "Our values are the foundation of everything we do and guide us in every project.",
+            "items": {
+                "quality": {
+                    "title": "Quality",
+                    "description": "We use the best materials and techniques to guarantee lasting results."
+                },
+                "professionalism": {
+                    "title": "Professionalism",
+                    "description": "Highly qualified team with years of experience in the sector."
+                },
+                "punctuality": {
+                    "title": "Punctuality",
+                    "description": "We meet the agreed deadlines in every project."
+                },
+                "commitment": {
+                    "title": "Commitment",
+                    "description": "We get involved in every project as if it were our own."
+                }
+            }
+        },
+        "milestones": {
+            "badge": "Our Trajectory",
+            "title_start": "Important ",
+            "title_highlight": "milestones",
+            "items": {
+                "2012": {
+                    "title": "Foundation",
+                    "description": "Metales Del Sureste Andaluz SL is born in Huércal-Overa."
+                },
+                "2015": {
+                    "title": "Expansion",
+                    "description": "We expanded our services to the entire Levante Almeriense region."
+                },
+                "2018": {
+                    "title": "Automation",
+                    "description": "We incorporated the service of automatic doors and security systems."
+                },
+                "2020": {
+                    "title": "Innovation",
+                    "description": "Investment in state-of-the-art machinery for greater precision."
+                },
+                "2023": {
+                    "title": "Leadership",
+                    "description": "Consolidated as benchmarks in metal carpentry in Almería."
+                }
+            }
+        },
+        "mission": {
+            "title": "Our Mission",
+            "description": "Offer comprehensive solutions in metal carpentry that exceed our clients' expectations, combining artisanal tradition with the latest technologies in the sector.",
+            "items": [
+                "Excellence in every project",
+                "Constant innovation",
+                "Client satisfaction"
+            ]
+        },
+        "vision": {
+            "title": "Our Vision",
+            "description": "To be the reference company in metal carpentry in southeastern Spain, recognized for our quality, innovation, and commitment to sustainable development.",
+            "items": [
+                "Regional leadership",
+                "Sustainability",
+                "Continuous growth"
+            ]
+        },
+        "cta": {
+            "title_start": "Ready to work ",
+            "title_highlight": "with us",
+            "title_end": "?",
+            "description": "Contact our team and discover how we can help you with your next project.",
+            "button": "Contact Now"
+        }
+    },
+    "projects_page": {
+        "seo": {
+            "title": "Completed Projects | Metales Del Sureste Andaluz",
+            "description": "Discover our metal carpentry projects in Almería: industrial structures, aluminum facades, artistic forging, automatic doors, and more."
+        },
+        "hero": {
+            "badge": "Our Portfolio",
+            "title_start": "Projects ",
+            "title_highlight": "Completed",
+            "description": "Each project is a sample of our dedication, experience, and commitment to excellence in metal carpentry."
+        },
+        "stats": {
+            "projects": "Projects completed",
+            "years": "Years of experience",
+            "clients": "Satisfied clients",
+            "specialties": "Specialties"
+        },
+        "categories": {
+            "all": "All",
+            "structures": "Metal Structures",
+            "aluminum": "Aluminum Carpentry",
+            "locksmith": "Locksmithing",
+            "automation": "Automation",
+            "forge": "Artistic Forging",
+            "furniture": "Urban Furniture",
+            "glass": "Glass Handling",
+            "metalwork": "Metalworking"
+        },
+        "project_card": {
+            "view_details": "View project details"
+        },
+        "items": {
+            "nave": {
+                "title": "Agri-food Industrial Warehouse",
+                "description": "Construction of metal structure for a 2000m² industrial warehouse destined for the agri-food sector, with self-supporting roof and integrated ventilation system.",
+                "location": "Huércal-Overa, Almería",
+                "size": "2,000 m²"
+            },
+            "fachada": {
+                "title": "Curtain Wall Facade",
+                "description": "Complete facade enclosure with high energy efficiency aluminum curtain wall system for office building.",
+                "location": "Vera, Almería",
+                "size": "450 m²"
+            },
+            "escalera": {
+                "title": "Ornamental Forged Staircase",
+                "description": "Design and manufacture of helical staircase in wrought iron with artistic railing for luxury single-family home.",
+                "location": "Mojácar, Almería",
+                "size": "35 ml"
+            },
+            "puertas": {
+                "title": "Industrial Sectional Doors",
+                "description": "Installation of 6 motorized industrial sectional doors with advanced security system for logistics center.",
+                "location": "Cuevas de Almanzora, Almería",
+                "size": "6 units"
+            },
+            "cierre": {
+                "title": "Security Enclosures",
+                "description": "Manufacture and installation of security doors and decorative grilles for residential development of 20 homes.",
+                "location": "Garrucha, Almería",
+                "size": "20 homes"
+            },
+            "parque": {
+                "title": "Municipal Park Urban Furniture",
+                "description": "Design and manufacture of benches, bins, pergolas, and decorative elements for the renovation of the municipal park.",
+                "location": "Albox, Almería",
+                "size": "5,000 m²"
+            },
+            "escaparates": {
+                "title": "Commercial Showcases",
+                "description": "Installation of tempered glass showcases with aluminum framing for shopping center.",
+                "location": "Vera Playa, Almería",
+                "size": "120 m²"
+            },
+            "invernadero": {
+                "title": "Greenhouse Structure",
+                "description": "Manufacture of metal structure in galvanized steel for multi-tunnel greenhouse with ventilation system.",
+                "location": "Palomares, Almería",
+                "size": "8,000 m²"
+            }
+        },
+        "cta": {
+            "title_start": "Do you have a project in ",
+            "title_highlight": "mind",
+            "title_end": "?",
+            "description": "Tell us your idea and we will help you make it a reality. Request a quote without obligation.",
+            "button": "Request Quote"
+        }
+    },
+    "contact_page": {
+        "seo": {
+            "title": "Contact | Metales Del Sureste Andaluz",
+            "description": "Contact Metales Del Sureste Andaluz SL. Phone: +34 653 94 07 50. Address: C/ Paraje La Ventica, 8, Huércal-Overa, Almería. No-obligation quote."
+        },
+        "hero": {
+            "badge": "We are here to help you",
+            "title_start": "",
+            "title_highlight": "Contact",
+            "title_end": " Us",
+            "description": "Do you have a project in mind? Tell us your idea and we will help you make it a reality with the best quality."
+        },
+        "info": {
+            "phone_desc": "Call us for immediate inquiries",
+            "whatsapp_desc": "Direct and fast chat",
+            "email_desc": "Response in less than 24 hours",
+            "address_subtitle": "Pedanía de Santa María de Nieva, 04600 Huércal-Overa, Almería, Spain",
+            "address_desc": "Visit us at our workshop",
+            "schedule_title": "Schedule",
+            "schedule_subtitle": "24h emergencies available",
+            "schedule_desc": "24/7 locksmith service"
+        },
+        "form": {
+            "title": "Send us a message",
+            "description": "Fill out the form and we will respond in less than 24 hours.",
+            "name_label": "Full Name *",
+            "email_label": "Email *",
+            "phone_label": "Phone *",
+            "subject_label": "Subject *",
+            "subject_placeholder": "How can we help you?",
+            "message_label": "Message *",
+            "message_placeholder": "Tell us the details of your project...",
+            "sending": "Sending...",
+            "send": "Send Message",
+            "success": "Message sent correctly! We will contact you soon.",
+            "error": "There was an error sending the message. Please try again or call us.",
+            "validation": {
+                "name": "The name must have at least 2 characters",
+                "email": "Enter a valid email",
+                "phone": "Enter a valid phone",
+                "subject": "The subject must have at least 5 characters",
+                "message": "The message must have at least 10 characters"
+            }
+        },
+        "company": {
+            "title": "Metales Del Sureste Andaluz SL",
+            "constituted": "Company constituted",
+            "constituted_date": "March 2nd, 2012",
+            "experience": "More than 12 years of experience",
+            "experience_desc": "Specialists in metal carpentry",
+            "service": "Service throughout the province",
+            "service_desc": "Almería and surroundings"
+        },
+        "quick": {
+            "title": "Prefer to call us?",
+            "description": "We are available to assist you Monday to Friday from 9:00 to 20:00. For locksmith emergencies, we have 24-hour service."
+        }
+    },
+    "hero": {
+        "badge": "Metal Carpentry Specialists",
+        "title_start": "We Transform ",
+        "title_highlight": "Metal",
+        "title_end": " into Works of Art",
+        "description": "Manufacturing of metal structures, aluminum carpentry, locksmithing, artistic forging, and door automation. Over 20 years of experience in Andalusia.",
+        "stats": {
+            "experience": {
+                "value": "20+",
+                "label": "Years of Experience"
+            },
+            "projects": {
+                "value": "500+",
+                "label": "Projects Completed"
+            },
+            "clients": {
+                "value": "100%",
+                "label": "Satisfied Clients"
+            },
+            "response": {
+                "value": "24h",
+                "label": "Guaranteed Response"
+            }
+        },
+        "view_projects": "View Projects",
+        "scroll_down": "Discover More",
+        "image_alt": "Metal carpentry workshop with welding sparks",
+        "scroll_aria": "Scroll to services"
+    },
+    "services_section": {
+        "badge": "Our Services",
+        "title": "Integral Solutions in ",
+        "title_highlight": "Metal Carpentry",
+        "description": "We offer a wide range of specialized services with the highest quality standards to meet all our customers' needs.",
+        "more_info": "More Information"
+    },
+    "about_section": {
+        "badge": "About Us",
+        "title_start": "Tradition and ",
+        "title_highlight": "Excellence",
+        "title_end": " in Every Project",
+        "desc_1": "At <strong className=\"text-foreground\">Metales Del Sureste Andaluz</strong>, we combine traditional craftsmanship with the latest technologies to offer the highest quality metal carpentry solutions.",
+        "desc_2": "With more than two decades of experience in the sector, we have become benchmarks in Andalusia for our dedication, professionalism, and commitment to customer satisfaction.",
+        "features": {
+            "quality": {
+                "title": "Certified Quality",
+                "desc": "Premium materials"
+            },
+            "professional": {
+                "title": "Professional Team",
+                "desc": "+15 specialists"
+            },
+            "compliance": {
+                "title": "Compliance",
+                "desc": "Guaranteed deadlines"
+            },
+            "warranty": {
+                "title": "Total Warranty",
+                "desc": "On all work"
+            }
+        },
+        "highlights": [
+            "Free custom quotes",
+            "Specialized technical advice",
+            "Top quality materials",
+            "Satisfaction guarantee",
+            "After-sales service"
+        ],
+        "card": {
+            "subtitle": "Andalusian",
+            "since": "Creating excellence since <span className=\"text-primary font-bold\">2004</span>",
+            "stats": {
+                "projects": "Projects",
+                "years": "Years"
+            }
+        },
+        "badges": {
+            "budget": "Free Quote",
+            "consult": "Consult",
+            "premium": "Premium Quality"
+        }
+    },
+    "projects_section": {
+        "badge": "Projects",
+        "title_start": "Our ",
+        "title_highlight": "Works",
+        "title_end": " Highlights",
+        "description": "Each project is an opportunity to demonstrate our quality, creativity, and commitment to excellence.",
+        "items": {
+            "nave": {
+                "title": "Industrial Building",
+                "category": "Metal Structures",
+                "desc": "Construction of a metal structure for a 2000m² building with a self-supporting roof."
+            },
+            "fachada": {
+                "title": "Aluminum Facade",
+                "category": "Aluminum Carpentry",
+                "desc": "Complete facade enclosure with high-efficiency curtain wall system."
+            },
+            "escalera": {
+                "title": "Forged Staircase",
+                "category": "Artistic Forge",
+                "desc": "Design and manufacture of an ornamental wrought iron staircase with railing."
+            },
+            "puerta": {
+                "title": "Automatic Door",
+                "category": "Automation",
+                "desc": "Installation of an industrial motorized sectional door with a security system."
+            }
+        },
+        "view_project": "View project",
+        "view_all": "View All Projects"
+    },
+    "services_data": {
+        "estructuras-metalicas": {
+            "title": "Metal Structures",
+            "short_description": "Design and manufacture of metal structures for industrial warehouses, buildings, and large-scale architectural projects.",
+            "description": "We specialize in the design, manufacture, and assembly of metal structures for all types of projects. From industrial warehouses to residential buildings, our team of engineers and certified welders guarantees safe, durable, and efficient structures. We use top-quality steel and the latest welding techniques to create structural solutions that comply with all current regulations.",
+            "subtitle": "Industrial Strength",
+            "benefits": [
+                "Faster construction compared to concrete",
+                "Excellent strength-to-weight ratio",
+                "Ability to span large distances without intermediate pillars",
+                "Flexibility for future expansions",
+                "100% recyclable and sustainable material",
+                "Lower foundation cost"
+            ],
+            "features": [
+                {
+                    "title": "Industrial Warehouses",
+                    "description": "Structures for warehouses, factories, and logistics centers of any size."
+                },
+                {
+                    "title": "Commercial Buildings",
+                    "description": "Metal structures for offices, shopping centers, and public buildings."
+                },
+                {
+                    "title": "Agricultural Structures",
+                    "description": "Greenhouses, agricultural warehouses, and structures for livestock operations."
+                },
+                {
+                    "title": "Pergolas and Roofs",
+                    "description": "Lightweight structures for terraces, parking lots, and outdoor spaces."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "How long does it take to assemble a metal structure?",
+                    "answer": "The time depends on the project size. A 500m² warehouse can be assembled in 2-3 weeks. Larger projects may require 1-2 months."
+                },
+                {
+                    "question": "What maintenance do metal structures require?",
+                    "answer": "With proper anti-corrosion treatment, metal structures require minimal maintenance. We recommend inspections every 5-10 years."
+                },
+                {
+                    "question": "Do you offer a warranty on your structures?",
+                    "answer": "Yes, we offer a 10-year warranty on all our metal structures, covering manufacturing and assembly defects."
+                }
+            ]
+        },
+        "carpinteria-aluminio": {
+            "title": "Aluminum Carpentry",
+            "short_description": "Windows, doors, enclosures, and aluminum facades with premium finishes and maximum thermal and acoustic insulation.",
+            "description": "We manufacture and install high-quality aluminum carpentry for residential, commercial, and industrial projects. We work with the best systems on the market (Cortizo, Technal, Schüco) to ensure maximum thermal and acoustic insulation. Our aluminum windows and doors combine design, durability, and energy efficiency.",
+            "subtitle": "Maximum Insulation",
+            "benefits": [
+                "Maximum thermal insulation with thermal break",
+                "Acoustic insulation up to 47 dB",
+                "Resistance to corrosion and salt",
+                "Wide range of colors and finishes",
+                "Low maintenance",
+                "Narrow profiles for greater luminosity"
+            ],
+            "features": [
+                {
+                    "title": "Windows",
+                    "description": "Sliding, casement, tilt-and-turn, and large-sized windows."
+                },
+                {
+                    "title": "Doors",
+                    "description": "Entrance doors, balcony doors, folding doors, and lift-and-slide doors."
+                },
+                {
+                    "title": "Enclosures",
+                    "description": "Enclosures for terraces, porches, and balconies with glass."
+                },
+                {
+                    "title": "Facades",
+                    "description": "Lightweight facades and curtain walls for buildings."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "What is the difference between aluminum with and without a thermal break?",
+                    "answer": "Thermal break (RPT) incorporates an insulator between the inner and outer profiles, improving insulation by up to 60% and preventing condensation."
+                },
+                {
+                    "question": "How long does it take to manufacture and install aluminum windows?",
+                    "answer": "The usual timeframe is 2-3 weeks from measurement taking to installation, depending on quantity and complexity."
+                },
+                {
+                    "question": "What warranty do you offer?",
+                    "answer": "We offer a 5-year warranty on carpentry and 2 years on installation."
+                }
+            ]
+        },
+        "cerrajeria": {
+            "title": "Locksmith Services",
+            "short_description": "Comprehensive locksmith services: security doors, decorative grilles, fences, and personalized protection systems.",
+            "description": "We offer complete locksmith services to protect your home or business. We manufacture security doors, grilles, fences, and all types of protection elements combining security and aesthetics. Our team of professional locksmiths works on both new construction and renovations, adapting to the specific needs of each client.",
+            "subtitle": "Protection with Style",
+            "benefits": [
+                "Maximum security with high-end locks",
+                "Personalized and decorative designs",
+                "Resistant and durable materials",
+                "Anti-corrosion treatment included",
+                "Professional installation",
+                "24h emergency service"
+            ],
+            "features": [
+                {
+                    "title": "Security Doors",
+                    "description": "Armored and reinforced doors with maximum security locks."
+                },
+                {
+                    "title": "Grilles and Fences",
+                    "description": "Grilles for windows, access gates, and perimeter fences."
+                },
+                {
+                    "title": "Railings",
+                    "description": "Security railings for stairs, balconies, and terraces."
+                },
+                {
+                    "title": "Locks",
+                    "description": "Installation and changing of locks, cylinders, and access systems."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "How much does a window grille cost?",
+                    "answer": "The price depends on size and design. A standard 1x1m window grille can cost between €150 and €400 depending on the model."
+                },
+                {
+                    "question": "Do you offer emergency service?",
+                    "answer": "Yes, we have a 24-hour urgent locksmith service for openings, lock changes, and repairs."
+                },
+                {
+                    "question": "Can you manufacture custom designs?",
+                    "answer": "Absolutely. We manufacture any custom design according to client preferences."
+                }
+            ]
+        },
+        "automatizacion": {
+            "title": "Automation",
+            "short_description": "Installation and maintenance of automatic doors: sliding, swing, sectional, and rolling doors of the latest generation.",
+            "description": "Specialized in the automation of doors and accesses, we offer complete solutions for garages, businesses, industrial warehouses, and residential communities. We work with the best brands on the market (Nice, BFT, CAME, Hörmann) and install all types of automations: sliding, swing, sectional, rolling doors, and barriers. Our service includes installation, programming, and preventive maintenance.",
+            "subtitle": "Intelligent Comfort",
+            "benefits": [
+                "Greater comfort and security",
+                "Controlled access and entry logging",
+                "Quiet and low-consumption motors",
+                "Integrated security systems",
+                "Home automation compatibility",
+                "Preventive maintenance included"
+            ],
+            "features": [
+                {
+                    "title": "Garage Doors",
+                    "description": "Automation of sectional, tilting, and rolling doors."
+                },
+                {
+                    "title": "Sliding Doors",
+                    "description": "Motors for sliding doors up to 2000 kg."
+                },
+                {
+                    "title": "Swing Doors",
+                    "description": "Automations for 1 or 2-leaf swing doors."
+                },
+                {
+                    "title": "Barriers and Bollards",
+                    "description": "Access control systems for parking lots and enclosures."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "How much does it cost to automate a garage door?",
+                    "answer": "The price depends on the door type and size. A motor for a domestic sectional door can cost between €400 and €800 installed."
+                },
+                {
+                    "question": "What maintenance do automations need?",
+                    "answer": "We recommend annual maintenance including greasing, limit switch adjustment, and safety checks."
+                },
+                {
+                    "question": "Can you repair any brand?",
+                    "answer": "Yes, we repair and maintain automations from all market brands."
+                }
+            ]
+        },
+        "forja-artistica": {
+            "title": "Artistic Forging",
+            "short_description": "Creation of handcrafted forged pieces: railings, stairs, furniture, and unique decorative elements.",
+            "description": "Artistic forging is our hallmark. We create unique pieces hand-worked by master forgers with decades of experience. From railings and stairs to furniture and decorative elements, each piece is a work of art combining traditional craftsmanship with contemporary design. Perfect for those seeking exclusivity and total customization.",
+            "subtitle": "Traditional Art",
+            "benefits": [
+                "Unique and exclusive pieces",
+                "Quality craftsmanship",
+                "Custom designs",
+                "Exceptional durability",
+                "Aesthetic and heritage value",
+                "Combination of tradition and innovation"
+            ],
+            "features": [
+                {
+                    "title": "Forged Railings",
+                    "description": "Artistic railings for stairs, balconies, and terraces."
+                },
+                {
+                    "title": "Stairs",
+                    "description": "Spiral and straight stairs with exclusive designs."
+                },
+                {
+                    "title": "Furniture",
+                    "description": "Tables, chairs, beds, and forged decorative elements."
+                },
+                {
+                    "title": "Decorative Elements",
+                    "description": "Sconces, lamps, mirrors, and decoration accessories."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "How long does a custom forged railing take?",
+                    "answer": "Depending on design complexity, between 2 and 4 weeks from design approval."
+                },
+                {
+                    "question": "Is forging more expensive than other materials?",
+                    "answer": "Artistic forging is an investment in quality and exclusivity. Prices are higher than standard iron but the result is incomparable."
+                },
+                {
+                    "question": "Can you replicate old designs?",
+                    "answer": "Yes, we are specialists in restoration and replication of antique forging and heritage elements."
+                }
+            ]
+        },
+        "mobiliario-urbano": {
+            "title": "Urban Furniture",
+            "short_description": "Manufacture of benches, bins, canopies, pergolas, and elements for public spaces and gardens.",
+            "description": "We design and manufacture urban furniture for city councils, housing developments, parks, and public spaces. Our products combine functionality, durability, and aesthetics, creating more pleasant and welcoming spaces. All our elements comply with current accessibility and safety regulations.",
+            "subtitle": "Functional Environments",
+            "benefits": [
+                "Functional and aesthetic design",
+                "High-resistance materials",
+                "Anti-vandal treatment",
+                "Compliance with accessibility regulations",
+                "Easy maintenance",
+                "Customization of colors and finishes"
+            ],
+            "features": [
+                {
+                    "title": "Benches and Seating",
+                    "description": "Wood and metal benches, planters with seating, and rest furniture."
+                },
+                {
+                    "title": "Bins",
+                    "description": "Recycling bins, ashtrays, and urban containers."
+                },
+                {
+                    "title": "Pergolas",
+                    "description": "Pergolas, canopies, and shade structures for public spaces."
+                },
+                {
+                    "title": "Urban Fencing",
+                    "description": "Pedestrian fences, bollards, and traffic management elements."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "Do you work with city councils?",
+                    "answer": "Yes, we have extensive experience working with public administrations and are registered in the corresponding contractor registries."
+                },
+                {
+                    "question": "What materials do you use for urban furniture?",
+                    "answer": "Mainly galvanized steel, stainless steel, aluminum, and treated wood for exteriors."
+                },
+                {
+                    "question": "Can you install throughout Andalusia?",
+                    "answer": "Yes, we perform installations throughout the autonomous community."
+                }
+            ]
+        },
+        "manipulado-vidrio": {
+            "title": "Glass Handling",
+            "short_description": "Cutting, tempering, and installation of glass for windows, storefronts, screens, and glass enclosures.",
+            "description": "We offer complete glass handling and installation services for construction and decoration. We work with simple, double, laminated, tempered, and special glass for all types of applications: windows, storefronts, screens, glass railings, doors, and enclosures. Our workshop has state-of-the-art machinery for cutting, polishing, drilling, and beveling.",
+            "subtitle": "Clarity and Safety",
+            "benefits": [
+                "Wide variety of glass types",
+                "Millimeter precision cutting",
+                "Tempering for maximum safety",
+                "Solar and thermal control glass",
+                "Professional installation",
+                "Emergency service for breakage"
+            ],
+            "features": [
+                {
+                    "title": "Window Glass",
+                    "description": "Double and triple glazing, low-emissivity and solar control glass."
+                },
+                {
+                    "title": "Storefronts",
+                    "description": "Safety and laminated glass for businesses."
+                },
+                {
+                    "title": "Screens",
+                    "description": "Tempered glass bath screens and office dividers."
+                },
+                {
+                    "title": "Glass Railings",
+                    "description": "Railing systems with tempered or laminated glass."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "What is the difference between tempered and laminated glass?",
+                    "answer": "Tempered is more impact-resistant and fragments into small pieces when broken. Laminated keeps fragments together thanks to an intermediate layer."
+                },
+                {
+                    "question": "Can you replace broken glass urgently?",
+                    "answer": "Yes, we have an emergency service for replacing broken glass within 24-48 hours."
+                },
+                {
+                    "question": "Do you work with special glass?",
+                    "answer": "Yes, we work with acoustic, bulletproof, anti-theft glass, mirrors, and decorative glass."
+                }
+            ]
+        },
+        "metalisteria": {
+            "title": "Metalworking",
+            "short_description": "Specialized works in stainless steel, iron, aluminum, and alloys for industrial and decorative projects.",
+            "description": "Our metalworking workshop is equipped to work with all types of metals: carbon steel, stainless steel, aluminum, copper, brass, and special alloys. We perform cutting, bending, welding, turning, and milling works for industrial, commercial, and decorative projects. From small parts to large structures, we guarantee precision and quality.",
+            "subtitle": "Precision in Metal",
+            "benefits": [
+                "Work with all types of metals",
+                "Precision CNC machinery",
+                "TIG, MIG, and electrode welding",
+                "Custom finishes",
+                "Manufacture of unique parts",
+                "Repair and restoration service"
+            ],
+            "features": [
+                {
+                    "title": "Stainless Steel",
+                    "description": "Furniture, railings, industrial kitchens, and decorative elements."
+                },
+                {
+                    "title": "Iron",
+                    "description": "Structures, grilles, doors, and construction elements."
+                },
+                {
+                    "title": "Aluminum",
+                    "description": "Profiles, carpentry, and precision lightweight elements."
+                },
+                {
+                    "title": "Special Works",
+                    "description": "Custom parts, prototypes, and restorations."
+                }
+            ],
+            "faqs": [
+                {
+                    "question": "Can you manufacture parts from drawings?",
+                    "answer": "Yes, we work with technical drawings in any format (PDF, DWG, DXF) and can also create drawings from existing parts or sketches."
+                },
+                {
+                    "question": "What welding certifications do you have?",
+                    "answer": "Our welders are certified according to EN ISO 9606 standards for steel and aluminum welding."
+                },
+                {
+                    "question": "Do you do repair work?",
+                    "answer": "Yes, we repair metal parts, industrial machinery, and structural elements."
+                }
+            ]
+        }
+    },
+    "legal_page": {
+        "seo": {
+            "title": "Legal Notice | Metales Del Sureste Andaluz",
+            "description": "Legal Notice and Terms of Use of Metales Del Sureste Andaluz SL. Legal information about the use of the website."
+        },
+        "hero": {
+            "back": "Back to home",
+            "badge": "Legal Information",
+            "title_start": "Legal ",
+            "title_highlight": "Notice",
+            "description": "Legal information about the use of our website and the conditions governing navigation and hiring of our services."
+        },
+        "company_info": {
+            "title": "Identification Data",
+            "intro": "In compliance with the duty of information contained in article 10 of Law 34/2002, of July 11, on Services of the Information Society and Electronic Commerce (LSSICE):",
+            "fields": {
+                "name": "Registered Name",
+                "nif": "Tax ID",
+                "phone": "Phone",
+                "address": "Address",
+                "email": "Email"
+            }
+        },
+        "sections": {
+            "object": {
+                "title": "1. Object",
+                "content": "This Legal Notice regulates the use of the website <strong class=\"text-foreground\">metalesdelsureste.com</strong>, owned by Metales Del Sureste Andaluz SL. Browsing the website attributes the condition of user and implies full and unreserved acceptance of all provisions included in this Legal Notice."
+            },
+            "access": {
+                "title": "2. Access and Use",
+                "intro": "Access to the website is free. Users undertake to use the website in accordance with the Law, this Legal Notice, and generally accepted good customs.",
+                "obligations_title": "The user undertakes to:",
+                "items": [
+                    "Not to use the website for fraudulent purposes",
+                    "Not to carry out illicit activities or contrary to good faith",
+                    "Not to disseminate racist, xenophobic, or pornographic content",
+                    "Not to cause damage to the provider's or third parties' systems"
+                ]
+            },
+            "property": {
+                "title": "3. Intellectual and Industrial Property",
+                "intro": "All website content, including but not limited to:",
+                "items": [
+                    "Texts",
+                    "Photographs",
+                    "Graphics",
+                    "Images",
+                    "Icons",
+                    "Logos",
+                    "Software",
+                    "Design"
+                ],
+                "outro": "Are the property of <strong class=\"text-foreground\">Metales Del Sureste Andaluz SL</strong> or third parties who have authorized their use, and are protected by intellectual and industrial property laws. Total or partial reproduction of these contents without express authorization from the owner is strictly prohibited."
+            },
+            "responsibility": {
+                "title": "4. Exclusion of Liability",
+                "intro": "Metales Del Sureste Andaluz SL is not responsible for:",
+                "items": [
+                    "Errors or omissions in the website content",
+                    "Lack of availability of the portal",
+                    "Transmission of viruses or malicious programs in the content",
+                    "Damages that may be caused by misuse of the web",
+                    "Infringement of intellectual property rights by third parties"
+                ]
+            },
+            "links": {
+                "title": "5. External Links",
+                "content": "The website may contain links to other websites managed by third parties. Metales Del Sureste Andaluz SL is not responsible for the content or status of such websites, and access to them through our website does not imply that we recommend or approve their content. These links are provided solely for the user's convenience."
+            },
+            "modifications": {
+                "title": "6. Modifications",
+                "content": "Metales Del Sureste Andaluz SL reserves the right to make modifications it deems appropriate, without prior notice, to the content of its website. Both regarding the website content and its terms of use. Such modifications may be made through its website by any legally admissible form and will be mandatory during the time they are published on the web."
+            },
+            "jurisdiction": {
+                "title": "7. Applicable Law and Jurisdiction",
+                "content": "For the resolution of all disputes or issues related to this website or the activities developed therein, <strong class=\"text-foreground\">Spanish legislation</strong> will apply, to which the parties expressly submit, with the <strong class=\"text-foreground\">Courts and Tribunals of Almería</strong> being competent for the resolution of all conflicts arising from or related to its use."
+            }
+        },
+        "cta": {
+            "title_start": "Need more ",
+            "title_highlight": "information",
+            "title_end": "?",
+            "description": "If you have any questions about our legal notice or need additional information, we are at your disposal.",
+            "email_btn": "Contact by Email"
+        },
+        "last_updated": "Last updated: February 2024"
+    },
+    "privacy_page": {
+        "seo": {
+            "title": "Privacy Policy | Metales Del Sureste Andaluz",
+            "description": "Privacy Policy and Data Protection of Metales Del Sureste Andaluz SL. Learn how we treat and protect your personal data."
+        },
+        "hero": {
+            "back": "Back to home",
+            "badge": "Data Protection",
+            "title_start": "Privacy ",
+            "title_highlight": "Policy",
+            "description": "At Metales Del Sureste Andaluz we are committed to protecting your privacy and guaranteeing the security of your personal data."
+        },
+        "sections": {
+            "responsible": {
+                "title": "1. Data Controller",
+                "content": "In compliance with Regulation (EU) 2016/679 of the European Parliament and of the Council, of April 27, 2016, on the protection of natural persons with regard to the processing of personal data, we inform you of the following aspects:",
+                "fields": {
+                    "identity": "Identity",
+                    "nif": "Tax ID",
+                    "address": "Address",
+                    "email": "Email"
+                }
+            },
+            "purpose": {
+                "title": "2. Purpose of Processing",
+                "intro": "We process the information provided by interested parties for the following purposes:",
+                "items": [
+                    "Manage the sending of information requested through contact forms.",
+                    "Provide interested parties with offers of products and services of interest.",
+                    "Maintain the commercial relationship with our clients.",
+                    "Send commercial communications about our services, provided they have given their consent."
+                ]
+            },
+            "legitimacy": {
+                "title": "3. Legitimacy",
+                "content": "The legal basis for the processing of your personal data is the <strong class=\"text-foreground\">consent of the interested party</strong> when filling out the contact forms and accepting this privacy policy. In case of a contractual relationship, the legal basis will be the <strong class=\"text-foreground\">execution of a contract</strong>. For sending commercial communications, processing is carried out based on the <strong class=\"text-foreground\">legitimate interest</strong> of the controller or the consent of the interested party."
+            },
+            "recipients": {
+                "title": "4. Recipients",
+                "content": "Personal data will not be transferred to third parties unless legally obligated. No international data transfers are made to countries outside the European Economic Area. If any data transfer is necessary, the interested party will be informed in advance and their express consent will be requested."
+            },
+            "rights": {
+                "title": "5. Rights of the Interested Party",
+                "intro": "Any person has the right to obtain confirmation as to whether we are processing personal data concerning them. Interested parties have the right to:",
+                "items": {
+                    "access": {
+                        "title": "Access",
+                        "desc": "Know what data of yours we process"
+                    },
+                    "rectification": {
+                        "title": "Rectification",
+                        "desc": "Correct inaccurate data"
+                    },
+                    "deletion": {
+                        "title": "Deletion",
+                        "desc": "Request deletion of data"
+                    },
+                    "opposition": {
+                        "title": "Opposition",
+                        "desc": "Oppose processing"
+                    },
+                    "portability": {
+                        "title": "Portability",
+                        "desc": "Receive your data in a structured format"
+                    },
+                    "limitation": {
+                        "title": "Limitation",
+                        "desc": "Limit data processing"
+                    }
+                },
+                "outro": "To exercise these rights, you can contact us by writing to our postal address or by email at <a href=\"mailto:info@metalesdelsureste.com\" class=\"text-primary hover:underline\">info@metalesdelsureste.com</a>."
+            },
+            "conservation": {
+                "title": "6. Data Conservation",
+                "content": "Personal data will be kept for the time necessary to fulfill the purpose for which they were collected and to determine the possible liabilities that may arise from said purpose. In case of information requests, data will be kept for a maximum period of 2 years from the last communication. Client data will be kept during the contractual relationship and subsequently during the applicable legal terms."
+            }
+        },
+        "cta": {
+            "title_start": "Do you have any ",
+            "title_highlight": "questions",
+            "title_end": "?",
+            "description": "If you have any doubts about our privacy policy or wish to exercise your rights, do not hesitate to contact us.",
+            "email_btn": "Contact by Email"
+        },
+        "last_updated": "Last updated: February 2024"
+    },
+    "zones_page": {
+        "seo": {
+            "title": "Metal Carpentry in Almería and Levante | Coverage and Services",
+            "description": "Metal carpentry, structures and aluminum services in the entire Levante Almeriense area. Huércal-Overa, Vera, Mojácar and more. Premium Quality."
+        },
+        "hero": {
+            "badge": "Excellence in Metal",
+            "title_start": "Metal Carpentry in",
+            "title_highlight": "Almería and Levante",
+            "description": "We deploy our experience and craftsmanship throughout the region. From large industrial structures in Huércal-Overa to design enclosures on the Mojácar coast.",
+            "view_projects": "View Projects"
+        },
+        "info": {
+            "title": "Leaders in Metalwork and Structures",
+            "content": "<p>Our presence in the Levante Almeriense is no coincidence. We have been transforming spaces with metal, glass and aluminum for more than a decade.</p><p>We understand the specific needs of each location: the salt resistance required in <strong>Vera Playa</strong> and <strong>Garrucha</strong>, the industrial robustness required in <strong>Huércal-Overa</strong> and <strong>Cuevas de Almanzora</strong>, and the fundamental aesthetic integration in villages like <strong>Mojácar</strong>.</p>",
+            "features": {
+                "fab": {
+                    "title": "Own Manufacturing",
+                    "desc": "Workshop equipped with CNC technology."
+                },
+                "assembly": {
+                    "title": "Certified Assembly",
+                    "desc": "Qualified and safe technical team."
+                },
+                "warranty": {
+                    "title": "Premium Warranty",
+                    "desc": "Total support in every installation."
+                }
+            }
+        },
+        "cta": {
+            "title_start": "Ready to start your",
+            "title_highlight": "project",
+            "title_end": "?",
+            "description": "Tell us about your idea and we will offer you a personalized quote without obligation."
+        }
+    },
+    "locksmith_zones_page": {
+        "seo": {
+            "title": "24-Hour Locksmiths in Almería and Levante | Urgent Coverage",
+            "description": "24h urgent locksmith service in the entire Levante Almeriense area. Huércal-Overa, Vera, Garrucha, Mojácar and surroundings. We arrive in 20-30 min."
+        },
+        "hero": {
+            "badge": "Urgent Service Active",
+            "title_start": "24-Hour Locksmiths in",
+            "title_highlight": "Almería and Levante",
+            "description": "Full coverage throughout the region. Our technicians are patrolling the area to guarantee minimum response times of 15 to 30 minutes.",
+            "locksmith_in": "Locksmith in",
+            "available": "Available"
+        },
+        "info": {
+            "title": "Comprehensive Locksmith Service in Levante Almeriense",
+            "warranty": {
+                "title": "Full Guarantee",
+                "desc": "All our work has a written guarantee and official invoice."
+            },
+            "speed": {
+                "title": "Absolute Speed",
+                "desc": "Mobile units strategically distributed to arrive faster."
+            },
+            "p1": "At Metales del Sureste, we understand that a locksmith emergency requires an immediate and professional solution. That's why we have deployed a network of qualified technicians throughout the province of Almería, with a special focus on the Levante area and the Almanzora Valley.",
+            "p2": "Whether you need to open a door in Huércal-Overa, change a lock in Vera Playa or an urgent repair in Mojácar, our team is ready to arrive in minutes. We do not use intermediaries, which allows us to offer competitive prices and direct and transparent treatment."
+        },
+        "cta": {
+            "title": "Do you need an urgent locksmith?",
+            "description": "We are available 24/7 to attend to your emergency"
+        }
+    },
+    "locksmith_page": {
+        "seo": {
+            "services_title_start": "Professional Services of"
+        },
+        "why_choose_us_desc": "We are your best option for any locksmith emergency in {{town}}. We handle all types of calls with the greatest speed and professionalism.",
+        "availability_desc": "Service available 24 hours, every day of the year.",
+        "experts_desc": "Certified technicians with years of experience. Damage-free openings and guaranteed work.",
+        "prices_desc": "No-obligation quote before starting. No surprises or hidden costs.",
+        "locked_out_title": "Locked out of your home?",
+        "locked_out_desc": "Don't worry, a trusted locksmith is on the way to {{town}} to help you.",
+        "cta": {
+            "title": "Do you need a locksmith right now?",
+            "desc": "We are ready to leave for your location."
+        },
+        "seo_desc_1": "If you need an <strong>urgent locksmith in {{town}}</strong>, you've come to the right place. Our team of professionals is available <strong>24 hours a day, 365 days a year</strong> to attend to any locksmith emergency in {{town}} and surroundings.",
+        "seo_desc_2": "We offer <strong>door opening services in {{town}}</strong> without causing damage, <strong>lock changes</strong>, installation of <strong>high security locks</strong>, bolt repair and much more. We are specialists in all types of locks and security systems.",
+        "seo_desc_3": "We have local technicians who know the {{town}} area perfectly, which allows us to reach your location quickly. No matter the time or day, you will always have a <strong>trusted locksmith in {{town}}</strong> at your disposal."
+    },
+    "towns_data": {
+        "huercal-overa": {
+            "description": "Metal carpentry services in Huércal-Overa. Specialists in structures, locksmithing and automation.",
+            "longDescription": "Huércal-Overa, capital of Alto Almanzora, has relied on our specialized metal carpentry services for more than 20 years. We serve both individuals and companies in the agricultural and industrial sectors of the area, offering custom solutions for agricultural buildings, greenhouses, homes and commercial premises.",
+            "services": [
+                "Metal Structures",
+                "Aluminum Carpentry",
+                "Locksmithing",
+                "Automation",
+                "Artistic Forge",
+                "Metalwork"
+            ],
+            "features": [
+                "24h emergency service",
+                "No-obligation quotes",
+                "5-year warranty",
+                "Top quality materials"
+            ],
+            "testimonial": {
+                "quote": "Excellent work on the structure of our agricultural building. Professional and punctual.",
+                "location": "Huércal-Overa"
+            }
+        },
+        "vera": {
+            "description": "Professional metal carpentry in Vera. Enclosures, automatic doors and custom structures.",
+            "longDescription": "In Vera we offer complete metal carpentry services for the residential, commercial and industrial sectors. Our experience allows us to tackle projects of any size, from small renovations to large structures for the tourism and agricultural sector of the region.",
+            "services": [
+                "Aluminum Carpentry",
+                "Enclosures",
+                "Automatic Doors",
+                "Metal Structures",
+                "Grilles and Gates",
+                "Railings"
+            ],
+            "features": [
+                "Personalized attention",
+                "Custom design",
+                "Professional installation",
+                "Maintenance included"
+            ],
+            "testimonial": {
+                "quote": "They installed the enclosures of our hotel. Impeccable result and on time.",
+                "location": "Vera"
+            }
+        },
+        "overa": {
+            "description": "Metalwork and locksmithing services in Overa. Solutions for agriculture and industry.",
+            "longDescription": "Overa and its agricultural environment trust us for their metal carpentry needs. Specialized in structures for greenhouses, storage buildings and irrigation systems, we also serve the residential needs of the area with enclosures, doors and security grilles.",
+            "services": [
+                "Greenhouse Structures",
+                "Agricultural Warehouses",
+                "Locksmithing",
+                "Security Doors",
+                "Fencing",
+                "Metalwork"
+            ],
+            "features": [
+                "Specialists in agricultural sector",
+                "Quick emergency response",
+                "Anti-corrosion materials",
+                "Technical advice"
+            ],
+            "testimonial": {
+                "quote": "They mounted the entire greenhouse structure in record time. Very satisfied.",
+                "location": "Overa"
+            }
+        },
+        "vera-playa": {
+            "description": "Specialized metal carpentry for coastal area in Vera Playa. Anti-corrosion materials.",
+            "longDescription": "Vera Playa requires special solutions due to the marine environment. We use special materials and anti-corrosion treatments to guarantee the durability of our work in this coastal area. Specialized in enclosures for apartments, hotels and commercial premises on the promenade.",
+            "services": [
+                "Anti-corrosion Enclosures",
+                "Marine Aluminum",
+                "Stainless Steel Railings",
+                "Automatic Doors",
+                "Pergolas",
+                "Awnings"
+            ],
+            "features": [
+                "Salt-resistant materials",
+                "Anti-corrosion treatment",
+                "Extended warranty",
+                "Preventive maintenance"
+            ],
+            "testimonial": {
+                "quote": "The railings have been perfect for 10 years despite the salt residue. Great quality.",
+                "location": "Vera Playa"
+            }
+        },
+        "puerto-rey": {
+            "description": "Metal carpentry services in Puerto Rey. Specialists in coastal enclosures.",
+            "longDescription": "Puerto Rey, with its residential development by the sea, relies on our specialized services for marine environments. We carry out terrace enclosures, stainless steel railings, security doors and all kinds of metal work adapted to coastal conditions.",
+            "services": [
+                "Terrace Enclosures",
+                "Stainless Steel Railings",
+                "Security Doors",
+                "Aluminum Windows",
+                "Pergolas",
+                "Fencing"
+            ],
+            "features": [
+                "Marine stainless steel",
+                "Custom designs",
+                "Quick installation",
+                "Free quote"
+            ],
+            "testimonial": {
+                "quote": "Spectacular terrace enclosure. Now we enjoy the views all year round.",
+                "location": "Puerto Rey"
+            }
+        },
+        "garrucha": {
+            "description": "Metal carpentry in Garrucha. Experts in nautical enclosures and port structures.",
+            "longDescription": "Garrucha, a fishing village par excellence, trusts us for its metal carpentry projects. We work with the fishing port, promenade restaurants and homes in the area, always using materials with maximum resistance to the salt environment.",
+            "services": [
+                "Port Structures",
+                "Terrace Enclosures",
+                "Nautical Carpentry",
+                "Railings",
+                "Automatic Doors",
+                "Awnings"
+            ],
+            "features": [
+                "Experience in nautical sector",
+                "High-resistance materials",
+                "Comprehensive service",
+                "24-hour attention"
+            ],
+            "testimonial": {
+                "quote": "They mounted the terrace structure of our restaurant. Excellent work.",
+                "location": "Garrucha"
+            }
+        },
+        "villaricos": {
+            "description": "Metalwork services in Villaricos. Enclosures, structures and custom work.",
+            "longDescription": "Villaricos, a charming small coastal village, relies on our metal carpentry services. We carry out work for homes, tourist apartments and local businesses, always with materials adapted to the marine environment and designs that respect the traditional aesthetics of the village.",
+            "services": [
+                "Enclosures",
+                "Doors and Windows",
+                "Decorative Grilles",
+                "Railings",
+                "Pergolas",
+                "Fencing"
+            ],
+            "features": [
+                "Respect for local aesthetics",
+                "Durable materials",
+                "Custom design",
+                "Competitive price"
+            ],
+            "testimonial": {
+                "quote": "Beautiful grilles that perfectly match our traditional house.",
+                "location": "Villaricos"
+            }
+        },
+        "mojacar": {
+            "description": "Metal carpentry in Mojácar. Designs that respect the traditional architecture of the village.",
+            "longDescription": "Mojácar, one of the most beautiful villages in Spain, requires special care in any metal carpentry work. Our designs respect the traditional aesthetics of the white village while incorporating the latest technologies in enclosures, automatic doors and security systems.",
+            "services": [
+                "Artistic Forge",
+                "Traditional Grilles",
+                "Design Railings",
+                "Enclosures",
+                "Automatic Doors",
+                "Structures"
+            ],
+            "features": [
+                "Traditional designs",
+                "Handcrafted forge",
+                "Architectural respect",
+                "Premium finishes"
+            ],
+            "testimonial": {
+                "quote": "The wrought iron railing they made for us is a work of art. Perfect for Mojácar.",
+                "location": "Mojácar"
+            }
+        },
+        "palomares": {
+            "description": "Metal carpentry services in Palomares. Agricultural structures and residential enclosures.",
+            "longDescription": "Palomares combines agricultural areas with residential developments, and we serve both sectors. We build structures for greenhouses and agricultural buildings, as well as enclosures, doors and locksmith work for homes in the area.",
+            "services": [
+                "Agricultural Structures",
+                "Greenhouses",
+                "Enclosures",
+                "Security Doors",
+                "Fencing",
+                "Metalwork"
+            ],
+            "features": [
+                "Specialists in agricultural sector",
+                "Double service",
+                "Speed of execution",
+                "Fair price"
+            ],
+            "testimonial": {
+                "quote": "They built the structure of our agricultural warehouse. Very professional.",
+                "location": "Palomares"
+            }
+        },
+        "cuevas-de-almanzora": {
+            "description": "Metal carpentry in Cuevas de Almanzora. Complete services for industry and residential.",
+            "longDescription": "Cuevas de Almanzora, with its rich mining industrial heritage, relies on our metal carpentry services. We serve both the needs of the industrial and quarry sector and residential projects in the town center and surrounding areas.",
+            "services": [
+                "Industrial Structures",
+                "Aluminum Carpentry",
+                "Locksmithing",
+                "Automatic Doors",
+                "Forge",
+                "Metalwork"
+            ],
+            "features": [
+                "Industrial experience",
+                "Large projects",
+                "Specialized team",
+                "Own machinery"
+            ],
+            "testimonial": {
+                "quote": "They completed the entire structure of our processing plant. Impeccable.",
+                "location": "Cuevas de Almanzora"
+            }
+        },
+        "albox": {
+            "description": "Metal carpentry services in Albox. Commercial center of Almanzora.",
+            "longDescription": "Albox, the commercial center of the Almanzora Valley, trusts us for its metal carpentry projects. We work with businesses, industries and individuals in the area, offering everything from commercial enclosures to large industrial structures.",
+            "services": [
+                "Commercial Enclosures",
+                "Metal Structures",
+                "Aluminum Carpentry",
+                "Automatic Doors",
+                "Shutters",
+                "Shop Windows"
+            ],
+            "features": [
+                "Commercial service",
+                "Quick installation",
+                "Minimal disturbance",
+                "Flexible hours"
+            ],
+            "testimonial": {
+                "quote": "They renovated our shop window. It looks spectacular.",
+                "location": "Albox"
+            }
+        },
+        "zurgena": {
+            "description": "Metal carpentry in Zurgena and La Alfoquia. Services for agriculture and homes.",
+            "longDescription": "Zurgena and its district of La Alfoquia rely on our metal carpentry services. The area combines agricultural activity with residential developments, and we serve both sectors with custom solutions: from greenhouse structures to enclosures and doors for homes.",
+            "services": [
+                "Agricultural Structures",
+                "Enclosures",
+                "Doors and Windows",
+                "Locksmithing",
+                "Fencing",
+                "Railings"
+            ],
+            "features": [
+                "Rural service",
+                "Local knowledge",
+                "Friendly service",
+                "Competitive prices"
+            ],
+            "testimonial": {
+                "quote": "Very attentive and professional. The windows turned out perfect.",
+                "location": "Zurgena"
+            }
+        }
+    },
+    "locksmith_24h_data": {
+        "huercal-overa": {
+            "metaTitle": "24-Hour Locksmith in Huércal-Overa | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Huércal-Overa, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-30 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Huércal-Overa",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "We are your trusted locksmith in Huércal-Overa. We offer 24-hour urgent locksmith services: door opening, lock replacement, security lock installation and immediate attention to any emergency. Qualified professionals with years of experience in the region.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-30 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-30 minutes"
+        },
+        "vera": {
+            "metaTitle": "24-Hour Locksmith in Vera | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Vera, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-30 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Vera",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Your emergency locksmith in Vera. We attend locksmith emergencies at any time: door openings without damage, lock replacement, security reinforcement and all types of locksmith services. Coverage in the entire municipality of Vera and surroundings.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-30 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-30 minutes"
+        },
+        "overa": {
+            "metaTitle": "24-Hour Locksmith in Overa | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Overa, Almería. Door opening, lock change, urgent locksmithing. We arrive in 20-35 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Overa",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Professional locksmiths in Overa with 24-hour emergency service. We solve any problem with your lock quickly and effectively: openings, changes, repairs and security improvements. Guaranteed immediate attention.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 20-35 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "20-35 minutes"
+        },
+        "vera-playa": {
+            "metaTitle": "24-Hour Locksmith in Vera Playa | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Vera Playa, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-30 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Vera Playa",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Emergency locksmith in Vera Playa. Specialized in openings for apartments, hotels and tourist homes. Fast and discreet service 24 hours a day. Full coverage throughout the coastal area.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Locksmithing for hotels and apartments",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-30 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-30 minutes"
+        },
+        "puerto-rey": {
+            "metaTitle": "24-Hour Locksmith in Puerto Rey | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Puerto Rey, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-30 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Puerto Rey",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Urgent locksmith service in Puerto Rey. We attend emergencies in homes, tourist apartments and commercial premises. Fast and professional response at any time of day or night.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Locksmithing for tourist apartments",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-30 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-30 minutes"
+        },
+        "garrucha": {
+            "metaTitle": "24-Hour Locksmith in Garrucha | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Garrucha, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-25 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Garrucha",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Trusted locksmiths in Garrucha. We offer immediate solutions for any locksmith emergency: openings without damage, lock changes, security systems installation and much more.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-25 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-25 minutes"
+        },
+        "villaricos": {
+            "metaTitle": "24-Hour Locksmith in Villaricos | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Villaricos, Almería. Door opening, lock change, urgent locksmithing. We arrive in 20-35 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Villaricos",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Your 24-hour locksmith in Villaricos. Specialists in emergency openings and home security. We arrive quickly at your location to solve any problem with your lock.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 20-35 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "20-35 minutes"
+        },
+        "mojacar": {
+            "metaTitle": "24-Hour Locksmith in Mojácar | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Mojácar, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-25 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Mojácar",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Emergency locksmith in Mojácar village and beach. We attend hotels, tourist apartments and private homes. Fast, professional and with warranty. Available every day of the year.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Locksmithing for hotels",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-25 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-25 minutes"
+        },
+        "palomares": {
+            "metaTitle": "24-Hour Locksmith in Palomares | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Palomares, Almería. Door opening, lock change, urgent locksmithing. We arrive in 15-30 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Palomares",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Professional locksmiths in Palomares with 24-hour attention. We solve locksmith emergencies quickly and efficiently: openings, lock changes, repairs and security systems.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 15-30 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "15-30 minutes"
+        },
+        "cuevas-de-almanzora": {
+            "metaTitle": "24-Hour Locksmith in Cuevas de Almanzora | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Cuevas de Almanzora, Almería. Door opening, lock change, urgent locksmithing. We arrive in 20-35 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Cuevas de Almanzora",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Urgent locksmith service in Cuevas de Almanzora and surroundings. Professionals with extensive experience in all types of locks and security systems. Immediate attention 24 hours a day.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 20-35 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "20-35 minutes"
+        },
+        "albox": {
+            "metaTitle": "24-Hour Locksmith in Albox | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Albox, Almería. Door opening, lock change, urgent locksmithing. We arrive in 25-40 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Albox",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Emergency locksmiths in Albox. We offer urgent locksmith services for homes, businesses and industries. Qualified professionals with fast response to any situation.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 25-40 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "25-40 minutes"
+        },
+        "zurgena": {
+            "metaTitle": "24-Hour Locksmith in Zurgena | Emergencies ☎ Available Now",
+            "metaDescription": "24h emergency locksmith in Zurgena, Almería. Door opening, lock change, urgent locksmithing. We arrive in 20-35 minutes. Call now.",
+            "heroTitle": "24-Hour Locksmith in Zurgena",
+            "heroSubtitle": "Urgent locksmith service available 24 hours a day, 365 days a year",
+            "description": "Your trusted locksmith in Zurgena. 24-hour emergency service for all types of lock problems: openings, changes, repairs and high-security systems installation.",
+            "services": [
+                "Urgent door opening",
+                "Security lock replacement",
+                "Lock repair",
+                "Antibumping cylinder installation",
+                "Safe opening",
+                "Community locks",
+                "Armored and reinforced doors",
+                "Key mastering"
+            ],
+            "emergencyFeatures": [
+                "24/7 Availability",
+                "Arrival in 20-35 minutes",
+                "No damage to your door",
+                "No-obligation quote",
+                "Certified professionals",
+                "Warranty on all work"
+            ],
+            "responseTime": "20-35 minutes"
+        }
+    }
+}

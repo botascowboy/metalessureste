@@ -4,9 +4,11 @@ import { motion } from "framer-motion";
 import { Home, ArrowLeft, Search, Phone } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { useTranslation } from "react-i18next";
 
 const NotFound = () => {
   const location = useLocation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     console.error("404 Error: User attempted to access non-existent route:", location.pathname);
@@ -48,11 +50,10 @@ const NotFound = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-6">
-                  Página No <span className="text-gradient-gold">Encontrada</span>
+                  {t('not_found.title_start')}<span className="text-gradient-gold">{t('not_found.title_highlight')}</span>
                 </h1>
                 <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-                  Lo sentimos, la página que buscas no existe o ha sido movida.
-                  Pero no te preocupes, ¡te ayudamos a encontrar lo que necesitas!
+                  {t('not_found.description')}
                 </p>
               </motion.div>
 
@@ -65,11 +66,11 @@ const NotFound = () => {
               >
                 <Link to="/" className="btn-premium inline-flex items-center gap-2">
                   <Home className="w-5 h-5" />
-                  Volver al Inicio
+                  {t('not_found.button_home')}
                 </Link>
                 <Link to="/servicios" className="btn-outline-premium inline-flex items-center gap-2">
                   <Search className="w-5 h-5" />
-                  Ver Servicios
+                  {t('not_found.button_services')}
                 </Link>
               </motion.div>
 
@@ -81,7 +82,7 @@ const NotFound = () => {
                 className="card-premium rounded-3xl p-8 md:p-10"
               >
                 <h2 className="text-xl font-display font-bold text-foreground mb-6">
-                  ¿Qué estás buscando?
+                  {t('not_found.looking_for')}
                 </h2>
                 <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
                   <Link
@@ -89,7 +90,7 @@ const NotFound = () => {
                     className="p-4 rounded-xl bg-muted/30 hover:bg-primary/10 border border-border/50 hover:border-primary/30 transition-all duration-300 group"
                   >
                     <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
-                      Nuestros Servicios
+                      {t('not_found.nav.services')}
                     </span>
                   </Link>
                   <Link
@@ -97,7 +98,7 @@ const NotFound = () => {
                     className="p-4 rounded-xl bg-muted/30 hover:bg-primary/10 border border-border/50 hover:border-primary/30 transition-all duration-300 group"
                   >
                     <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
-                      Ver Proyectos
+                      {t('not_found.nav.projects')}
                     </span>
                   </Link>
                   <Link
@@ -105,7 +106,7 @@ const NotFound = () => {
                     className="p-4 rounded-xl bg-muted/30 hover:bg-primary/10 border border-border/50 hover:border-primary/30 transition-all duration-300 group"
                   >
                     <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
-                      Sobre Nosotros
+                      {t('not_found.nav.about')}
                     </span>
                   </Link>
                   <Link
@@ -113,14 +114,14 @@ const NotFound = () => {
                     className="p-4 rounded-xl bg-muted/30 hover:bg-primary/10 border border-border/50 hover:border-primary/30 transition-all duration-300 group"
                   >
                     <span className="text-sm font-medium text-foreground group-hover:text-primary transition-colors">
-                      Contacto
+                      {t('not_found.nav.contact')}
                     </span>
                   </Link>
                 </div>
 
                 {/* Contact CTA */}
                 <div className="mt-8 pt-8 border-t border-border/30 flex flex-col sm:flex-row items-center justify-center gap-4">
-                  <span className="text-muted-foreground">¿Necesitas ayuda?</span>
+                  <span className="text-muted-foreground">{t('common.need_help')}</span>
                   <a
                     href="tel:+34653940750"
                     className="inline-flex items-center gap-2 text-primary font-semibold hover:underline"

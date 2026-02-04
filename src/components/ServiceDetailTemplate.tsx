@@ -11,6 +11,7 @@ import { ServiceData } from '@/data/servicesData'
 import { z } from 'zod'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { useTranslation } from 'react-i18next'
 
 const quoteSchema = z.object({
   name: z.string().trim().min(1, 'El nombre es obligatorio').max(100),
@@ -32,6 +33,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const { t } = useTranslation()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -56,11 +58,11 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
 
       if (!response.ok) throw new Error('Error al enviar el formulario')
 
-      toast.success('¡Solicitud enviada! Te contactaremos pronto.')
+      toast.success(t('common.form.success'))
       setFormData({ name: '', email: '', phone: '', message: '' })
     } catch (error) {
       console.error('Error sending form:', error)
-      toast.error('Hubo un error al enviar el mensaje. Inténtalo de nuevo.')
+      toast.error(t('common.form.error'))
     } finally {
       setIsSubmitting(false)
     }
@@ -83,7 +85,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-primary/5 backdrop-blur-md border border-primary/20 text-primary hover:border-primary/40 hover:bg-primary/10 shadow-[0_8px_32px_rgba(234,179,8,0.1)] transition-all duration-300 group"
             >
               <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform duration-300" />
-              <span className="font-display font-medium text-base tracking-wide">Volver a Servicios</span>
+              <span className="font-display font-medium text-base tracking-wide">{t('service_details.back')}</span>
             </motion.div>
           </Link>
         </div>
@@ -93,7 +95,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
           <div className="absolute inset-0">
             <img
               src={service.heroImage}
-              alt={service.title}
+              alt={t(service.title)}
               className="w-full h-full object-cover opacity-20"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
@@ -109,10 +111,10 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                 <Icon className="w-10 h-10 text-primary-foreground" />
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6 leading-tight">
-                <span className="text-gradient-gold">{service.title}</span>
+                <span className="text-gradient-gold">{t(service.title)}</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                {service.shortDescription}
+                {t(service.shortDescription)}
               </p>
             </motion.div>
           </div>
@@ -131,10 +133,10 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                   viewport={{ once: true }}
                 >
                   <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-6">
-                    Sobre Este Servicio
+                    {t('service_details.about')}
                   </h2>
                   <p className="text-muted-foreground leading-relaxed text-lg">
-                    {service.description}
+                    {t(service.description)}
                   </p>
                 </motion.div>
 
@@ -145,13 +147,13 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                   viewport={{ once: true }}
                 >
                   <h3 className="text-xl font-display font-bold text-foreground mb-6">
-                    Muestra de Trabajo
+                    {t('service_details.sample')}
                   </h3>
                   <div className="relative rounded-2xl overflow-hidden shadow-elevated">
                     <div className="aspect-[16/9] relative">
                       <motion.img
                         src={service.gallery[0].src}
-                        alt={service.gallery[0].alt}
+                        alt={t(service.gallery[0].alt)}
                         className="absolute inset-0 w-full h-full object-cover"
                         loading="lazy"
                         initial={{ scale: 1.1 }}
@@ -170,7 +172,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                   viewport={{ once: true }}
                 >
                   <h3 className="text-xl font-display font-bold text-foreground mb-6">
-                    Ventajas
+                    {t('service_details.benefits')}
                   </h3>
                   <div className="grid sm:grid-cols-2 gap-4">
                     {service.benefits.map((benefit, index) => (
@@ -183,7 +185,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                         className="flex items-start gap-3 p-4 rounded-xl bg-primary/5 border border-primary/10"
                       >
                         <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                        <span className="text-foreground">{benefit}</span>
+                        <span className="text-foreground">{t(benefit)}</span>
                       </motion.div>
                     ))}
                   </div>
@@ -196,7 +198,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                   viewport={{ once: true }}
                 >
                   <h3 className="text-xl font-display font-bold text-foreground mb-6">
-                    ¿Qué Ofrecemos?
+                    {t('service_details.offer')}
                   </h3>
                   <div className="grid sm:grid-cols-2 gap-6">
                     {service.features.map((feature, index) => (
@@ -205,10 +207,10 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                         className="card-premium p-6 rounded-xl"
                       >
                         <h4 className="font-display font-bold text-foreground mb-2">
-                          {feature.title}
+                          {t(feature.title)}
                         </h4>
                         <p className="text-sm text-muted-foreground">
-                          {feature.description}
+                          {t(feature.description)}
                         </p>
                       </div>
                     ))}
@@ -222,7 +224,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                   viewport={{ once: true }}
                 >
                   <h3 className="text-xl font-display font-bold text-foreground mb-6">
-                    Preguntas Frecuentes
+                    {t('service_details.faqs')}
                   </h3>
                   <div className="space-y-4">
                     {service.faqs.map((faq, index) => (
@@ -234,7 +236,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                           onClick={() => setOpenFaq(openFaq === index ? null : index)}
                           className="w-full flex items-center justify-between p-5 text-left"
                         >
-                          <span className="font-semibold text-foreground pr-4">{faq.question}</span>
+                          <span className="font-semibold text-foreground pr-4">{t(faq.question)}</span>
                           {openFaq === index ? (
                             <ChevronUp className="w-5 h-5 text-primary flex-shrink-0" />
                           ) : (
@@ -248,7 +250,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                           className="overflow-hidden"
                         >
                           <p className="px-5 pb-5 text-muted-foreground">
-                            {faq.answer}
+                            {t(faq.answer)}
                           </p>
                         </motion.div>
                       </div>
@@ -267,27 +269,27 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                 >
                   <div className="card-premium p-8 rounded-2xl">
                     <h3 className="text-xl font-display font-bold text-foreground mb-2">
-                      Solicita Presupuesto
+                      {t('common.request_quote')}
                     </h3>
                     <p className="text-muted-foreground text-sm mb-6">
-                      Cuéntanos tu proyecto de {service.title.toLowerCase()} y te contactaremos sin compromiso.
+                      {t('service_details.cta_desc')}
                     </p>
 
                     <form onSubmit={handleSubmit} className="space-y-4" name="contact" data-netlify="true">
                       <input type="hidden" name="form-name" value="contact" />
                       <div className="space-y-2">
-                        <Label htmlFor="name">Nombre completo</Label>
+                        <Label htmlFor="name">{t('common.form.name')}</Label>
                         <Input
                           id="name"
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder="Tu nombre"
+                          placeholder={t('common.form.name')}
                           className="bg-background/50"
                         />
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="email">Email</Label>
+                        <Label htmlFor="email">{t('common.form.email')}</Label>
                         <Input
                           id="email"
                           type="email"
@@ -299,7 +301,7 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="phone">Teléfono</Label>
+                        <Label htmlFor="phone">{t('common.form.phone')}</Label>
                         <Input
                           id="phone"
                           type="tel"
@@ -311,12 +313,12 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="message">Describe tu proyecto</Label>
+                        <Label htmlFor="message">{t('common.form.message')}</Label>
                         <Textarea
                           id="message"
                           value={formData.message}
                           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                          placeholder="Cuéntanos qué necesitas..."
+                          placeholder={t('common.form.message')}
                           rows={4}
                           className="bg-background/50 resize-none"
                         />
@@ -328,11 +330,11 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                         className="w-full btn-premium"
                       >
                         {isSubmitting ? (
-                          'Enviando...'
+                          t('common.form.sending')
                         ) : (
                           <>
                             <Send className="w-4 h-4 mr-2" />
-                            Solicitar Presupuesto
+                            {t('common.form.send')}
                           </>
                         )}
                       </Button>
@@ -340,21 +342,21 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
 
                     <div className="mt-8 pt-6 border-t border-border/30 space-y-4">
                       <p className="text-sm text-muted-foreground text-center">
-                        ¿Prefieres llamarnos?
+                        {t('service_details.prefer_call')}
                       </p>
                       <a
                         href="tel:+34653940750"
                         className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-primary/10 text-primary hover:bg-primary/20 transition-colors font-semibold text-base sm:text-lg"
                       >
                         <Phone className="w-5 h-5" />
-                        +34 653 94 07 50
+                        {t('common.phone')}
                       </a>
                       <a
                         href="mailto:info@metalesdelsureste.com"
                         className="flex items-center justify-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
                         <Mail className="w-4 h-4" />
-                        info@metalesdelsureste.com
+                        {t('common.email')}
                       </a>
                     </div>
                   </div>

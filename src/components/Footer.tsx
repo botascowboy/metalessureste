@@ -4,31 +4,29 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import { townsData } from '@/data/townsData'
 import { locksmith24hData } from '@/data/locksmith24hData'
-
-const footerLinks = {
-  servicios: [
-    { label: 'Estructuras Metálicas', href: '/servicio/estructuras-metalicas' },
-    { label: 'Carpintería de Aluminio', href: '/servicio/carpinteria-aluminio' },
-    { label: 'Cerrajería', href: '/servicio/cerrajeria' },
-    { label: 'Automatización de Puertas', href: '/servicio/automatizacion' },
-    { label: 'Forja Artística', href: '/servicio/forja-artistica' },
-  ],
-  empresa: [
-    { label: 'Sobre Nosotros', href: '#nosotros' },
-    { label: 'Proyectos', href: '#proyectos' },
-    { label: 'Contacto', href: '#contacto' },
-    { label: 'Política de Privacidad', href: '/politica-privacidad' },
-    { label: 'Aviso Legal', href: '/aviso-legal' },
-  ],
-}
-
-
+import { useTranslation } from 'react-i18next'
+import { servicesData } from '@/data/servicesData'
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear()
   const navigate = useNavigate()
   const [selectedTown, setSelectedTown] = useState('')
   const [selectedLocksmithTown, setSelectedLocksmithTown] = useState('')
+  const { t } = useTranslation()
+
+  const footerLinks = {
+    servicios: servicesData.slice(0, 5).map(service => ({
+      label: t(service.title),
+      href: `/servicio/${service.slug}`
+    })),
+    empresa: [
+      { label: t('nav.about'), href: '/nosotros' }, // Update href to match routes if needed, original was #nosotros but probably /nosotros
+      { label: t('nav.projects'), href: '/proyectos' }, // original #proyectos
+      { label: t('nav.contact'), href: '/contacto' }, // original #contacto
+      { label: t('footer.privacy'), href: '/politica-privacidad' },
+      { label: t('footer.legal'), href: '/aviso-legal' },
+    ],
+  }
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -64,21 +62,22 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-4 mb-8 group">
-              <div className="relative">
-                <div className="w-14 h-14 bg-gradient-gold rounded-xl flex items-center justify-center shadow-gold">
+              <div className="relative flex-shrink-0">
+                <div className="w-14 h-14 bg-gradient-gold rounded-xl flex items-center justify-center shadow-gold border border-white/20 group-hover:shadow-gold-intense transition-all duration-300">
                   <span className="text-primary-foreground font-bold text-2xl font-display">M</span>
                 </div>
+                {/* Subtle glow effect to prevent getting lost in the background */}
+                <div className="absolute -inset-1.5 bg-primary/20 rounded-xl blur-lg opacity-40 group-hover:opacity-60 transition-opacity duration-300" />
               </div>
-              <div>
-                <h3 className="text-xl font-bold text-foreground leading-tight">
+              <div className="flex flex-col">
+                <h3 className="text-xl sm:text-2xl font-bold text-foreground leading-none tracking-tight font-display">
                   Metales Del Sureste
                 </h3>
-                <p className="text-sm text-primary font-semibold tracking-[0.15em] uppercase">Andaluz</p>
+                <p className="text-[11px] sm:text-xs text-primary font-bold tracking-[0.4em] uppercase mt-1.5 opacity-90">{t('nav.subtitle')}</p>
               </div>
             </Link>
             <p className="text-muted-foreground leading-relaxed">
-              Especialistas en carpintería metálica con más de 20 años de experiencia.
-              Calidad, profesionalismo y compromiso en cada proyecto.
+              {t('footer.description')}
             </p>
           </div>
 
@@ -86,7 +85,7 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-display font-bold text-foreground mb-8 flex items-center gap-3">
               <span className="w-8 h-0.5 bg-gradient-gold rounded-full" />
-              Servicios
+              {t('nav.services')}
             </h4>
             <ul className="space-y-4">
               {footerLinks.servicios.map((link, index) => (
@@ -107,7 +106,7 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-display font-bold text-foreground mb-8 flex items-center gap-3">
               <span className="w-8 h-0.5 bg-gradient-gold rounded-full" />
-              Empresa
+              {t('footer.company')}
             </h4>
             <ul className="space-y-4">
               {footerLinks.empresa.map((link, index) => (
@@ -128,7 +127,7 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-display font-bold text-foreground mb-8 flex items-center gap-3">
               <span className="w-8 h-0.5 bg-gradient-gold rounded-full" />
-              Zonas de Servicio
+              {t('footer.service_zones')}
             </h4>
             <div className="relative">
               <select
@@ -136,7 +135,7 @@ export const Footer = () => {
                 onChange={handleTownChange}
                 className="w-full h-12 px-4 pr-10 rounded-xl border border-border/50 bg-background text-foreground text-sm appearance-none cursor-pointer hover:border-primary/50 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
               >
-                <option value="">Selecciona tu pueblo</option>
+                <option value="">{t('footer.select_town')}</option>
                 {townsData.map((town) => (
                   <option key={town.slug} value={town.slug}>
                     {town.name}
@@ -146,7 +145,7 @@ export const Footer = () => {
               <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground pointer-events-none" />
             </div>
             <p className="text-xs text-muted-foreground mt-3">
-              Carpintería metálica por zona
+              {t('footer.zone_desc')}
             </p>
           </div>
 
@@ -154,7 +153,7 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-display font-bold text-foreground mb-8 flex items-center gap-3">
               <span className="w-8 h-0.5 bg-gradient-gold rounded-full" />
-              Cerrajero 24h
+              {t('nav.locksmith_24h')}
             </h4>
             <div className="relative">
               <select
@@ -162,7 +161,7 @@ export const Footer = () => {
                 onChange={handleLocksmithTownChange}
                 className="w-full h-12 px-4 pr-10 rounded-xl border border-border/50 bg-background text-foreground text-sm appearance-none cursor-pointer hover:border-primary/50 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all"
               >
-                <option value="">Selecciona tu pueblo</option>
+                <option value="">{t('footer.select_town')}</option>
                 {locksmith24hData.map((town) => (
                   <option key={town.slug} value={town.slug}>
                     {town.name}
@@ -172,7 +171,7 @@ export const Footer = () => {
               <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground pointer-events-none" />
             </div>
             <p className="text-xs text-muted-foreground mt-3">
-              Urgencias 24h en tu zona
+              {t('footer.zone_urgent_desc')}
             </p>
           </div>
 
@@ -180,26 +179,28 @@ export const Footer = () => {
           <div>
             <h4 className="text-lg font-display font-bold text-foreground mb-8 flex items-center gap-3">
               <span className="w-8 h-0.5 bg-gradient-gold rounded-full" />
-              Contacto
+              {t('contact.badge')}
             </h4>
             <div className="space-y-5">
               <a href="tel:+34653940750" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
                 <div className="icon-container w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Phone className="w-4 h-4 text-primary" />
                 </div>
-                <span className="font-medium">+34 653 94 07 50</span>
+                <span className="font-medium">{t('common.phone')}</span>
               </a>
               <a href="mailto:info@metalesdelsureste.com" className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors group">
                 <div className="icon-container w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Mail className="w-4 h-4 text-primary" />
                 </div>
-                <span className="font-medium">info@metalesdelsureste.com</span>
+                <span className="font-medium">{t('common.email')}</span>
               </a>
               <div className="flex items-start gap-4 text-muted-foreground">
                 <div className="icon-container w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5">
                   <MapPin className="w-4 h-4 text-primary" />
                 </div>
-                <span className="font-medium">C/ Paraje La Ventica, 8<br />Huércal-Overa, Almería</span>
+                <span className="font-medium">
+                  {t('contact_page.info.address_subtitle', 'Pedanía de Santa María de Nieva, 04600 Huércal-Overa, Almería, España')}
+                </span>
               </div>
             </div>
           </div>
@@ -208,17 +209,17 @@ export const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-16 pt-10 border-t border-border/30 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Metales Del Sureste Andaluz. Todos los derechos reservados.
+            © {currentYear} Metales Del Sureste Andaluz. {t('footer.rights')}
           </p>
           <div className="flex items-center gap-6">
             <p className="text-muted-foreground text-sm">
-              Diseñado con <span className="text-primary">❤</span> en <a href="https://platanitorico.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Platanito Rico</a>
+              {t('footer.designed_by')} <span className="text-primary">❤</span> en <a href="https://platanitorico.com/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Platanito Rico</a>
             </p>
             <motion.button
               onClick={scrollToTop}
               whileHover={{ scale: 1.1, y: -2 }}
               className="icon-container w-12 h-12 rounded-xl flex items-center justify-center text-muted-foreground hover:text-primary transition-colors"
-              aria-label="Volver arriba"
+              aria-label={t('footer.scroll_top', 'Volver arriba')}
             >
               <ArrowUp className="w-5 h-5" />
             </motion.button>

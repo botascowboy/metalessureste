@@ -15,364 +15,364 @@ export interface Locksmith24hTown {
 
 export const locksmith24hData: Locksmith24hTown[] = [
   {
-    slug: 'huercal-overa',
-    name: 'Huércal-Overa',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Huércal-Overa | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Huércal-Overa, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Huércal-Overa',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Somos tu cerrajero de confianza en Huércal-Overa. Ofrecemos servicios de cerrajería urgente las 24 horas: apertura de puertas, cambio de cerraduras, instalación de cerraduras de seguridad y atención inmediata ante cualquier emergencia. Profesionales cualificados con años de experiencia en la comarca.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "huercal-overa",
+    "name": "Huércal-Overa",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.huercal-overa.metaTitle",
+    "metaDescription": "locksmith_24h_data.huercal-overa.metaDescription",
+    "heroTitle": "locksmith_24h_data.huercal-overa.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.huercal-overa.heroSubtitle",
+    "description": "locksmith_24h_data.huercal-overa.description",
+    "services": [
+      "locksmith_24h_data.huercal-overa.services.0",
+      "locksmith_24h_data.huercal-overa.services.1",
+      "locksmith_24h_data.huercal-overa.services.2",
+      "locksmith_24h_data.huercal-overa.services.3",
+      "locksmith_24h_data.huercal-overa.services.4",
+      "locksmith_24h_data.huercal-overa.services.5",
+      "locksmith_24h_data.huercal-overa.services.6",
+      "locksmith_24h_data.huercal-overa.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-30 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.huercal-overa.emergencyFeatures.0",
+      "locksmith_24h_data.huercal-overa.emergencyFeatures.1",
+      "locksmith_24h_data.huercal-overa.emergencyFeatures.2",
+      "locksmith_24h_data.huercal-overa.emergencyFeatures.3",
+      "locksmith_24h_data.huercal-overa.emergencyFeatures.4",
+      "locksmith_24h_data.huercal-overa.emergencyFeatures.5"
     ],
-    responseTime: '15-30 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.huercal-overa.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'vera',
-    name: 'Vera',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Vera | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Vera, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Vera',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Tu cerrajero de emergencia en Vera. Atendemos urgencias de cerrajería a cualquier hora: aperturas de puertas sin daños, sustitución de cerraduras, refuerzo de seguridad y todo tipo de servicios de cerrajería. Cobertura en todo el municipio de Vera y alrededores.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "vera",
+    "name": "Vera",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.vera.metaTitle",
+    "metaDescription": "locksmith_24h_data.vera.metaDescription",
+    "heroTitle": "locksmith_24h_data.vera.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.vera.heroSubtitle",
+    "description": "locksmith_24h_data.vera.description",
+    "services": [
+      "locksmith_24h_data.vera.services.0",
+      "locksmith_24h_data.vera.services.1",
+      "locksmith_24h_data.vera.services.2",
+      "locksmith_24h_data.vera.services.3",
+      "locksmith_24h_data.vera.services.4",
+      "locksmith_24h_data.vera.services.5",
+      "locksmith_24h_data.vera.services.6",
+      "locksmith_24h_data.vera.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-30 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.vera.emergencyFeatures.0",
+      "locksmith_24h_data.vera.emergencyFeatures.1",
+      "locksmith_24h_data.vera.emergencyFeatures.2",
+      "locksmith_24h_data.vera.emergencyFeatures.3",
+      "locksmith_24h_data.vera.emergencyFeatures.4",
+      "locksmith_24h_data.vera.emergencyFeatures.5"
     ],
-    responseTime: '15-30 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.vera.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'overa',
-    name: 'Overa',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Overa | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Overa, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Overa',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Cerrajeros profesionales en Overa con servicio de urgencias 24 horas. Resolvemos cualquier problema con tu cerradura de forma rápida y eficaz: aperturas, cambios, reparaciones y mejoras de seguridad. Atención inmediata garantizada.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "overa",
+    "name": "Overa",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.overa.metaTitle",
+    "metaDescription": "locksmith_24h_data.overa.metaDescription",
+    "heroTitle": "locksmith_24h_data.overa.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.overa.heroSubtitle",
+    "description": "locksmith_24h_data.overa.description",
+    "services": [
+      "locksmith_24h_data.overa.services.0",
+      "locksmith_24h_data.overa.services.1",
+      "locksmith_24h_data.overa.services.2",
+      "locksmith_24h_data.overa.services.3",
+      "locksmith_24h_data.overa.services.4",
+      "locksmith_24h_data.overa.services.5",
+      "locksmith_24h_data.overa.services.6",
+      "locksmith_24h_data.overa.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 20-35 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.overa.emergencyFeatures.0",
+      "locksmith_24h_data.overa.emergencyFeatures.1",
+      "locksmith_24h_data.overa.emergencyFeatures.2",
+      "locksmith_24h_data.overa.emergencyFeatures.3",
+      "locksmith_24h_data.overa.emergencyFeatures.4",
+      "locksmith_24h_data.overa.emergencyFeatures.5"
     ],
-    responseTime: '20-35 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.overa.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'vera-playa',
-    name: 'Vera Playa',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Vera Playa | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Vera Playa, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Vera Playa',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Cerrajero de emergencias en Vera Playa. Especializados en aperturas de apartamentos, hoteles y viviendas turísticas. Servicio rápido y discreto las 24 horas. Cobertura completa en toda la zona costera.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Cerrajería para hoteles y apartamentos',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "vera-playa",
+    "name": "Vera Playa",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.vera-playa.metaTitle",
+    "metaDescription": "locksmith_24h_data.vera-playa.metaDescription",
+    "heroTitle": "locksmith_24h_data.vera-playa.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.vera-playa.heroSubtitle",
+    "description": "locksmith_24h_data.vera-playa.description",
+    "services": [
+      "locksmith_24h_data.vera-playa.services.0",
+      "locksmith_24h_data.vera-playa.services.1",
+      "locksmith_24h_data.vera-playa.services.2",
+      "locksmith_24h_data.vera-playa.services.3",
+      "locksmith_24h_data.vera-playa.services.4",
+      "locksmith_24h_data.vera-playa.services.5",
+      "locksmith_24h_data.vera-playa.services.6",
+      "locksmith_24h_data.vera-playa.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-30 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.vera-playa.emergencyFeatures.0",
+      "locksmith_24h_data.vera-playa.emergencyFeatures.1",
+      "locksmith_24h_data.vera-playa.emergencyFeatures.2",
+      "locksmith_24h_data.vera-playa.emergencyFeatures.3",
+      "locksmith_24h_data.vera-playa.emergencyFeatures.4",
+      "locksmith_24h_data.vera-playa.emergencyFeatures.5"
     ],
-    responseTime: '15-30 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.vera-playa.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'puerto-rey',
-    name: 'Puerto Rey',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Puerto Rey | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Puerto Rey, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Puerto Rey',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Servicio de cerrajería urgente en Puerto Rey. Atendemos emergencias en viviendas, apartamentos turísticos y locales comerciales. Respuesta rápida y profesional a cualquier hora del día o la noche.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Cerrajería para apartamentos turísticos',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "puerto-rey",
+    "name": "Puerto Rey",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.puerto-rey.metaTitle",
+    "metaDescription": "locksmith_24h_data.puerto-rey.metaDescription",
+    "heroTitle": "locksmith_24h_data.puerto-rey.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.puerto-rey.heroSubtitle",
+    "description": "locksmith_24h_data.puerto-rey.description",
+    "services": [
+      "locksmith_24h_data.puerto-rey.services.0",
+      "locksmith_24h_data.puerto-rey.services.1",
+      "locksmith_24h_data.puerto-rey.services.2",
+      "locksmith_24h_data.puerto-rey.services.3",
+      "locksmith_24h_data.puerto-rey.services.4",
+      "locksmith_24h_data.puerto-rey.services.5",
+      "locksmith_24h_data.puerto-rey.services.6",
+      "locksmith_24h_data.puerto-rey.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-30 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.puerto-rey.emergencyFeatures.0",
+      "locksmith_24h_data.puerto-rey.emergencyFeatures.1",
+      "locksmith_24h_data.puerto-rey.emergencyFeatures.2",
+      "locksmith_24h_data.puerto-rey.emergencyFeatures.3",
+      "locksmith_24h_data.puerto-rey.emergencyFeatures.4",
+      "locksmith_24h_data.puerto-rey.emergencyFeatures.5"
     ],
-    responseTime: '15-30 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.puerto-rey.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'garrucha',
-    name: 'Garrucha',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Garrucha | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Garrucha, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-25 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Garrucha',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Cerrajeros de confianza en Garrucha. Ofrecemos soluciones inmediatas para cualquier emergencia de cerrajería: aperturas sin daños, cambios de cerraduras, instalación de sistemas de seguridad y mucho más.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "garrucha",
+    "name": "Garrucha",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.garrucha.metaTitle",
+    "metaDescription": "locksmith_24h_data.garrucha.metaDescription",
+    "heroTitle": "locksmith_24h_data.garrucha.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.garrucha.heroSubtitle",
+    "description": "locksmith_24h_data.garrucha.description",
+    "services": [
+      "locksmith_24h_data.garrucha.services.0",
+      "locksmith_24h_data.garrucha.services.1",
+      "locksmith_24h_data.garrucha.services.2",
+      "locksmith_24h_data.garrucha.services.3",
+      "locksmith_24h_data.garrucha.services.4",
+      "locksmith_24h_data.garrucha.services.5",
+      "locksmith_24h_data.garrucha.services.6",
+      "locksmith_24h_data.garrucha.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-25 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.garrucha.emergencyFeatures.0",
+      "locksmith_24h_data.garrucha.emergencyFeatures.1",
+      "locksmith_24h_data.garrucha.emergencyFeatures.2",
+      "locksmith_24h_data.garrucha.emergencyFeatures.3",
+      "locksmith_24h_data.garrucha.emergencyFeatures.4",
+      "locksmith_24h_data.garrucha.emergencyFeatures.5"
     ],
-    responseTime: '15-25 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.garrucha.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'villaricos',
-    name: 'Villaricos',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Villaricos | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Villaricos, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Villaricos',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Tu cerrajero 24 horas en Villaricos. Especialistas en aperturas de emergencia y seguridad para el hogar. Llegamos rápidamente a tu ubicación para resolver cualquier problema con tu cerradura.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "villaricos",
+    "name": "Villaricos",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.villaricos.metaTitle",
+    "metaDescription": "locksmith_24h_data.villaricos.metaDescription",
+    "heroTitle": "locksmith_24h_data.villaricos.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.villaricos.heroSubtitle",
+    "description": "locksmith_24h_data.villaricos.description",
+    "services": [
+      "locksmith_24h_data.villaricos.services.0",
+      "locksmith_24h_data.villaricos.services.1",
+      "locksmith_24h_data.villaricos.services.2",
+      "locksmith_24h_data.villaricos.services.3",
+      "locksmith_24h_data.villaricos.services.4",
+      "locksmith_24h_data.villaricos.services.5",
+      "locksmith_24h_data.villaricos.services.6",
+      "locksmith_24h_data.villaricos.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 20-35 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.villaricos.emergencyFeatures.0",
+      "locksmith_24h_data.villaricos.emergencyFeatures.1",
+      "locksmith_24h_data.villaricos.emergencyFeatures.2",
+      "locksmith_24h_data.villaricos.emergencyFeatures.3",
+      "locksmith_24h_data.villaricos.emergencyFeatures.4",
+      "locksmith_24h_data.villaricos.emergencyFeatures.5"
     ],
-    responseTime: '20-35 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.villaricos.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'mojacar',
-    name: 'Mojácar',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Mojácar | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Mojácar, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-25 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Mojácar',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Cerrajería de urgencias en Mojácar pueblo y playa. Atendemos hoteles, apartamentos turísticos y viviendas particulares. Servicio rápido, profesional y con garantía. Disponibles todos los días del año.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Cerrajería para hoteles',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "mojacar",
+    "name": "Mojácar",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.mojacar.metaTitle",
+    "metaDescription": "locksmith_24h_data.mojacar.metaDescription",
+    "heroTitle": "locksmith_24h_data.mojacar.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.mojacar.heroSubtitle",
+    "description": "locksmith_24h_data.mojacar.description",
+    "services": [
+      "locksmith_24h_data.mojacar.services.0",
+      "locksmith_24h_data.mojacar.services.1",
+      "locksmith_24h_data.mojacar.services.2",
+      "locksmith_24h_data.mojacar.services.3",
+      "locksmith_24h_data.mojacar.services.4",
+      "locksmith_24h_data.mojacar.services.5",
+      "locksmith_24h_data.mojacar.services.6",
+      "locksmith_24h_data.mojacar.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-25 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.mojacar.emergencyFeatures.0",
+      "locksmith_24h_data.mojacar.emergencyFeatures.1",
+      "locksmith_24h_data.mojacar.emergencyFeatures.2",
+      "locksmith_24h_data.mojacar.emergencyFeatures.3",
+      "locksmith_24h_data.mojacar.emergencyFeatures.4",
+      "locksmith_24h_data.mojacar.emergencyFeatures.5"
     ],
-    responseTime: '15-25 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.mojacar.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'palomares',
-    name: 'Palomares',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Palomares | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Palomares, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 15-30 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Palomares',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Cerrajeros profesionales en Palomares con atención 24 horas. Resolvemos emergencias de cerrajería de forma rápida y eficiente: aperturas, cambios de cerraduras, reparaciones y sistemas de seguridad.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "palomares",
+    "name": "Palomares",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.palomares.metaTitle",
+    "metaDescription": "locksmith_24h_data.palomares.metaDescription",
+    "heroTitle": "locksmith_24h_data.palomares.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.palomares.heroSubtitle",
+    "description": "locksmith_24h_data.palomares.description",
+    "services": [
+      "locksmith_24h_data.palomares.services.0",
+      "locksmith_24h_data.palomares.services.1",
+      "locksmith_24h_data.palomares.services.2",
+      "locksmith_24h_data.palomares.services.3",
+      "locksmith_24h_data.palomares.services.4",
+      "locksmith_24h_data.palomares.services.5",
+      "locksmith_24h_data.palomares.services.6",
+      "locksmith_24h_data.palomares.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 15-30 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.palomares.emergencyFeatures.0",
+      "locksmith_24h_data.palomares.emergencyFeatures.1",
+      "locksmith_24h_data.palomares.emergencyFeatures.2",
+      "locksmith_24h_data.palomares.emergencyFeatures.3",
+      "locksmith_24h_data.palomares.emergencyFeatures.4",
+      "locksmith_24h_data.palomares.emergencyFeatures.5"
     ],
-    responseTime: '15-30 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.palomares.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'cuevas-de-almanzora',
-    name: 'Cuevas de Almanzora',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Cuevas de Almanzora | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Cuevas de Almanzora, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Cuevas de Almanzora',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Servicio de cerrajería urgente en Cuevas de Almanzora y pedanías. Profesionales con amplia experiencia en todo tipo de cerraduras y sistemas de seguridad. Atención inmediata las 24 horas.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "cuevas-de-almanzora",
+    "name": "Cuevas de Almanzora",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.cuevas-de-almanzora.metaTitle",
+    "metaDescription": "locksmith_24h_data.cuevas-de-almanzora.metaDescription",
+    "heroTitle": "locksmith_24h_data.cuevas-de-almanzora.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.cuevas-de-almanzora.heroSubtitle",
+    "description": "locksmith_24h_data.cuevas-de-almanzora.description",
+    "services": [
+      "locksmith_24h_data.cuevas-de-almanzora.services.0",
+      "locksmith_24h_data.cuevas-de-almanzora.services.1",
+      "locksmith_24h_data.cuevas-de-almanzora.services.2",
+      "locksmith_24h_data.cuevas-de-almanzora.services.3",
+      "locksmith_24h_data.cuevas-de-almanzora.services.4",
+      "locksmith_24h_data.cuevas-de-almanzora.services.5",
+      "locksmith_24h_data.cuevas-de-almanzora.services.6",
+      "locksmith_24h_data.cuevas-de-almanzora.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 20-35 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.0",
+      "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.1",
+      "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.2",
+      "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.3",
+      "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.4",
+      "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.5"
     ],
-    responseTime: '20-35 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.cuevas-de-almanzora.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'albox',
-    name: 'Albox',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Albox | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Albox, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 25-40 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Albox',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Cerrajeros de emergencia en Albox. Ofrecemos servicios de cerrajería urgente para viviendas, comercios e industrias. Profesionales cualificados con respuesta rápida ante cualquier situación.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "albox",
+    "name": "Albox",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.albox.metaTitle",
+    "metaDescription": "locksmith_24h_data.albox.metaDescription",
+    "heroTitle": "locksmith_24h_data.albox.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.albox.heroSubtitle",
+    "description": "locksmith_24h_data.albox.description",
+    "services": [
+      "locksmith_24h_data.albox.services.0",
+      "locksmith_24h_data.albox.services.1",
+      "locksmith_24h_data.albox.services.2",
+      "locksmith_24h_data.albox.services.3",
+      "locksmith_24h_data.albox.services.4",
+      "locksmith_24h_data.albox.services.5",
+      "locksmith_24h_data.albox.services.6",
+      "locksmith_24h_data.albox.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 25-40 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.albox.emergencyFeatures.0",
+      "locksmith_24h_data.albox.emergencyFeatures.1",
+      "locksmith_24h_data.albox.emergencyFeatures.2",
+      "locksmith_24h_data.albox.emergencyFeatures.3",
+      "locksmith_24h_data.albox.emergencyFeatures.4",
+      "locksmith_24h_data.albox.emergencyFeatures.5"
     ],
-    responseTime: '25-40 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.albox.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   },
   {
-    slug: 'zurgena',
-    name: 'Zurgena',
-    province: 'Almería',
-    metaTitle: 'Cerrajero 24 Horas en Zurgena | Urgencias ☎ Disponible Ya',
-    metaDescription: 'Cerrajero de urgencias 24h en Zurgena, Almería. Apertura de puertas, cambio de cerraduras, cerrajería urgente. Llegamos en 20-35 minutos. Llama ahora.',
-    heroTitle: 'Cerrajero 24 Horas en Zurgena',
-    heroSubtitle: 'Servicio de cerrajería urgente disponible las 24 horas del día, los 365 días del año',
-    description: 'Tu cerrajero de confianza en Zurgena. Servicio de urgencias 24 horas para todo tipo de problemas con cerraduras: aperturas, cambios, reparaciones e instalación de sistemas de alta seguridad.',
-    services: [
-      'Apertura de puertas urgente',
-      'Cambio de cerraduras de seguridad',
-      'Reparación de cerraduras',
-      'Instalación de bombillos antibumping',
-      'Apertura de cajas fuertes',
-      'Cerraduras para comunidades',
-      'Puertas blindadas y acorazadas',
-      'Amaestramiento de llaves'
+    "slug": "zurgena",
+    "name": "Zurgena",
+    "province": "Almería",
+    "metaTitle": "locksmith_24h_data.zurgena.metaTitle",
+    "metaDescription": "locksmith_24h_data.zurgena.metaDescription",
+    "heroTitle": "locksmith_24h_data.zurgena.heroTitle",
+    "heroSubtitle": "locksmith_24h_data.zurgena.heroSubtitle",
+    "description": "locksmith_24h_data.zurgena.description",
+    "services": [
+      "locksmith_24h_data.zurgena.services.0",
+      "locksmith_24h_data.zurgena.services.1",
+      "locksmith_24h_data.zurgena.services.2",
+      "locksmith_24h_data.zurgena.services.3",
+      "locksmith_24h_data.zurgena.services.4",
+      "locksmith_24h_data.zurgena.services.5",
+      "locksmith_24h_data.zurgena.services.6",
+      "locksmith_24h_data.zurgena.services.7"
     ],
-    emergencyFeatures: [
-      'Disponibilidad 24/7',
-      'Llegada en 20-35 minutos',
-      'Sin daños en su puerta',
-      'Presupuesto sin compromiso',
-      'Profesionales certificados',
-      'Garantía en todos los trabajos'
+    "emergencyFeatures": [
+      "locksmith_24h_data.zurgena.emergencyFeatures.0",
+      "locksmith_24h_data.zurgena.emergencyFeatures.1",
+      "locksmith_24h_data.zurgena.emergencyFeatures.2",
+      "locksmith_24h_data.zurgena.emergencyFeatures.3",
+      "locksmith_24h_data.zurgena.emergencyFeatures.4",
+      "locksmith_24h_data.zurgena.emergencyFeatures.5"
     ],
-    responseTime: '20-35 minutos',
-    phoneNumber: '+34 653 94 07 50'
+    "responseTime": "locksmith_24h_data.zurgena.responseTime",
+    "phoneNumber": "+34 653 94 07 50"
   }
 ]
 

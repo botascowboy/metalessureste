@@ -6,98 +6,111 @@ import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { SEOHead } from '@/components/SEOHead'
 import { WhatsAppButton } from '@/components/WhatsAppButton'
-
-const projects = [
-  {
-    id: 1,
-    title: 'Nave Industrial Agroalimentaria',
-    category: 'Estructuras Metálicas',
-    description: 'Construcción de estructura metálica para nave industrial de 2000m² destinada al sector agroalimentario, con cubierta autoportante y sistema de ventilación integrado.',
-    location: 'Huércal-Overa, Almería',
-    year: '2023',
-    size: '2.000 m²',
-    accent: 'from-amber-500/20 to-orange-500/20',
-  },
-  {
-    id: 2,
-    title: 'Fachada Muro Cortina',
-    category: 'Carpintería de Aluminio',
-    description: 'Cerramiento completo de fachada con sistema de muro cortina de aluminio de alta eficiencia energética para edificio de oficinas.',
-    location: 'Vera, Almería',
-    year: '2023',
-    size: '450 m²',
-    accent: 'from-blue-500/20 to-cyan-500/20',
-  },
-  {
-    id: 3,
-    title: 'Escalera Ornamental de Forja',
-    category: 'Forja Artística',
-    description: 'Diseño y fabricación de escalera helicoidal en hierro forjado con barandilla artística para vivienda unifamiliar de lujo.',
-    location: 'Mojácar, Almería',
-    year: '2023',
-    size: '35 ml',
-    accent: 'from-purple-500/20 to-pink-500/20',
-  },
-  {
-    id: 4,
-    title: 'Puertas Seccionales Industriales',
-    category: 'Automatización',
-    description: 'Instalación de 6 puertas seccionales industriales motorizadas con sistema de seguridad avanzado para centro logístico.',
-    location: 'Cuevas de Almanzora, Almería',
-    year: '2022',
-    size: '6 unidades',
-    accent: 'from-emerald-500/20 to-teal-500/20',
-  },
-  {
-    id: 5,
-    title: 'Cerramientos de Seguridad',
-    category: 'Cerrajería',
-    description: 'Fabricación e instalación de puertas de seguridad y rejas decorativas para urbanización residencial de 20 viviendas.',
-    location: 'Garrucha, Almería',
-    year: '2022',
-    size: '20 viviendas',
-    accent: 'from-red-500/20 to-orange-500/20',
-  },
-  {
-    id: 6,
-    title: 'Mobiliario Urbano Parque Municipal',
-    category: 'Mobiliario Urbano',
-    description: 'Diseño y fabricación de bancos, papeleras, pérgolas y elementos decorativos para la renovación del parque municipal.',
-    location: 'Albox, Almería',
-    year: '2022',
-    size: '5.000 m²',
-    accent: 'from-green-500/20 to-lime-500/20',
-  },
-  {
-    id: 7,
-    title: 'Escaparates Comerciales',
-    category: 'Manipulado de Vidrio',
-    description: 'Instalación de escaparates de vidrio templado con perfilería de aluminio para centro comercial.',
-    location: 'Vera Playa, Almería',
-    year: '2021',
-    size: '120 m²',
-    accent: 'from-indigo-500/20 to-violet-500/20',
-  },
-  {
-    id: 8,
-    title: 'Estructura para Invernadero',
-    category: 'Metalistería',
-    description: 'Fabricación de estructura metálica en acero galvanizado para invernadero tipo multitúnel con sistema de ventilación.',
-    location: 'Palomares, Almería',
-    year: '2021',
-    size: '8.000 m²',
-    accent: 'from-yellow-500/20 to-amber-500/20',
-  },
-]
-
-const categories = ['Todos', 'Estructuras Metálicas', 'Carpintería de Aluminio', 'Cerrajería', 'Automatización', 'Forja Artística', 'Mobiliario Urbano', 'Manipulado de Vidrio', 'Metalistería']
+import { useTranslation } from 'react-i18next'
 
 const ProyectosPage = () => {
+  const { t } = useTranslation()
+
+  const projects = [
+    {
+      id: 1,
+      title: t('projects_page.items.nave.title'),
+      category: t('projects_page.categories.structures'),
+      description: t('projects_page.items.nave.description'),
+      location: t('projects_page.items.nave.location'),
+      year: '2023',
+      size: t('projects_page.items.nave.size'),
+      accent: 'from-amber-500/20 to-orange-500/20',
+    },
+    {
+      id: 2,
+      title: t('projects_page.items.fachada.title'),
+      category: t('projects_page.categories.aluminum'),
+      description: t('projects_page.items.fachada.description'),
+      location: t('projects_page.items.fachada.location'),
+      year: '2023',
+      size: t('projects_page.items.fachada.size'),
+      accent: 'from-blue-500/20 to-cyan-500/20',
+    },
+    {
+      id: 3,
+      title: t('projects_page.items.escalera.title'),
+      category: t('projects_page.categories.forge'),
+      description: t('projects_page.items.escalera.description'),
+      location: t('projects_page.items.escalera.location'),
+      year: '2023',
+      size: t('projects_page.items.escalera.size'),
+      accent: 'from-purple-500/20 to-pink-500/20',
+    },
+    {
+      id: 4,
+      title: t('projects_page.items.puertas.title'),
+      category: t('projects_page.categories.automation'),
+      description: t('projects_page.items.puertas.description'),
+      location: t('projects_page.items.puertas.location'),
+      year: '2022',
+      size: t('projects_page.items.puertas.size'),
+      accent: 'from-emerald-500/20 to-teal-500/20',
+    },
+    {
+      id: 5,
+      title: t('projects_page.items.cierre.title'),
+      category: t('projects_page.categories.locksmith'),
+      description: t('projects_page.items.cierre.description'),
+      location: t('projects_page.items.cierre.location'),
+      year: '2022',
+      size: t('projects_page.items.cierre.size'),
+      accent: 'from-red-500/20 to-orange-500/20',
+    },
+    {
+      id: 6,
+      title: t('projects_page.items.parque.title'),
+      category: t('projects_page.categories.furniture'),
+      description: t('projects_page.items.parque.description'),
+      location: t('projects_page.items.parque.location'),
+      year: '2022',
+      size: t('projects_page.items.parque.size'),
+      accent: 'from-green-500/20 to-lime-500/20',
+    },
+    {
+      id: 7,
+      title: t('projects_page.items.escaparates.title'),
+      category: t('projects_page.categories.glass'),
+      description: t('projects_page.items.escaparates.description'),
+      location: t('projects_page.items.escaparates.location'),
+      year: '2021',
+      size: t('projects_page.items.escaparates.size'),
+      accent: 'from-indigo-500/20 to-violet-500/20',
+    },
+    {
+      id: 8,
+      title: t('projects_page.items.invernadero.title'),
+      category: t('projects_page.categories.metalwork'),
+      description: t('projects_page.items.invernadero.description'),
+      location: t('projects_page.items.invernadero.location'),
+      year: '2021',
+      size: t('projects_page.items.invernadero.size'),
+      accent: 'from-yellow-500/20 to-amber-500/20',
+    },
+  ]
+
+  const categories = [
+    t('projects_page.categories.all'),
+    t('projects_page.categories.structures'),
+    t('projects_page.categories.aluminum'),
+    t('projects_page.categories.locksmith'),
+    t('projects_page.categories.automation'),
+    t('projects_page.categories.forge'),
+    t('projects_page.categories.furniture'),
+    t('projects_page.categories.glass'),
+    t('projects_page.categories.metalwork')
+  ]
+
   return (
     <HelmetProvider>
       <SEOHead
-        title="Proyectos Realizados | Metales Del Sureste Andaluz"
-        description="Descubre nuestros proyectos de carpintería metálica en Almería: estructuras industriales, fachadas de aluminio, forja artística, puertas automáticas y más."
+        title={t('projects_page.seo.title')}
+        description={t('projects_page.seo.description')}
       />
       <div className="min-h-screen bg-background">
         <Header />
@@ -116,14 +129,13 @@ const ProyectosPage = () => {
                 transition={{ duration: 0.7 }}
                 className="text-center max-w-4xl mx-auto"
               >
-                <span className="tag-premium inline-block mb-6">Nuestro Portfolio</span>
+                <span className="tag-premium inline-block mb-6">{t('projects_page.hero.badge')}</span>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-foreground mb-8 leading-tight">
-                  Proyectos{' '}
-                  <span className="text-gradient-gold">Realizados</span>
+                  {t('projects_page.hero.title_start')}
+                  <span className="text-gradient-gold">{t('projects_page.hero.title_highlight')}</span>
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-                  Cada proyecto es una muestra de nuestra dedicación, experiencia y
-                  compromiso con la excelencia en carpintería metálica.
+                  {t('projects_page.hero.description')}
                 </p>
                 <div className="ornament-line mx-auto mt-10" />
               </motion.div>
@@ -135,10 +147,10 @@ const ProyectosPage = () => {
             <div className="container mx-auto px-6">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 {[
-                  { value: '500+', label: 'Proyectos completados' },
-                  { value: '12+', label: 'Años de experiencia' },
-                  { value: '100%', label: 'Clientes satisfechos' },
-                  { value: '8', label: 'Especialidades' },
+                  { value: '500+', label: t('projects_page.stats.projects') },
+                  { value: '12+', label: t('projects_page.stats.years') },
+                  { value: '100%', label: t('projects_page.stats.clients') },
+                  { value: '8', label: t('projects_page.stats.specialties') },
                 ].map((stat, index) => (
                   <motion.div
                     key={index}
@@ -251,7 +263,7 @@ const ProyectosPage = () => {
                         {/* CTA */}
                         <div className="flex items-center gap-2 text-primary font-semibold group-hover:gap-4 transition-all duration-300">
                           <Eye className="w-5 h-5" />
-                          <span>Ver detalles del proyecto</span>
+                          <span>{t('projects_page.project_card.view_details')}</span>
                           <ArrowRight className="w-5 h-5" />
                         </div>
                       </div>
@@ -274,14 +286,13 @@ const ProyectosPage = () => {
                 className="text-center max-w-3xl mx-auto"
               >
                 <h2 className="text-3xl md:text-4xl font-display font-bold text-foreground mb-6">
-                  ¿Tienes un proyecto en <span className="text-gradient-gold">mente</span>?
+                  {t('projects_page.cta.title_start')} <span className="text-gradient-gold">{t('projects_page.cta.title_highlight')}</span> {t('projects_page.cta.title_end')}
                 </h2>
                 <p className="text-lg text-muted-foreground mb-8">
-                  Cuéntanos tu idea y te ayudaremos a hacerla realidad.
-                  Solicita un presupuesto sin compromiso.
+                  {t('projects_page.cta.description')}
                 </p>
                 <Link to="/contacto" className="btn-premium inline-flex items-center gap-2">
-                  Solicitar Presupuesto
+                  {t('projects_page.cta.button')}
                   <ArrowRight className="w-5 h-5" />
                 </Link>
               </motion.div>

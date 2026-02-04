@@ -11,13 +11,14 @@ import { TownData } from '@/data/townsData'
 import { z } from 'zod'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { useTranslation } from 'react-i18next'
 
-const quoteSchema = z.object({
-  name: z.string().trim().min(1, 'El nombre es obligatorio').max(100),
-  email: z.string().trim().email('Email inválido').max(255),
-  phone: z.string().trim().min(9, 'Teléfono inválido').max(20),
-  service: z.string().min(1, 'Selecciona un servicio'),
-  message: z.string().trim().min(10, 'Describe tu proyecto (mín. 10 caracteres)').max(1000),
+const quoteSchema = (t: any) => z.object({
+  name: z.string().trim().min(1, t('contact_page.form.validation.name')).max(100),
+  email: z.string().trim().email(t('contact_page.form.validation.email')).max(255),
+  phone: z.string().trim().min(9, t('contact_page.form.validation.phone')).max(20),
+  service: z.string().min(1, t('common.form.service_required', 'Selecciona un servicio')),
+  message: z.string().trim().min(10, t('contact_page.form.validation.message')).max(1000),
 })
 
 interface ServicePageTemplateProps {
@@ -25,6 +26,7 @@ interface ServicePageTemplateProps {
 }
 
 export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
+  const { t } = useTranslation()
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -37,7 +39,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
-    const result = quoteSchema.safeParse(formData)
+    const result = quoteSchema(t).safeParse(formData)
     if (!result.success) {
       toast.error(result.error.errors[0].message)
       return
@@ -57,11 +59,11 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
 
       if (!response.ok) throw new Error('Error al enviar el formulario')
 
-      toast.success('¡Solicitud enviada! Te contactaremos pronto.')
+      toast.success(t('common.form.success'))
       setFormData({ name: '', email: '', phone: '', service: '', message: '' })
     } catch (error) {
       console.error('Error sending form:', error)
-      toast.error('Hubo un error al enviar el mensaje. Inténtalo de nuevo.')
+      toast.error(t('common.form.error'))
     } finally {
       setIsSubmitting(false)
     }
@@ -78,7 +80,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors px-4 py-2 rounded-full bg-accent/5 hover:bg-accent/10 border border-border/50"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span className="font-medium">Volver al inicio</span>
+            <span className="font-medium">{t('legal_page.hero.back')}</span>
           </Link>
         </div>
 
@@ -97,11 +99,11 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                 {town.province}
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-foreground mb-6 leading-tight">
-                Carpintería Metálica en{' '}
+                {t('nav.metal_carpentry')} {t('common.in', 'en')}{' '}
                 <span className="text-gradient-gold">{town.name}</span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                {town.description}
+                {t(town.description)}
               </p>
             </motion.div>
           </div>
@@ -144,10 +146,10 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   viewport={{ once: true }}
                 >
                   <h2 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-6">
-                    Nuestros Servicios en {town.name}
+                    {t('service_details.about')} {t('common.in', 'en')} {town.name}
                   </h2>
                   <p className="text-muted-foreground leading-relaxed text-lg">
-                    {town.longDescription}
+                    {t(town.longDescription)}
                   </p>
                 </motion.div>
 
@@ -157,7 +159,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   viewport={{ once: true }}
                 >
                   <h3 className="text-xl font-display font-bold text-foreground mb-6">
-                    Servicios Disponibles
+                    {t('projects_page.categories.all')} {t('nav.services')}
                   </h3>
                   <div className="grid sm:grid-cols-2 gap-4">
                     {town.services.map((service, index) => (
@@ -170,7 +172,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                         className="flex items-center gap-3 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-colors"
                       >
                         <CheckCircle className="w-5 h-5 text-primary flex-shrink-0" />
-                        <span className="text-foreground font-medium">{service}</span>
+                        <span className="text-foreground font-medium">{t(service)}</span>
                       </motion.div>
                     ))}
                   </div>
@@ -182,7 +184,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   viewport={{ once: true }}
                 >
                   <h3 className="text-xl font-display font-bold text-foreground mb-6">
-                    ¿Por Qué Elegirnos?
+                    {t('about_page.values.title_highlight')} {t('about_page.cta.title_start')}?
                   </h3>
                   <div className="grid sm:grid-cols-2 gap-4">
                     {town.features.map((feature, index) => (
@@ -193,7 +195,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                         <div className="w-8 h-8 rounded-lg bg-gradient-gold flex items-center justify-center flex-shrink-0">
                           <CheckCircle className="w-4 h-4 text-primary-foreground" />
                         </div>
-                        <span className="text-foreground">{feature}</span>
+                        <span className="text-foreground">{t(feature)}</span>
                       </div>
                     ))}
                   </div>
@@ -208,7 +210,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   >
                     <Quote className="w-10 h-10 text-primary mb-4" />
                     <blockquote className="text-lg text-foreground italic mb-4">
-                      "{town.testimonial.quote}"
+                      "{t(town.testimonial.quote)}"
                     </blockquote>
                     <div className="flex items-center gap-3">
                       <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center">
@@ -218,7 +220,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                       </div>
                       <div>
                         <p className="font-semibold text-foreground">{town.testimonial.author}</p>
-                        <p className="text-sm text-muted-foreground">{town.testimonial.location}</p>
+                        <p className="text-sm text-muted-foreground">{t(town.testimonial.location)}</p>
                       </div>
                     </div>
                   </motion.div>
@@ -235,27 +237,27 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                 >
                   <div className="card-premium p-8 rounded-2xl">
                     <h3 className="text-xl font-display font-bold text-foreground mb-2">
-                      Solicita Presupuesto
+                      {t('common.request_quote')}
                     </h3>
                     <p className="text-muted-foreground text-sm mb-6">
-                      Cuéntanos tu proyecto y te contactaremos sin compromiso.
+                      {t('service_details.cta_desc')}
                     </p>
 
                     <form onSubmit={handleSubmit} className="space-y-4" name="contact" data-netlify="true">
                       <input type="hidden" name="form-name" value="contact" />
                       <div className="space-y-2">
-                        <Label htmlFor="name">Nombre completo</Label>
+                        <Label htmlFor="name">{t('contact_page.form.name_label')}</Label>
                         <Input
                           id="name"
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder="Tu nombre"
+                          placeholder={t('common.form.name')}
                           className="bg-background/50"
                         />
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="email">Email</Label>
+                        <Label htmlFor="email">{t('contact_page.form.email_label')}</Label>
                         <Input
                           id="email"
                           type="email"
@@ -267,7 +269,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="phone">Teléfono</Label>
+                        <Label htmlFor="phone">{t('contact_page.form.phone_label')}</Label>
                         <Input
                           id="phone"
                           type="tel"
@@ -279,29 +281,29 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="service">Servicio de interés</Label>
+                        <Label htmlFor="service">{t('common.form.service_label', 'Servicio de interés')}</Label>
                         <select
                           id="service"
                           value={formData.service}
                           onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                           className="w-full h-10 px-3 rounded-md border border-input bg-background/50 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                         >
-                          <option value="">Selecciona un servicio</option>
+                          <option value="">{t('common.form.select_service', 'Selecciona un servicio')}</option>
                           {town.services.map((service) => (
                             <option key={service} value={service}>
-                              {service}
+                              {t(service)}
                             </option>
                           ))}
                         </select>
                       </div>
 
                       <div className="space-y-2">
-                        <Label htmlFor="message">Describe tu proyecto</Label>
+                        <Label htmlFor="message">{t('contact_page.form.message_label')}</Label>
                         <Textarea
                           id="message"
                           value={formData.message}
                           onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                          placeholder="Cuéntanos qué necesitas..."
+                          placeholder={t('contact_page.form.message_placeholder')}
                           rows={4}
                           className="bg-background/50 resize-none"
                         />
@@ -313,11 +315,11 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                         className="w-full btn-premium"
                       >
                         {isSubmitting ? (
-                          'Enviando...'
+                          t('common.form.sending')
                         ) : (
                           <>
                             <Send className="w-4 h-4 mr-2" />
-                            Solicitar Presupuesto
+                            {t('common.request_quote')}
                           </>
                         )}
                       </Button>
@@ -325,21 +327,21 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
 
                     <div className="mt-8 pt-6 border-t border-border/30 space-y-4">
                       <p className="text-sm text-muted-foreground text-center">
-                        ¿Prefieres llamarnos?
+                        {t('service_details.prefer_call')}
                       </p>
                       <a
                         href="tel:+34653940750"
                         className="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl bg-primary/10 text-primary hover:bg-primary/20 transition-colors font-semibold text-base sm:text-lg"
                       >
                         <Phone className="w-5 h-5" />
-                        +34 653 94 07 50
+                        {t('common.phone')}
                       </a>
                       <a
                         href="mailto:info@metalesdelsureste.com"
                         className="flex items-center justify-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
                       >
                         <Mail className="w-4 h-4" />
-                        info@metalesdelsureste.com
+                        {t('common.email')}
                       </a>
                     </div>
                   </div>
@@ -353,3 +355,4 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
     </div>
   )
 }
+

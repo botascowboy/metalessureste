@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async'
+import { useTranslation } from 'react-i18next'
 
 interface SEOHeadProps {
   title?: string
@@ -7,21 +8,22 @@ interface SEOHeadProps {
   ogImage?: string
 }
 
-const defaultMeta = {
-  title: 'Metales Del Sureste Andaluz | Carpintería Metálica en Andalucía',
-  description: 'Expertos en carpintería metálica, estructuras de aluminio, cerrajería, forja artística y automatización de puertas. Más de 20 años de experiencia en Andalucía.',
-  ogImage: '/og-image.png',
-  url: 'https://metalesdelsureste.com',
-}
-
 export const SEOHead = ({
-  title = defaultMeta.title,
-  description = defaultMeta.description,
-  canonical = defaultMeta.url,
-  ogImage = defaultMeta.ogImage,
+  title,
+  description,
+  canonical = 'https://metalesdelsureste.com',
+  ogImage = '/og-image.png',
 }: SEOHeadProps) => {
-  const fullTitle = title.length > 60 ? title.slice(0, 57) + '...' : title
-  const fullDescription = description.length > 160 ? description.slice(0, 157) + '...' : description
+  const { t, i18n } = useTranslation()
+
+  const defaultTitle = t('hero.title_start') + t('hero.title_highlight') + t('hero.title_end')
+  const defaultDescription = t('hero.description')
+
+  const finalTitle = title || defaultTitle
+  const finalDescription = description || defaultDescription
+
+  const fullTitle = finalTitle.length > 60 ? finalTitle.slice(0, 57) + '...' : finalTitle
+  const fullDescription = finalDescription.length > 160 ? finalDescription.slice(0, 157) + '...' : finalDescription
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -71,34 +73,34 @@ export const SEOHead = ({
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Servicios de Carpintería Metálica',
+      name: t('nav.services'),
       itemListElement: [
         {
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
-            name: 'Estructuras Metálicas',
+            name: t('services_data.estructuras-metalicas.title'),
           },
         },
         {
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
-            name: 'Carpintería de Aluminio',
+            name: t('services_data.carpinteria-aluminio.title'),
           },
         },
         {
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
-            name: 'Cerrajería',
+            name: t('services_data.cerrajeria.title'),
           },
         },
         {
           '@type': 'Offer',
           itemOffered: {
             '@type': 'Service',
-            name: 'Forja Artística',
+            name: t('services_data.forja-artistica.title'),
           },
         },
       ],
@@ -119,7 +121,7 @@ export const SEOHead = ({
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={fullDescription} />
       <meta property="og:image" content={ogImage} />
-      <meta property="og:locale" content="es_ES" />
+      <meta property="og:locale" content={i18n.language === 'es' ? 'es_ES' : 'en_US'} />
       <meta property="og:site_name" content="Metales Del Sureste Andaluz" />
 
       {/* Twitter Card */}
@@ -135,7 +137,7 @@ export const SEOHead = ({
       <meta name="author" content="Metales Del Sureste Andaluz" />
       <meta name="geo.region" content="ES-AL" />
       <meta name="geo.placename" content="Almería" />
-      <meta name="language" content="Spanish" />
+      <meta name="language" content={i18n.language === 'es' ? 'Spanish' : 'English'} />
 
       {/* Structured Data */}
       <script type="application/ld+json">
@@ -144,3 +146,4 @@ export const SEOHead = ({
     </Helmet>
   )
 }
+
