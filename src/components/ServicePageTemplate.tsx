@@ -45,12 +45,26 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
 
     setIsSubmitting(true)
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500))
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...formData
+        }).toString()
+      })
 
-    toast.success('¡Solicitud enviada! Te contactaremos pronto.')
-    setFormData({ name: '', email: '', phone: '', service: '', message: '' })
-    setIsSubmitting(false)
+      if (!response.ok) throw new Error('Error al enviar el formulario')
+
+      toast.success('¡Solicitud enviada! Te contactaremos pronto.')
+      setFormData({ name: '', email: '', phone: '', service: '', message: '' })
+    } catch (error) {
+      console.error('Error sending form:', error)
+      toast.error('Hubo un error al enviar el mensaje. Inténtalo de nuevo.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -227,7 +241,8 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                       Cuéntanos tu proyecto y te contactaremos sin compromiso.
                     </p>
 
-                    <form onSubmit={handleSubmit} className="space-y-4">
+                    <form onSubmit={handleSubmit} className="space-y-4" name="contact" data-netlify="true">
+                      <input type="hidden" name="form-name" value="contact" />
                       <div className="space-y-2">
                         <Label htmlFor="name">Nombre completo</Label>
                         <Input

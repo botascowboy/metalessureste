@@ -77,12 +77,26 @@ const ContactoPage = () => {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500))
-    console.log('Form data:', data)
-    toast.success('¡Mensaje enviado correctamente! Te contactaremos pronto.')
-    reset()
-    setIsSubmitting(false)
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...data
+        }).toString()
+      })
+
+      if (!response.ok) throw new Error('Error al enviar el formulario')
+
+      toast.success('¡Mensaje enviado correctamente! Te contactaremos pronto.')
+      reset()
+    } catch (error) {
+      console.error('Error sending form:', error)
+      toast.error('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo o llámanos.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -196,7 +210,8 @@ const ContactoPage = () => {
                       Rellena el formulario y te responderemos en menos de 24 horas.
                     </p>
 
-                    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+                    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6" name="contact" data-netlify="true">
+                      <input type="hidden" name="form-name" value="contact" />
                       <div className="grid md:grid-cols-2 gap-6">
                         <div>
                           <label className="block text-sm font-medium text-foreground mb-2">

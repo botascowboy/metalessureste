@@ -43,10 +43,27 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
     }
 
     setIsSubmitting(true)
-    await new Promise(resolve => setTimeout(resolve, 1500))
-    toast.success('¡Solicitud enviada! Te contactaremos pronto.')
-    setFormData({ name: '', email: '', phone: '', message: '' })
-    setIsSubmitting(false)
+
+    try {
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...formData
+        }).toString()
+      })
+
+      if (!response.ok) throw new Error('Error al enviar el formulario')
+
+      toast.success('¡Solicitud enviada! Te contactaremos pronto.')
+      setFormData({ name: '', email: '', phone: '', message: '' })
+    } catch (error) {
+      console.error('Error sending form:', error)
+      toast.error('Hubo un error al enviar el mensaje. Inténtalo de nuevo.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const Icon = service.icon
@@ -256,7 +273,8 @@ export const ServiceDetailTemplate = ({ service }: ServiceDetailTemplateProps) =
                       Cuéntanos tu proyecto de {service.title.toLowerCase()} y te contactaremos sin compromiso.
                     </p>
 
-                    <form onSubmit={handleSubmit} className="space-y-4">
+                    <form onSubmit={handleSubmit} className="space-y-4" name="contact" data-netlify="true">
+                      <input type="hidden" name="form-name" value="contact" />
                       <div className="space-y-2">
                         <Label htmlFor="name">Nombre completo</Label>
                         <Input
