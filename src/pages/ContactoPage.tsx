@@ -252,7 +252,7 @@ const ContactoPage = () => {
                           <Input
                             {...register('phone')}
                             type="tel"
-                            placeholder="+34 653 94 07 50"
+                            placeholder={t('common.form.phone_placeholder')}
                             className="bg-muted/50 border-border/50 focus:border-primary"
                           />
                           {errors.phone && (

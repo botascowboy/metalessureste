@@ -8,8 +8,11 @@
         "schedule": "Mon - Fri: 9:00 - 20:00",
         "form": {
             "name": "Full Name",
+            "name_placeholder": "Enter your full name",
             "email": "Email",
+            "email_placeholder": "you@email.com",
             "phone": "Phone",
+            "phone_placeholder": "+34 653 94 07 50",
             "message": "Describe your project",
             "send": "Request Quote",
             "sending": "Sending...",

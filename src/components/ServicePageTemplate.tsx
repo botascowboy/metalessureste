@@ -251,7 +251,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                           id="name"
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                          placeholder={t('common.form.name')}
+                          placeholder={t('common.form.name_placeholder')}
                           className="bg-background/50"
                         />
                       </div>
@@ -263,7 +263,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                           type="email"
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          placeholder="tu@email.com"
+                          placeholder={t('common.form.email_placeholder')}
                           className="bg-background/50"
                         />
                       </div>
@@ -275,7 +275,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                           type="tel"
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                          placeholder="+34 653 94 07 50"
+                          placeholder={t('common.form.phone_placeholder')}
                           className="bg-background/50"
                         />
                       </div>

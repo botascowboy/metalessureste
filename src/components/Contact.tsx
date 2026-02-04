@@ -191,7 +191,7 @@ export const Contact = () => {
                     onChange={handleChange}
                     onFocus={() => setFocusedField('nombre')}
                     onBlur={() => setFocusedField(null)}
-                    placeholder={t('common.form.name')}
+                    placeholder={t('common.form.name_placeholder')}
                     className={`input-premium w-full ${errors.nombre ? 'border-destructive' : ''} ${focusedField === 'nombre' ? 'border-primary/50 shadow-[0_0_0_3px_hsl(45_85%_55%_/_0.1)]' : ''}`}
                   />
                   {errors.nombre && <p className="text-destructive text-sm mt-2 flex items-center gap-1"><span className="w-1 h-1 bg-destructive rounded-full" />{errors.nombre}</p>}
@@ -208,7 +208,7 @@ export const Contact = () => {
                     onChange={handleChange}
                     onFocus={() => setFocusedField('email')}
                     onBlur={() => setFocusedField(null)}
-                    placeholder="tu@email.com"
+                    placeholder={t('common.form.email_placeholder')}
                     className={`input-premium w-full ${errors.email ? 'border-destructive' : ''} ${focusedField === 'email' ? 'border-primary/50 shadow-[0_0_0_3px_hsl(45_85%_55%_/_0.1)]' : ''}`}
                   />
                   {errors.email && <p className="text-destructive text-sm mt-2 flex items-center gap-1"><span className="w-1 h-1 bg-destructive rounded-full" />{errors.email}</p>}
@@ -226,7 +226,7 @@ export const Contact = () => {
                   onChange={handleChange}
                   onFocus={() => setFocusedField('telefono')}
                   onBlur={() => setFocusedField(null)}
-                  placeholder="+34 653 94 07 50"
+                  placeholder={t('common.form.phone_placeholder')}
                   className={`input-premium w-full ${errors.telefono ? 'border-destructive' : ''} ${focusedField === 'telefono' ? 'border-primary/50 shadow-[0_0_0_3px_hsl(45_85%_55%_/_0.1)]' : ''}`}
                 />
                 {errors.telefono && <p className="text-destructive text-sm mt-2 flex items-center gap-1"><span className="w-1 h-1 bg-destructive rounded-full" />{errors.telefono}</p>}

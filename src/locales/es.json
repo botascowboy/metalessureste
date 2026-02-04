@@ -8,8 +8,11 @@
     "schedule": "Lun - Vie: 9:00 - 20:00",
     "form": {
       "name": "Nombre completo",
+      "name_placeholder": "Escribe tu nombre completo",
       "email": "Email",
+      "email_placeholder": "tu@email.com",
       "phone": "Teléfono",
+      "phone_placeholder": "+34 653 94 07 50",
       "message": "Describe tu proyecto",
       "send": "Solicitar Presupuesto",
       "sending": "Enviando...",
