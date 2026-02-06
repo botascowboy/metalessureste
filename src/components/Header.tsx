@@ -37,7 +37,7 @@ export const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled
         ? 'bg-glass-heavy border-b border-border/30 shadow-elevated'
-        : 'bg-background/95 backdrop-blur-md'
+        : 'bg-transparent lg:bg-background/95 lg:backdrop-blur-md'
         }`}
     >
       {/* Top bar */}

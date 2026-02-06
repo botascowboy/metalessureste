@@ -31,7 +31,7 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
 
       <main>
         {/* Hero Section - Emergency Focus */}
-        <section className="relative pt-56 pb-20 overflow-hidden">
+        <section className="relative pt-32 lg:pt-56 pb-20 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-red-600/20 via-background to-background" />
           <div className="absolute top-20 right-0 w-96 h-96 bg-red-500/10 rounded-full blur-3xl" />
 
