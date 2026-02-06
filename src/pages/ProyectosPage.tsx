@@ -115,7 +115,7 @@ const ProyectosPage = () => {
       <div className="min-h-screen bg-background">
         <Header />
 
-        <main className="pt-32">
+        <main className="pt-40">
           {/* Hero Section */}
           <section className="relative py-24 overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background to-background" />

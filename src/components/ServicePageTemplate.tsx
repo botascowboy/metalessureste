@@ -73,7 +73,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="pt-48 pb-10">
+      <main className="pt-56 pb-10">
         <div className="container mx-auto px-6 mb-8">
           <Link
             to="/"
