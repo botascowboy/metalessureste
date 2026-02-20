@@ -1036,7 +1036,7 @@
             "title_start": "Metal Carpentry in",
             "title_highlight": "Almería and Levante",
             "description": "We deploy our experience and craftsmanship throughout the region. From large industrial structures in Huércal-Overa to design enclosures on the Mojácar coast.",
-            "view_projects": "View Projects"
+            "view_projects": "More information"
         },
         "info": {
             "title": "Leaders in Metalwork and Structures",
@@ -1378,6 +1378,278 @@
             }
         }
     },
+    "carpinteria_faq": {
+        "huercal-overa": [
+            {
+                "q": "What types of metal structures do you build in Huércal-Overa?",
+                "a": "In Huércal-Overa we manufacture all types of metal structures: agricultural buildings, industrial greenhouses, warehouse structures and machinery sheds. Being the capital of the Alto Almanzora, we have extensive experience in the agri-food sector of the region."
+            },
+            {
+                "q": "Do you work for businesses on the Huércal-Overa industrial estate?",
+                "a": "Yes, we are regular suppliers to companies on the Huércal-Overa industrial estate. We carry out aluminium carpentry, automatic industrial doors, warehouse enclosures and metalwork for all types of productive facilities."
+            },
+            {
+                "q": "How long does it take to install an automatic door in Huércal-Overa?",
+                "a": "A standard automatic door installation in Huércal-Overa takes 1 to 2 working days. Depending on the complexity of the project and access conditions, it may require a little more time. We always state the exact timescale in the prior quote."
+            },
+            {
+                "q": "Do you offer free quotes in Huércal-Overa?",
+                "a": "Absolutely. The quote is free and without obligation. We travel to your premises, warehouse or home in Huércal-Overa to assess the work on site and present you with a detailed proposal at no cost."
+            },
+            {
+                "q": "Do you use anti-corrosion materials in Huércal-Overa?",
+                "a": "Yes, although Huércal-Overa is not a coastal area, we apply industrial-quality galvanised and powder-coated treatments to all our structures to guarantee durability against the weather and the agro-climatic conditions of the Almanzora valley."
+            }
+        ],
+        "vera": [
+            {
+                "q": "Do you install automatic doors in Vera for hotels and businesses?",
+                "a": "Yes, in Vera we have extensive experience installing sliding and swing automatic doors for hotels, tourist apartments and service businesses. We work with leading brands and offer an annual maintenance contract."
+            },
+            {
+                "q": "What enclosures do you recommend for homes in Vera?",
+                "a": "For homes in Vera we recommend aluminium carpentry with thermal break, which provides optimal insulation against the Almería heat. For areas more exposed to Levante wind or humidity, we reinforce the anchors and use high-resistance powder-coated aluminium."
+            },
+            {
+                "q": "Do you make custom railings in Vera?",
+                "a": "Yes, we manufacture custom steel, aluminium or stainless steel railings in Vera. We can combine modern design with functionality and safety. We carry out the preliminary study, manufacture in our workshop and installation at your property."
+            },
+            {
+                "q": "How much does it cost to replace the windows of a house in Vera?",
+                "a": "The price depends on the number of windows, dimensions and type of glass chosen (single, double or solar control). For a standard home in Vera, the quote is usually between €2,000 and €6,000. We offer a free, no-obligation assessment."
+            },
+            {
+                "q": "Do you provide a warranty on your carpentry work in Vera?",
+                "a": "All our work in Vera has a 5-year warranty on materials and labour. Automation systems carry additional manufacturer warranty. We issue a signed warranty certificate upon completion of each installation."
+            }
+        ],
+        "overa": [
+            {
+                "q": "Do you build greenhouse structures in Overa?",
+                "a": "Yes, the Overa area has significant agricultural activity with many greenhouses. We manufacture and install metal structures for all types of greenhouses: multi-tunnel, chapel, raspa and amagado. We use high-strength galvanised steel to guarantee durability in the field."
+            },
+            {
+                "q": "Do you do agricultural fencing in Overa?",
+                "a": "Yes, we carry out all types of fencing in Overa: galvanised mesh, tube fencing for farms, agricultural plot enclosures and livestock fences. We adapt the type of fencing to the specific needs of each farm and terrain."
+            },
+            {
+                "q": "Do you also work for private individuals in Overa?",
+                "a": "Of course. In addition to agricultural sector clients, we serve private individuals in Overa with locksmith services, door installation, security grilles and home enclosures. All work comes with a free prior quote."
+            },
+            {
+                "q": "How long does it take to reach Overa for an emergency?",
+                "a": "Overa is close to Huércal-Overa, where we are based, so our technicians can arrive in less than 20 minutes for any locksmith or repair emergency. The emergency service is available 24 hours."
+            },
+            {
+                "q": "What anti-corrosion materials do you use for agricultural installations in Overa?",
+                "a": "For agricultural installations in Overa we use hot-dip galvanised steel for structures and galvanised tube for fencing. Visible parts can be coated with epoxy or polyester paint for greater resistance to agrochemicals and the elements."
+            }
+        ],
+        "vera-playa": [
+            {
+                "q": "Why is anti-corrosion treatment so important in Vera Playa?",
+                "a": "In Vera Playa the salt-laden marine environment attacks metals far more aggressively than inland. Without proper treatment, untreated aluminium or unprotected steel deteriorates within a few years. We use marine-grade anodised aluminium, AISI 316 stainless steel and special coatings for coastal environments."
+            },
+            {
+                "q": "What railings do you recommend for terraces in Vera Playa?",
+                "a": "For sea-view terraces in Vera Playa we recommend AISI 316 stainless steel railings with tempered glass, offering maximum salt resistance and unobstructed views. We also make anodised aluminium railings with tensioned cable infill, with a very aesthetic and nautical finish."
+            },
+            {
+                "q": "Do you install awnings and bioclimatic pergolas in Vera Playa?",
+                "a": "Yes, we install cassette awnings, bioclimatic pergolas with adjustable louvres and aluminium terrace structures in Vera Playa. They are the ideal complement for apartments and villas, providing adjustable shade and protection against the Levante wind."
+            },
+            {
+                "q": "Do you work with homeowners' communities in Vera Playa?",
+                "a": "Yes, we are a reference company for homeowners' communities in Vera Playa. We carry out maintenance of automatic garage doors, renewal of railings in common areas, swimming pool enclosures and any metalwork the community requires."
+            },
+            {
+                "q": "How long is the warranty on your work in a marine environment?",
+                "a": "We offer a 5-year warranty on all our work in Vera Playa. For installations on the seafront with high salt exposure, we offer optional annual preventive maintenance checks to maximise the service life of the materials."
+            }
+        ],
+        "puerto-rey": [
+            {
+                "q": "Do you enclose terraces in Puerto Rey?",
+                "a": "Yes, terrace enclosures are one of our most requested services in Puerto Rey. We work with anodised or powder-coated aluminium in colours of your choice, toughened or laminated glass, and sliding or folding opening systems to maximise space and ventilation in summer."
+            },
+            {
+                "q": "What materials do you use for windows in Puerto Rey?",
+                "a": "In Puerto Rey we use marine anodised or RAL colour-coated aluminium with low-emissivity double glazing. These materials provide excellent thermal and acoustic insulation and perfectly withstand the coastal salt environment."
+            },
+            {
+                "q": "Do you install garage doors in Puerto Rey?",
+                "a": "Yes, we install sectional, tilting and roller garage doors in Puerto Rey, all with motorisation and remote control. We use aluminium or steel panels with a salt-resistant finish to ensure trouble-free operation for many years."
+            },
+            {
+                "q": "Can you build an aluminium pergola for a garden in Puerto Rey?",
+                "a": "Yes, we manufacture and install bioclimatic aluminium and composite wood pergolas in Puerto Rey. We adapt the design to your home's style and the available space. Optional integrated LED lighting and drainage systems are available."
+            },
+            {
+                "q": "What lead times do you work with in Puerto Rey?",
+                "a": "The usual lead time for projects in Puerto Rey is 2 to 4 weeks from order confirmation, depending on the complexity of the work. For emergencies and simple jobs we can shorten this considerably. The exact timescale is always confirmed in the quote."
+            }
+        ],
+        "garrucha": [
+            {
+                "q": "Do you have experience working with Garrucha fishing port?",
+                "a": "Yes, we have carried out metalwork and structural work for Garrucha fishing port facilities and nautical sector businesses. We are fully aware of the strength requirements demanded by industrial and port marine environments."
+            },
+            {
+                "q": "Do you build structures for restaurants on the Garrucha promenade?",
+                "a": "We have worked with several restaurants on the Garrucha seafront promenade, installing terraces, awnings, seasonal glass enclosures and structures to extend their spaces. All materials are treated to withstand the coastal salt environment."
+            },
+            {
+                "q": "What materials do you use for work in the port area of Garrucha?",
+                "a": "In the Garrucha port area we use hot-dip galvanised steel for structures, AISI 316 stainless steel for elements in contact with water or highly exposed, and anodised aluminium for carpentry. All materials are selected to withstand the most aggressive marine environment."
+            },
+            {
+                "q": "Do you install security doors in homes in Garrucha?",
+                "a": "Yes, we install high-security armoured and reinforced doors in homes in Garrucha. We work with leading brands in the sector and offer different security levels (RC2 to RC4) according to the client's needs. The assessment visit is free of charge."
+            },
+            {
+                "q": "Do you do artistic ironwork in Garrucha?",
+                "a": "Yes, we have our own artistic forge workshop and create grilles, gates, lanterns and decorative ironwork elements for homes in Garrucha. We can reproduce traditional southern Spanish designs or create custom designs to the client's taste."
+            }
+        ],
+        "villaricos": [
+            {
+                "q": "Do you respect the traditional aesthetics of Villaricos in your work?",
+                "a": "Yes, in Villaricos we take special care to integrate our work with the village's aesthetic. We offer grilles and gates in forge with traditional Andalusian designs, as well as carpentry in colours and finishes that harmonise with the vernacular architecture of the area."
+            },
+            {
+                "q": "What type of pergolas do you install in Villaricos?",
+                "a": "In Villaricos we install aluminium, composite wood and bioclimatic pergolas with adjustable louvres. They are perfect for creating shaded areas in gardens and terraces of homes and tourist apartments, and are resistant to the marine environment of this coastal area."
+            },
+            {
+                "q": "Do you do fencing for plots in Villaricos?",
+                "a": "Yes, we carry out all types of fencing in Villaricos: galvanised mesh on posts, industrial tube fencing, wrought iron garden fences and composite wood fences for a more natural aesthetic. We adapt the design to the use and surroundings of each plot."
+            },
+            {
+                "q": "How quickly can you start work in Villaricos?",
+                "a": "We can normally start work in Villaricos within 1 to 3 weeks of quote acceptance. For emergencies such as repairs or emergency replacements, we travel as quickly as possible, even the same day if necessary."
+            },
+            {
+                "q": "Do you offer financing for projects in Villaricos?",
+                "a": "Yes, for larger projects in Villaricos we can arrange payment in several interest-free instalments. Ask about this option when requesting your quote and we will inform you of the conditions available according to the amount and type of work."
+            }
+        ],
+        "mojacar": [
+            {
+                "q": "How do you adapt metal carpentry to the architecture of Mojácar village?",
+                "a": "Mojácar village has a very distinctive traditional white architecture that must be respected. We design grilles, gates and railings inspired by traditional Andalusian ironwork, using dark colours (black, forge brown) that contrast elegantly with the whitewashed village façades."
+            },
+            {
+                "q": "Do you make artistic forge grilles for homes in Mojácar?",
+                "a": "Yes, artistic forge is one of our specialties in Mojácar. We design and manufacture grilles, balconies and gates in forge with floral, geometric or personalised motifs. Each piece is unique and made to measure in our own workshop."
+            },
+            {
+                "q": "Do you also work in Mojácar Playa?",
+                "a": "Yes, we serve both Mojácar Pueblo and Mojácar Playa. For the coastal area we use materials specific to the marine environment: anodised aluminium, AISI 316 stainless steel and reinforced anti-corrosion treatments to guarantee durability against salt."
+            },
+            {
+                "q": "Can you make automatic doors that match Mojácar's style?",
+                "a": "Yes, we install automatic doors in Mojácar with finishes that respect the surroundings. We have models with black or forge-brown lacquered panel, artisan-design bars and traditional-style fittings, combining modern security with traditional aesthetics."
+            },
+            {
+                "q": "Do you have references for work done in Mojácar?",
+                "a": "Yes, we have been working in Mojácar for over 10 years and have numerous references in both the historic village and the beach area. We can show you photographs of previous work and, if you wish, put you in touch with satisfied clients who can confirm the quality of our work."
+            }
+        ],
+        "palomares": [
+            {
+                "q": "Do you build agricultural storage buildings in Palomares?",
+                "a": "Yes, in Palomares we build agricultural storage buildings, machinery sheds and greenhouse structures. We calculate and manufacture the complete metal structure in our workshop and assemble it on site at your plot with our technical team."
+            },
+            {
+                "q": "What enclosures do you recommend for rural homes in Palomares?",
+                "a": "For rural homes in Palomares we recommend powder-coated aluminium in earth tones or bronze anodised aluminium, which blend well with the rural surroundings. For areas exposed to dust and wind we use thicker profiles and reinforced seals."
+            },
+            {
+                "q": "Do you fit security doors for isolated homes in Palomares?",
+                "a": "Yes, isolated or rural homes in Palomares benefit most from a good security door. We install high-security steel doors with multipoint locks and anti-bumping protection to ensure peace of mind for owners."
+            },
+            {
+                "q": "Can you fence large plots in Palomares?",
+                "a": "Yes, we specialise in perimeter fencing of large areas in Palomares. We carry out cost studies based on linear metres, terrain type and required security level. We handle both economical galvanised mesh and heavier-duty tube fencing."
+            },
+            {
+                "q": "What are your lead times for agricultural projects in Palomares?",
+                "a": "For agricultural structure projects in Palomares, the usual lead time is 3 to 6 weeks from order confirmation, depending on workshop workload and project complexity. We always coordinate with the client to fit the schedule to their needs."
+            }
+        ],
+        "cuevas-de-almanzora": [
+            {
+                "q": "Do you work with industrial companies in Cuevas de Almanzora?",
+                "a": "Yes, Cuevas de Almanzora has significant industrial and quarrying activity. We work with companies in the sector to install steel structures, large-format industrial doors, elevated platforms and all types of metalwork for demanding industrial environments."
+            },
+            {
+                "q": "Do you manufacture large industrial doors in Cuevas de Almanzora?",
+                "a": "Yes, we manufacture and install large-format sectional, folding and sliding industrial doors in Cuevas de Almanzora. We have CNC machinery to manufacture structures up to 12 metres wide. We work with high-durability industrial automation systems."
+            },
+            {
+                "q": "Do you carry out forge work in the historic centre of Cuevas?",
+                "a": "Yes, we also handle projects in the urban core of Cuevas de Almanzora. We manufacture artistic forge grilles, balconies, gates and decorative elements that respect the traditional architecture of the historic centre of Cuevas."
+            },
+            {
+                "q": "Do you have experience with large-scale projects in Cuevas?",
+                "a": "Yes, we have executed large-scale projects in Cuevas de Almanzora such as structures for processing plants, roofing for industrial installations and perimeter enclosures for large areas. We have the machinery and staff to tackle complex projects."
+            },
+            {
+                "q": "What are your opening hours in Cuevas de Almanzora?",
+                "a": "Our commercial hours are Monday to Friday 9:00–20:00. However, for emergencies in Cuevas de Almanzora we have a 24-hour service every day of the year. You can call us at any time and a technician will answer your call."
+            }
+        ],
+        "albox": [
+            {
+                "q": "Do you install shop fronts and commercial enclosures in Albox?",
+                "a": "Yes, Albox is the main commercial centre of the Almanzora Valley and we have extensive experience installing aluminium and glass shop fronts, folding and sliding doors for businesses, metal roller shutters and façade enclosures for all types of premises."
+            },
+            {
+                "q": "Can you work outside business hours in Albox to avoid closing the shop?",
+                "a": "Yes, for businesses in Albox we always try to minimise closure time. We can work at night, at weekends or in phases so the business stays operational during installation. We coordinate the schedule with the client in advance."
+            },
+            {
+                "q": "Do you install security roller shutters for businesses in Albox?",
+                "a": "Yes, we install micro-perforated, solid and punched-slat metal security shutters for businesses in Albox. We also carry out motorisation with remote control and integration with alarm systems. We offer an annual maintenance contract."
+            },
+            {
+                "q": "Do you carry out metal carpentry refurbishments in premises in Albox?",
+                "a": "Yes, we carry out complete metal carpentry refurbishments in commercial premises in Albox: replacing shop fronts, changing entrance doors, installing aluminium and glass partitions, metal ceilings and any interior or exterior metalwork element."
+            },
+            {
+                "q": "Do you have references in the commercial centre of Albox?",
+                "a": "Yes, we have worked with numerous businesses in Albox town centre and have references available on request. You can visit several businesses in the municipality that feature our shop fronts, shutters and automatic doors installed over recent years."
+            }
+        ],
+        "zurgena": [
+            {
+                "q": "Do you also serve La Alfoquia from your Zurgena service?",
+                "a": "Yes, we cover both Zurgena and its hamlet La Alfoquia, as well as all the farmhouses and scattered properties of the municipality. We do not charge additional travel costs within the municipal boundaries for quotes or contracted work."
+            },
+            {
+                "q": "What metal carpentry work is most in demand in Zurgena?",
+                "a": "In Zurgena the most requested jobs are: replacing aluminium windows in homes, installing motorised garage doors, agricultural and residential plot fencing, and terrace enclosures. We also do forge grilles and farm structures."
+            },
+            {
+                "q": "Do you work with foreign residents in Zurgena?",
+                "a": "Yes, Zurgena has a significant foreign resident community, especially British. We can communicate in Spanish and English to make the process easier. All documentation, quotes and warranties can be issued in English if preferred."
+            },
+            {
+                "q": "How much does it cost to install aluminium windows in a home in Zurgena?",
+                "a": "The cost varies according to the number of windows, dimensions and type of glass. For a three-bedroom house in Zurgena with standard windows, the quote usually ranges from €2,500 to €5,000. We offer a free, no-obligation assessment at your home."
+            },
+            {
+                "q": "Can you install a motorised garage door on a rural property in Zurgena?",
+                "a": "Yes, we install motorised garage doors and gates on rural properties in Zurgena. We work with autonomous solar motors where no electrical connection is available, ideal for farm entrances far from the grid. We also install systems with video intercom and remote smartphone opening."
+            }
+        ]
+    },
+    "carpinteria_faq_general": {
+        "title": "Frequently Asked Questions about Metal Carpentry",
+        "subtitle": "Everything you need to know about our services in {{town}}",
+        "map_title": "Service Area",
+        "map_subtitle": "Metal carpentry in {{town}}, {{province}} and surrounding areas"
+    },
     "locksmith_24h_data": {
         "huercal-overa": {
             "metaTitle": "24-Hour Locksmith in Huércal-Overa | Emergencies ☎ Available Now",
@@ -1691,5 +1963,27 @@
             ],
             "responseTime": "20-35 minutes"
         }
+    },
+    "locksmith_faq": {
+        "title": "Frequently Asked Questions about 24h Locksmith",
+        "subtitle": "We answer the most common questions about our urgent locksmith service in {{town}}",
+        "q1": "How long does it take for the locksmith to arrive in {{town}}?",
+        "a1": "Our arrival time in {{town}} is {{time}}. We have technicians available 24 hours a day, 365 days a year, to handle any locksmith emergency.",
+        "q2": "Can you open my door in {{town}} without damaging it?",
+        "a2": "Yes, our locksmiths specialise in non-destructive opening techniques. In the vast majority of cases we open the door without causing any damage, keeping the lock intact.",
+        "q3": "How much does it cost to call an emergency locksmith?",
+        "a3": "The cost depends on the type of service and the time of intervention. We always provide a no-obligation quote before starting any work. No hidden costs or surprises.",
+        "q4": "Do you work on weekends and public holidays?",
+        "a4": "Yes, our emergency locksmith service is available every day of the year, including Saturdays, Sundays and national and local public holidays. 24 hours without exception.",
+        "q5": "What types of locks do you repair in {{town}}?",
+        "a5": "In {{town}} we work with all types of locks: standard cylinders, security locks, anti-bumping locks, deadbolts, padlocks, safes and home automation systems. We also install high-security locks.",
+        "q6": "Do you provide a warranty for your work?",
+        "a6": "Yes, all our locksmith work comes with a warranty. Installed parts carry the manufacturer's warranty and our labour is guaranteed. We work with well-known quality brands."
+    },
+    "locksmith_map": {
+        "title": "Coverage Area",
+        "subtitle": "24-hour urgent locksmith service in {{town}} and nearby municipalities",
+        "iframe_title": "Locksmith location map in",
+        "aria_label": "Map of the municipality of"
     }
 }

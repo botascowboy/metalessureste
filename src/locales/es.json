@@ -1036,7 +1036,7 @@
       "title_start": "Carpintería Metálica en",
       "title_highlight": "Almería y Levante",
       "description": "Desplegamos nuestra experiencia y artesanía en toda la comarca. Desde grandes estructuras industriales en Huércal-Overa hasta cerramientos de diseño en la costa de Mojácar.",
-      "view_projects": "Ver Proyectos"
+      "view_projects": "Más información"
     },
     "info": {
       "title": "Líderes en Metalistería y Estructuras",
@@ -1378,6 +1378,278 @@
       }
     }
   },
+  "carpinteria_faq": {
+    "huercal-overa": [
+      {
+        "q": "¿Qué tipo de estructuras metálicas fabricáis en Huércal-Overa?",
+        "a": "En Huércal-Overa fabricamos todo tipo de estructuras metálicas: naves agrícolas, invernaderos industriales, estructuras para almacenes y naves de maquinaria. Al ser la capital del Alto Almanzora, contamos con amplia experiencia en el sector agroalimentario de la comarca."
+      },
+      {
+        "q": "¿Trabajáis para empresas del polígono industrial de Huércal-Overa?",
+        "a": "Sí, somos proveedores habituales de empresas del polígono industrial de Huércal-Overa. Realizamos carpintería de aluminio, puertas industriales automáticas, cerramientos de naves y trabajos de metalistería para todo tipo de instalaciones productivas."
+      },
+      {
+        "q": "¿Cuánto tarda la instalación de una puerta automática en Huércal-Overa?",
+        "a": "La instalación estándar de una puerta automática en Huércal-Overa se realiza en 1 o 2 días laborables. Dependiendo de la complejidad del proyecto y las condiciones del acceso, puede requerir algo más de tiempo. Siempre informamos del plazo exacto en el presupuesto previo."
+      },
+      {
+        "q": "¿Hacéis presupuestos gratuitos en Huércal-Overa?",
+        "a": "Absolutamente. El presupuesto es gratuito y sin compromiso. Nos desplazamos a su local, nave o vivienda en Huércal-Overa para valorar el trabajo in situ y presentarle una propuesta detallada sin ningún coste."
+      },
+      {
+        "q": "¿Utilizáis materiales anticorrosión en Huércal-Overa?",
+        "a": "Sí, aunque Huércal-Overa no es zona costera, aplicamos tratamientos galvanizados y lacados de calidad industrial en todas nuestras estructuras para garantizar durabilidad frente a la intemperie y las condiciones agroclimáticas del Almanzora."
+      }
+    ],
+    "vera": [
+      {
+        "q": "¿Instaláis puertas automáticas en Vera para hoteles y negocios?",
+        "a": "Sí, en Vera tenemos amplia experiencia instalando puertas automáticas correderas y batientes para hoteles, apartamentos turísticos y negocios del sector servicios. Trabajamos con marcas líderes y ofrecemos contrato de mantenimiento anual."
+      },
+      {
+        "q": "¿Qué cerramientos recomendáis para viviendas en Vera?",
+        "a": "Para viviendas en Vera recomendamos carpintería de aluminio con rotura de puente térmico, que garantiza aislamiento óptimo frente al calor almeriense. Para zonas más expuestas al viento o humedad de levante, reforzamos los anclajes y utilizamos aluminio lacado en polvo de alta resistencia."
+      },
+      {
+        "q": "¿Fabricáis barandillas a medida en Vera?",
+        "a": "Sí, fabricamos barandillas de acero, aluminio o inoxidable completamente a medida en Vera. Podemos combinar diseño moderno con funcionalidad y seguridad. Realizamos el estudio previo, la fabricación en nuestro taller y la instalación en su propiedad."
+      },
+      {
+        "q": "¿Cuánto cuesta renovar las ventanas de una vivienda en Vera?",
+        "a": "El precio depende del número de ventanas, las dimensiones y el tipo de vidrio elegido (simple, doble o con control solar). Para una vivienda estándar en Vera, el presupuesto suele estar entre 2.000 y 6.000 €. Le ofrecemos valoración gratuita sin compromiso."
+      },
+      {
+        "q": "¿Dais garantía en vuestros trabajos de carpintería en Vera?",
+        "a": "Todos nuestros trabajos en Vera tienen garantía de 5 años en materiales y mano de obra. Los sistemas de automatización tienen garantía adicional del fabricante. Entregamos certificado de garantía firmado al finalizar cada instalación."
+      }
+    ],
+    "overa": [
+      {
+        "q": "¿Fabricáis estructuras para invernaderos en Overa?",
+        "a": "Sí, la zona de Overa tiene una importante actividad agrícola con muchos invernaderos. Fabricamos e instalamos estructuras metálicas para invernaderos de todos los tipos: multi-túnel, capilla, raspa y amagado. Utilizamos acero galvanizado de alta resistencia para garantizar durabilidad en el campo."
+      },
+      {
+        "q": "¿Hacéis vallados agrícolas en Overa?",
+        "a": "Sí, realizamos todo tipo de vallados en Overa: malla galvanizada, vallados de tubo para fincas, cierres para parcelas agrícolas y cercados para ganado. Adaptamos el tipo de vallado a las necesidades concretas de cada finca y terreno."
+      },
+      {
+        "q": "¿Trabajáis también para particulares en Overa?",
+        "a": "Por supuesto. Además de los clientes del sector agrícola, atendemos a particulares en Overa con servicios de cerrajería, instalación de puertas, rejas de seguridad y cerramientos para viviendas. Todos los trabajos con presupuesto previo gratuito."
+      },
+      {
+        "q": "¿Cuánto tiempo tardan en llegar a Overa para una urgencia?",
+        "a": "Overa está próxima a Huércal-Overa, donde tenemos base, por lo que nuestros técnicos pueden llegar en menos de 20 minutos ante cualquier urgencia de cerrajería o reparación. El servicio de urgencias está disponible las 24 horas."
+      },
+      {
+        "q": "¿Qué materiales anticorrosión usáis para el campo en Overa?",
+        "a": "Para instalaciones agrícolas en Overa utilizamos acero galvanizado en caliente para estructuras y tubo galvanizado para vallados. Las partes visibles pueden lacarse con pintura epoxi o poliéster para mayor resistencia a los agroquímicos y la intemperie."
+      }
+    ],
+    "vera-playa": [
+      {
+        "q": "¿Por qué es importante el tratamiento anticorrosión en Vera Playa?",
+        "a": "En Vera Playa el ambiente marino cargado de salitre ataca con mucha más agresividad los metales que en el interior. Sin tratamiento adecuado, el aluminio sin anodizar o el acero sin galvanizar se deterioran en pocos años. Usamos aluminio anodizado marino, acero inoxidable AISI 316 y lacados especiales para entorno costero."
+      },
+      {
+        "q": "¿Qué tipo de barandillas recomendáis para terrazas en Vera Playa?",
+        "a": "Para terrazas con vistas al mar en Vera Playa recomendamos barandillas de acero inoxidable AISI 316 con vidrio templado, que ofrecen máxima resistencia al salitre y vistas despejadas. También fabricamos barandillas de aluminio anodizado con relleno de cable tensado, con un acabado muy estético y marino."
+      },
+      {
+        "q": "¿Instaláis toldos y pérgolas bioclimáticas en Vera Playa?",
+        "a": "Sí, instalamos toldos cofre, pérgolas bioclimáticas con lamas orientables y estructuras de aluminio para terrazas en Vera Playa. Son el complemento ideal para apartamentos y chalets, proporcionando sombra regulable y protección contra el viento de levante."
+      },
+      {
+        "q": "¿Trabajáis con comunidades de propietarios en Vera Playa?",
+        "a": "Sí, somos empresa de referencia para comunidades de propietarios en Vera Playa. Realizamos mantenimiento de puertas automáticas de garaje, renovación de barandillas en zonas comunes, cerramientos de piscinas y cualquier trabajo de metalistería que necesite la comunidad."
+      },
+      {
+        "q": "¿Cuánto dura la garantía de vuestros trabajos en ambiente marino?",
+        "a": "Ofrecemos 5 años de garantía en todos nuestros trabajos en Vera Playa. Para instalaciones en primera línea de playa con alta exposición al salitre, ofrecemos revisiones de mantenimiento preventivo anuales opcionales para maximizar la vida útil de los materiales."
+      }
+    ],
+    "puerto-rey": [
+      {
+        "q": "¿Hacéis cerramientos de terrazas en Puerto Rey?",
+        "a": "Sí, el cerramiento de terrazas es uno de nuestros servicios más demandados en Puerto Rey. Trabajamos con aluminio anodizado o lacado en colores a elegir, cristal templado o laminar, y sistemas de apertura correderos o plegables para maximizar el espacio y la ventilación en verano."
+      },
+      {
+        "q": "¿Qué materiales usáis para las ventanas en Puerto Rey?",
+        "a": "En Puerto Rey utilizamos aluminio marino anodizado en plata o lacado en colores RAL, con doble acristalamiento bajo emisivo. Estos materiales garantizan aislamiento térmico-acústico y resisten perfectamente el ambiente salino de la costa."
+      },
+      {
+        "q": "¿Instaláis puertas de garaje en Puerto Rey?",
+        "a": "Sí, instalamos puertas de garaje seccionales, basculantes y de persiana en Puerto Rey. Todas con motorización y mando a distancia. Utilizamos paneles de aluminio o acero con acabado resistente al salitre para garantizar su funcionamiento durante muchos años."
+      },
+      {
+        "q": "¿Podéis hacer una pérgola de aluminio para el jardín en Puerto Rey?",
+        "a": "Sí, fabricamos e instalamos pérgolas de aluminio bioclimáticas y de madera composite en Puerto Rey. Adaptamos el diseño al estilo de su vivienda y a las dimensiones del espacio disponible. Incluimos iluminación LED y sistemas de drenaje integrado opcionales."
+      },
+      {
+        "q": "¿Con qué plazo de entrega trabajáis en Puerto Rey?",
+        "a": "El plazo habitual para proyectos en Puerto Rey es de 2 a 4 semanas desde la confirmación del pedido, dependiendo de la complejidad del trabajo. Para urgencias y trabajos sencillos podemos reducir este plazo considerablemente. Siempre se confirma el plazo exacto en el presupuesto."
+      }
+    ],
+    "garrucha": [
+      {
+        "q": "¿Tenéis experiencia trabajando con el puerto pesquero de Garrucha?",
+        "a": "Sí, hemos realizado trabajos de metalistería y estructuras para instalaciones del puerto pesquero de Garrucha y negocios del sector náutico. Conocemos perfectamente los requisitos de resistencia que exige el entorno marino industrial y portuario."
+      },
+      {
+        "q": "¿Fabricáis estructuras para los restaurantes del paseo de Garrucha?",
+        "a": "Hemos trabajado con varios restaurantes del paseo marítimo de Garrucha, instalando terrazas, toldos, cerramientos estacionales de cristal y estructuras para ampliar sus espacios. Todos los materiales son tratados para resistir el ambiente salino del litoral."
+      },
+      {
+        "q": "¿Qué materiales usáis para trabajos en zona portuaria en Garrucha?",
+        "a": "En zona portuaria de Garrucha utilizamos acero galvanizado en caliente para estructuras, acero inoxidable AISI 316 para elementos en contacto con agua o muy expuestos, y aluminio anodizado para carpintería. Todos los materiales están seleccionados para soportar el ambiente marino más agresivo."
+      },
+      {
+        "q": "¿Instaláis puertas de seguridad en viviendas de Garrucha?",
+        "a": "Sí, instalamos puertas blindadas y acorazadas de alta seguridad en viviendas de Garrucha. Trabajamos con las marcas líderes del sector y ofrecemos diferentes niveles de seguridad (RC2 a RC4) según las necesidades del cliente. Incluimos la visita de valoración gratuita."
+      },
+      {
+        "q": "¿Hacéis trabajos de forja artística en Garrucha?",
+        "a": "Sí, tenemos taller propio de forja artística y realizamos rejas, cancelas, farolas y elementos decorativos en forja para viviendas de Garrucha. Podemos reproducir diseños tradicionales del sur de España o crear diseños personalizados según los gustos del cliente."
+      }
+    ],
+    "villaricos": [
+      {
+        "q": "¿Respetáis la estética tradicional de Villaricos en vuestros trabajos?",
+        "a": "Sí, en Villaricos tenemos especial cuidado en integrar nuestros trabajos con la estética del pueblo. Ofrecemos rejas y cancelas de forja con diseños tradicionales andaluces, así como carpintería en colores y acabados que armonizan con la arquitectura popular del lugar."
+      },
+      {
+        "q": "¿Qué tipo de pérgolas instaláis en Villaricos?",
+        "a": "En Villaricos instalamos pérgolas de aluminio, madera composite y bioclimáticas con lamas orientables. Son perfectas para crear espacios de sombra en jardines y terrazas de viviendas y apartamentos turísticos, resistentes al ambiente marino de esta zona costera."
+      },
+      {
+        "q": "¿Hacéis vallados para parcelas en Villaricos?",
+        "a": "Sí, realizamos todo tipo de vallados en Villaricos: malla galvanizada sobre postes, valla de tubo industrial, vallas de hierro forjado para jardines y cercados de madera composite para una estética más natural. Adaptamos el diseño al uso y al entorno de cada parcela."
+      },
+      {
+        "q": "¿Con qué rapidez podéis empezar un trabajo en Villaricos?",
+        "a": "Normalmente podemos iniciar trabajos en Villaricos en un plazo de 1 a 3 semanas desde la aceptación del presupuesto. Para urgencias como reparaciones o sustituciones de emergencia, nos desplazamos en el menor tiempo posible, incluso el mismo día si es necesario."
+      },
+      {
+        "q": "¿Ofrecéis financiación para proyectos en Villaricos?",
+        "a": "Sí, para proyectos de mayor envergadura en Villaricos podemos facilitar el pago en varios plazos sin intereses. Consulte esta opción al solicitar su presupuesto y le informaremos de las condiciones disponibles según el importe y tipo de trabajo."
+      }
+    ],
+    "mojacar": [
+      {
+        "q": "¿Cómo adaptáis la carpintería metálica a la arquitectura de Mojácar Pueblo?",
+        "a": "Mojácar Pueblo tiene una arquitectura tradicional blanca muy característica que hay que respetar. Diseñamos rejas, cancelas y barandillas con formas inspiradas en la forja artesanal andaluza, usando colores oscuros (negro, marrón forja) que contrastan elegantemente con las fachadas encaladas del pueblo."
+      },
+      {
+        "q": "¿Fabricáis rejas artísticas de forja para viviendas en Mojácar?",
+        "a": "Sí, la forja artística es una de nuestras especialidades en Mojácar. Diseñamos y fabricamos rejas, balcones y cancelas en forja con motivos florales, geométricos o personalizados. Cada pieza es única y se fabrica a medida en nuestro taller propio."
+      },
+      {
+        "q": "¿Trabajáis también en Mojácar Playa?",
+        "a": "Sí, atendemos tanto a Mojácar Pueblo como a Mojácar Playa. Para la zona costera utilizamos materiales específicos para ambiente marino: aluminio anodizado, acero inoxidable AISI 316 y tratamientos anticorrosión reforzados para garantizar la durabilidad frente al salitre."
+      },
+      {
+        "q": "¿Podéis hacer puertas automáticas que encajen con el estilo de Mojácar?",
+        "a": "Sí, instalamos puertas automáticas en Mojácar con acabados que respetan la estética del entorno. Disponemos de modelos con chapa lacada en negro o marrón forja, barrotes de diseño artesanal y herrajes de estilo tradicional, que combinan seguridad moderna con estética tradicional."
+      },
+      {
+        "q": "¿Tienen referencias de trabajos realizados en Mojácar?",
+        "a": "Sí, llevamos más de 10 años trabajando en Mojácar y tenemos numerosas referencias tanto en el pueblo histórico como en la playa. Podemos mostrarle fotografías de trabajos previos y, si lo desea, facilitarle el contacto con clientes satisfechos que pueden confirmar la calidad de nuestro trabajo."
+      }
+    ],
+    "palomares": [
+      {
+        "q": "¿Fabricáis naves agrícolas de almacenamiento en Palomares?",
+        "a": "Sí, en Palomares realizamos naves agrícolas de almacenamiento, cobertizos para maquinaria y estructuras para invernaderos. Calculamos y fabricamos la estructura metálica completa en nuestro taller y la montamos in situ en su parcela con nuestro equipo técnico."
+      },
+      {
+        "q": "¿Qué cerramientos recomendáis para casas de campo en Palomares?",
+        "a": "Para casas de campo en Palomares recomendamos aluminio lacado en colores tierra o aluminio anodizado bronce, que se integran bien con el entorno rural. Para zonas expuestas a polvo y viento utilizamos perfiles de mayor grosor y juntas de estanqueidad reforzadas."
+      },
+      {
+        "q": "¿Hacéis puertas de seguridad para viviendas aisladas en Palomares?",
+        "a": "Sí, las viviendas aisladas o de campo en Palomares son las que más se benefician de una buena puerta blindada. Instalamos puertas de acero de alta seguridad con cerraduras multipunto y protecciones antibumping para garantizar la tranquilidad de los propietarios."
+      },
+      {
+        "q": "¿Podéis hacer vallados para parcelas grandes en Palomares?",
+        "a": "Sí, estamos especializados en vallados perimetrales de grandes superficies en Palomares. Realizamos estudios de coste según metros lineales, tipo de terreno y nivel de seguridad requerido. Manejamos tanto malla galvanizada económica como valla de tubo de mayor resistencia."
+      },
+      {
+        "q": "¿Cuáles son vuestros plazos de entrega para proyectos agrícolas en Palomares?",
+        "a": "Para proyectos de estructuras agrícolas en Palomares, el plazo habitual es de 3 a 6 semanas desde la confirmación del pedido, dependiendo de la carga de trabajo del taller y la complejidad del proyecto. Siempre coordinamos con el cliente para ajustar el calendario a sus necesidades."
+      }
+    ],
+    "cuevas-de-almanzora": [
+      {
+        "q": "¿Trabajáis con empresas industriales en Cuevas de Almanzora?",
+        "a": "Sí, Cuevas de Almanzora tiene una importante actividad industrial y canteras. Trabajamos con empresas del sector para instalación de estructuras de acero, puertas industriales de gran formato, plataformas elevadas y todo tipo de metalistería para entornos industriales exigentes."
+      },
+      {
+        "q": "¿Fabricáis puertas industriales de gran tamaño en Cuevas de Almanzora?",
+        "a": "Sí, fabricamos e instalamos puertas industriales seccionales, plegables y correderas de gran formato en Cuevas de Almanzora. Disponemos de maquinaria CNC para fabricar estructuras de hasta 12 metros de ancho. Trabajamos con automatismos industriales de alta durabilidad."
+      },
+      {
+        "q": "¿Realizáis trabajos de forja en el casco histórico de Cuevas?",
+        "a": "Sí, también atendemos proyectos en el casco urbano de Cuevas de Almanzora. Fabricamos rejas de forja artística, balcones, cancelas y elementos decorativos que respetan la arquitectura tradicional del centro histórico de Cuevas."
+      },
+      {
+        "q": "¿Tenéis experiencia con obras de gran envergadura en Cuevas?",
+        "a": "Sí, hemos ejecutado proyectos de gran envergadura en Cuevas de Almanzora como estructuras para plantas de procesado, cubiertas para instalaciones industriales y cerramientos perimetrales de grandes superficies. Contamos con la maquinaria y el equipo humano para abordar proyectos complejos."
+      },
+      {
+        "q": "¿Cuál es vuestro horario de atención en Cuevas de Almanzora?",
+        "a": "Nuestro horario comercial es de lunes a viernes de 9:00 a 20:00. Sin embargo, para urgencias en Cuevas de Almanzora disponemos de servicio 24 horas todos los días del año. Puede llamarnos en cualquier momento y un técnico atenderá su llamada."
+      }
+    ],
+    "albox": [
+      {
+        "q": "¿Instaláis escaparates y cerramientos comerciales en Albox?",
+        "a": "Sí, Albox es el principal centro comercial del Valle del Almanzora y tenemos mucha experiencia instalando escaparates de aluminio y cristal, puertas plegables y correderas para comercios, persianas enrollables metálicas y cerramientos de fachada para locales de todo tipo."
+      },
+      {
+        "q": "¿Podéis trabajar fuera del horario comercial en Albox para no cerrar el negocio?",
+        "a": "Sí, para comercios en Albox intentamos siempre minimizar el tiempo de cierre. Podemos realizar los trabajos en horario nocturno, fines de semana o en fases para que el negocio siga operativo durante la instalación. Coordinamos el calendario con el cliente con antelación."
+      },
+      {
+        "q": "¿Instaláis persianas de seguridad para comercios en Albox?",
+        "a": "Sí, instalamos persianas metálicas de seguridad micro-perforadas, ciegas y de lama punteada para comercios en Albox. También realizamos la motorización con mando a distancia y la integración con sistemas de alarma. Ofrecemos contrato de mantenimiento anual."
+      },
+      {
+        "q": "¿Hacéis reformas de carpintería metálica en locales en Albox?",
+        "a": "Sí, realizamos reformas integrales de carpintería metálica en locales comerciales de Albox: sustitución de escaparates, cambio de puertas de entrada, instalación de divisiones de aluminio y cristal, techos metálicos y cualquier elemento de metalistería interior o exterior."
+      },
+      {
+        "q": "¿Tenéis referencias en el centro comercial de Albox?",
+        "a": "Sí, hemos trabajado con numerosos comercios del centro de Albox y tenemos referencias que podemos facilitar bajo solicitud. Puede visitar varios negocios del municipio que lucen nuestros escaparates, persianas y puertas automáticas instaladas durante los últimos años."
+      }
+    ],
+    "zurgena": [
+      {
+        "q": "¿Atendéis también a La Alfoquia desde vuestro servicio en Zurgena?",
+        "a": "Sí, cubrimos tanto Zurgena como su pedanía La Alfoquia y todas las cortijadas y diseminados del municipio. No cobramos desplazamiento adicional dentro del término municipal para presupuestos ni para trabajos contratados."
+      },
+      {
+        "q": "¿Qué trabajos de carpintería metálica son más demandados en Zurgena?",
+        "a": "En Zurgena los trabajos más demandados son: sustitución de ventanas de aluminio en viviendas, instalación de puertas de garaje motorizadas, vallados de parcelas agrícolas y residenciales, y cerramientos de terrazas. También hacemos rejas de forja y estructuras para fincas."
+      },
+      {
+        "q": "¿Trabajáis con extranjeros residentes en Zurgena?",
+        "a": "Sí, Zurgena tiene una importante comunidad de residentes extranjeros, especialmente británicos. Podemos comunicarnos en inglés para facilitar el proceso. Toda la documentación, presupuestos y garantías se emiten también en inglés si así se prefiere."
+      },
+      {
+        "q": "¿Cuánto cuesta instalar ventanas de aluminio en una vivienda en Zurgena?",
+        "a": "El coste varía según el número de ventanas, las dimensiones y el tipo de vidrio. Para una casa de tres dormitorios en Zurgena con ventanas estándar, el presupuesto suele rondar los 2.500 a 5.000 €. Le ofrecemos valoración gratuita y sin compromiso en su domicilio."
+      },
+      {
+        "q": "¿Podéis instalar una puerta de garaje motorizada en una finca rural en Zurgena?",
+        "a": "Sí, instalamos puertas de garaje y cancelas motorizadas en fincas rurales de Zurgena. Trabajamos con motores solares autónomos cuando no hay conexión eléctrica disponible, ideales para entradas de fincas alejadas de la red. También instalamos sistemas con videoportero y apertura remota por móvil."
+      }
+    ]
+  },
+  "carpinteria_faq_general": {
+    "title": "Preguntas Frecuentes sobre Carpintería Metálica",
+    "subtitle": "Todo lo que necesitas saber sobre nuestros servicios en {{town}}",
+    "map_title": "Zona de Servicio",
+    "map_subtitle": "Carpintería metálica en {{town}}, {{province}} y alrededores"
+  },
   "locksmith_24h_data": {
     "huercal-overa": {
       "metaTitle": "Cerrajero 24 Horas en Huércal-Overa | Urgencias ☎ Disponible Ya",
@@ -1691,5 +1963,27 @@
       ],
       "responseTime": "20-35 minutos"
     }
+  },
+  "locksmith_faq": {
+    "title": "Preguntas Frecuentes sobre Cerrajería 24h",
+    "subtitle": "Resolvemos las dudas más comunes sobre nuestro servicio de cerrajería urgente en {{town}}",
+    "q1": "¿En cuánto tiempo llegáis si llamo al cerrajero en {{town}}?",
+    "a1": "Nuestro tiempo de llegada en {{town}} es de {{time}}. Tenemos técnicos disponibles las 24 horas, los 365 días del año, para atender cualquier urgencia de cerrajería.",
+    "q2": "¿Podéis abrir mi puerta en {{town}} sin dañarla?",
+    "a2": "Sí, nuestros cerrajeros están especializados en técnicas de apertura no destructiva. En la gran mayoría de casos abrimos la puerta sin causar ningún daño, conservando la cerradura intacta.",
+    "q3": "¿Cuánto cuesta llamar a un cerrajero urgente?",
+    "a3": "El coste depende del tipo de servicio y la hora de la intervención. Siempre ofrecemos un presupuesto sin compromiso antes de comenzar cualquier trabajo. No hay costes ocultos ni sorpresas.",
+    "q4": "¿Trabajáis los fines de semana y festivos?",
+    "a4": "Sí, nuestro servicio de cerrajería urgente está disponible todos los días del año, incluidos sábados, domingos y festivos nacionales y locales. Las 24 horas sin excepción.",
+    "q5": "¿Qué tipo de cerraduras reparáis en {{town}}?",
+    "a5": "En {{town}} trabajamos con todo tipo de cerraduras: bombillos estándar, cerraduras de seguridad, cerraduras antibumping, cerrojos, cerraduras de maletín, cajas fuertes y sistemas de domótica. También instalamos cerraduras de alta seguridad.",
+    "q6": "¿Dais garantía por vuestros trabajos?",
+    "a6": "Sí, todos nuestros trabajos de cerrajería tienen garantía. Las piezas instaladas cuentan con la garantía del fabricante y nuestra mano de obra está garantizada. Trabajamos con marcas de reconocida calidad."
+  },
+  "locksmith_map": {
+    "title": "Zona de Cobertura",
+    "subtitle": "Servicio de cerrajería urgente 24 horas en {{town}} y municipios cercanos",
+    "iframe_title": "Mapa de ubicación del cerrajero en",
+    "aria_label": "Mapa del municipio de"
   }
 }

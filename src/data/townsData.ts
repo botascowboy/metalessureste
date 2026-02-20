@@ -15,6 +15,9 @@ export interface TownData {
     author: string
     location: string
   }
+  lat: number
+  lng: number
+  mapQuery: string
 }
 
 export const townsData: TownData[] = [
@@ -48,7 +51,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.huercal-overa.testimonial.quote",
       "author": "José García",
       "location": "towns_data.huercal-overa.testimonial.location"
-    }
+    },
+    "lat": 37.3875,
+    "lng": -1.9439,
+    "mapQuery": "Hu%C3%A9rcal-Overa%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "vera",
@@ -80,7 +86,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.vera.testimonial.quote",
       "author": "María López",
       "location": "towns_data.vera.testimonial.location"
-    }
+    },
+    "lat": 37.2481,
+    "lng": -1.8633,
+    "mapQuery": "Vera%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "overa",
@@ -112,7 +121,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.overa.testimonial.quote",
       "author": "Antonio Martínez",
       "location": "towns_data.overa.testimonial.location"
-    }
+    },
+    "lat": 37.3622,
+    "lng": -1.9711,
+    "mapQuery": "Overa%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "vera-playa",
@@ -144,7 +156,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.vera-playa.testimonial.quote",
       "author": "Carmen Ruiz",
       "location": "towns_data.vera-playa.testimonial.location"
-    }
+    },
+    "lat": 37.2069,
+    "lng": -1.8325,
+    "mapQuery": "Vera+Playa%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "puerto-rey",
@@ -176,7 +191,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.puerto-rey.testimonial.quote",
       "author": "Pedro Sánchez",
       "location": "towns_data.puerto-rey.testimonial.location"
-    }
+    },
+    "lat": 37.2139,
+    "lng": -1.8289,
+    "mapQuery": "Puerto+Rey%2C+Vera%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "garrucha",
@@ -208,7 +226,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.garrucha.testimonial.quote",
       "author": "Francisco Navarro",
       "location": "towns_data.garrucha.testimonial.location"
-    }
+    },
+    "lat": 37.1836,
+    "lng": -1.8247,
+    "mapQuery": "Garrucha%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "villaricos",
@@ -240,7 +261,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.villaricos.testimonial.quote",
       "author": "Ana Fernández",
       "location": "towns_data.villaricos.testimonial.location"
-    }
+    },
+    "lat": 37.2389,
+    "lng": -1.7981,
+    "mapQuery": "Villaricos%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "mojacar",
@@ -272,7 +296,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.mojacar.testimonial.quote",
       "author": "Isabel Torres",
       "location": "towns_data.mojacar.testimonial.location"
-    }
+    },
+    "lat": 37.1428,
+    "lng": -1.8508,
+    "mapQuery": "Moj%C3%A1car%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "palomares",
@@ -304,7 +331,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.palomares.testimonial.quote",
       "author": "Miguel Hernández",
       "location": "towns_data.palomares.testimonial.location"
-    }
+    },
+    "lat": 37.2317,
+    "lng": -1.8072,
+    "mapQuery": "Palomares%2C+Cuevas+del+Almanzora%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "cuevas-de-almanzora",
@@ -336,7 +366,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.cuevas-de-almanzora.testimonial.quote",
       "author": "Roberto Jiménez",
       "location": "towns_data.cuevas-de-almanzora.testimonial.location"
-    }
+    },
+    "lat": 37.2975,
+    "lng": -1.8808,
+    "mapQuery": "Cuevas+de+Almanzora%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "albox",
@@ -368,7 +401,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.albox.testimonial.quote",
       "author": "Laura Gómez",
       "location": "towns_data.albox.testimonial.location"
-    }
+    },
+    "lat": 37.3819,
+    "lng": -2.1503,
+    "mapQuery": "Albox%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "zurgena",
@@ -400,7 +436,10 @@ export const townsData: TownData[] = [
       "quote": "towns_data.zurgena.testimonial.quote",
       "author": "Juan Pérez",
       "location": "towns_data.zurgena.testimonial.location"
-    }
+    },
+    "lat": 37.3478,
+    "lng": -2.0167,
+    "mapQuery": "Zurgena%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   }
 ]
 

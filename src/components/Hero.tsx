@@ -38,12 +38,13 @@ export const Hero = () => {
       <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl animate-pulse-slow delay-500" />
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 pt-32 pb-12 md:pt-40 md:pb-24">
-        <div className="max-w-4xl">
+      <div className="relative z-10 container mx-auto px-6 pt-52 pb-12 md:pt-52 md:pb-24">
+        <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
+            className="flex justify-center"
           >
             <span className="tag-premium inline-flex items-center gap-2 mb-8">
               <Sparkles className="w-4 h-4" />
@@ -94,7 +95,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
-            className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl leading-relaxed"
+            className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed"
           >
             {t('hero.description')}
           </motion.p>
@@ -103,7 +104,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.45, ease: 'easeOut' }}
-            className="flex flex-col sm:flex-row gap-5"
+            className="flex flex-col sm:flex-row gap-5 justify-center"
           >
             <a href="#contacto" className="btn-premium text-lg px-10 py-5 text-center">
               {t('common.request_quote')}

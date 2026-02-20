@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
-import { MapPin, Phone, Mail, CheckCircle, ArrowLeft, Quote, Send } from 'lucide-react'
+import { MapPin, Phone, Mail, CheckCircle, ArrowLeft, Quote, Send, ChevronDown, ChevronUp } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -25,6 +25,30 @@ interface ServicePageTemplateProps {
   town: TownData
 }
 
+/* ── Acordeón FAQ ── */
+const FaqItem = ({ question, answer }: { question: string; answer: string }) => {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="border border-border/50 rounded-xl overflow-hidden">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between p-5 text-left bg-card hover:bg-card/80 transition-colors"
+        aria-expanded={open}
+      >
+        <span className="font-semibold text-foreground pr-4 text-sm">{question}</span>
+        {open
+          ? <ChevronUp className="w-5 h-5 text-primary flex-shrink-0" />
+          : <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />}
+      </button>
+      {open && (
+        <div className="px-5 pb-5 pt-2 bg-background text-muted-foreground text-sm leading-relaxed">
+          {answer}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
   const { t } = useTranslation()
   const [formData, setFormData] = useState({
@@ -35,6 +59,11 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+
+  // FAQs únicas por pueblo
+  const faqKey = `carpinteria_faq.${town.slug}`
+  const faqs = t(faqKey, { returnObjects: true }) as Array<{ q: string; a: string }>
+  const safeFaqs = Array.isArray(faqs) ? faqs : []
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -109,7 +138,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
           </div>
         </section>
 
-        {/* Image Display (Single Image, no slider) */}
+        {/* Image */}
         <section className="py-12">
           <div className="container mx-auto px-6">
             <motion.div
@@ -138,8 +167,11 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
         <section className="py-16">
           <div className="container mx-auto px-6">
             <div className="grid lg:grid-cols-3 gap-12">
-              {/* Left Column - Description & Services */}
+
+              {/* Left Column */}
               <div className="lg:col-span-2 space-y-12">
+
+                {/* Description */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -153,6 +185,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   </p>
                 </motion.div>
 
+                {/* Services */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -178,6 +211,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   </div>
                 </motion.div>
 
+                {/* Features */}
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -201,6 +235,7 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   </div>
                 </motion.div>
 
+                {/* Testimonial */}
                 {town.testimonial && (
                   <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -225,7 +260,56 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                     </div>
                   </motion.div>
                 )}
-              </div>
+
+                {/* ── MAPA ── */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                >
+                  <h3 className="text-xl font-display font-bold text-foreground mb-2 flex items-center gap-2">
+                    <MapPin className="w-5 h-5 text-primary" />
+                    {t('carpinteria_faq_general.map_title')} — {town.name}
+                  </h3>
+                  <p className="text-muted-foreground text-sm mb-4">
+                    {t('carpinteria_faq_general.map_subtitle', { town: town.name, province: town.province })}
+                  </p>
+                  <div className="rounded-2xl overflow-hidden border border-border/50 shadow-lg">
+                    <iframe
+                      title={`Carpintería metálica en ${town.name}`}
+                      width="100%"
+                      height="380"
+                      style={{ border: 0 }}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      src={`https://www.google.com/maps?q=${town.mapQuery}&output=embed&z=13`}
+                      aria-label={`Mapa de ${town.name}, ${town.province}`}
+                    />
+                  </div>
+                </motion.div>
+
+                {/* ── FAQ ── */}
+                {safeFaqs.length > 0 && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                  >
+                    <h3 className="text-xl font-display font-bold text-foreground mb-2">
+                      {t('carpinteria_faq_general.title')}
+                    </h3>
+                    <p className="text-muted-foreground text-sm mb-6">
+                      {t('carpinteria_faq_general.subtitle', { town: town.name })}
+                    </p>
+                    <div className="space-y-3">
+                      {safeFaqs.map((faq, i) => (
+                        <FaqItem key={i} question={faq.q} answer={faq.a} />
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+
+              </div>{/* end left col */}
 
               {/* Right Column - Quote Form */}
               <div className="lg:col-span-1">
@@ -347,12 +431,13 @@ export const ServicePageTemplate = ({ town }: ServicePageTemplateProps) => {
                   </div>
                 </motion.div>
               </div>
+
             </div>
           </div>
         </section>
       </main>
+
       <Footer />
     </div>
   )
 }
-

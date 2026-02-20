@@ -1,27 +1,156 @@
-import { HelmetProvider } from 'react-helmet-async'
+import { HelmetProvider, Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { MapPin, Hammer, Shield, ArrowRight, Star, Construction, Phone } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { SEOHead } from '@/components/SEOHead'
 import { townsData } from '@/data/townsData'
 import { useTranslation, Trans } from 'react-i18next'
 
+const BASE_URL = 'https://metalesdelsureste.com'
+
 const CarpinteriaZonaPage = () => {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
+
+    const isEs = i18n.language === 'es'
+    const canonicalUrl = `${BASE_URL}/carpinteria-metalica-zona`
+    const enAlternateUrl = `${BASE_URL}/en/metal-carpentry-zone`
+
+    /* ── Rich Snippets ── */
+    const localBusinessSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'HomeAndConstructionBusiness',
+        '@id': canonicalUrl,
+        name: 'Metales Del Sureste Andaluz — Carpintería Metálica',
+        description: t('zones_page.seo.description'),
+        url: canonicalUrl,
+        telephone: '+34 653 94 07 50',
+        email: 'info@metalesdelsureste.com',
+        image: `${BASE_URL}/og-image.png`,
+        address: {
+            '@type': 'PostalAddress',
+            streetAddress: 'Polígono Industrial',
+            addressLocality: 'Huércal-Overa',
+            addressRegion: 'Almería',
+            postalCode: '04600',
+            addressCountry: 'ES',
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 37.3875,
+            longitude: -1.9439,
+        },
+        openingHoursSpecification: [
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                opens: '09:00',
+                closes: '20:00',
+            },
+        ],
+        aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.9',
+            reviewCount: '214',
+            bestRating: '5',
+            worstRating: '1',
+        },
+        priceRange: '€€',
+        areaServed: townsData.map(town => ({
+            '@type': 'City',
+            name: town.name,
+        })),
+        hasOfferCatalog: {
+            '@type': 'OfferCatalog',
+            name: isEs ? 'Servicios de Carpintería Metálica' : 'Metal Carpentry Services',
+            itemListElement: [
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: isEs ? 'Estructuras Metálicas' : 'Metal Structures' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: isEs ? 'Carpintería de Aluminio' : 'Aluminium Carpentry' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: isEs ? 'Cerrajería' : 'Locksmithing' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: isEs ? 'Forja Artística' : 'Artistic Forge' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: isEs ? 'Puertas Automáticas' : 'Automatic Doors' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: isEs ? 'Metalistería' : 'Metalwork' } },
+            ],
+        },
+    }
+
+    const townListSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: isEs ? 'Zonas de Servicio de Carpintería Metálica' : 'Metal Carpentry Service Areas',
+        itemListElement: townsData.map((town, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: town.name,
+            url: `${BASE_URL}/servicios/${town.slug}`,
+            item: {
+                '@type': 'LocalBusiness',
+                name: `Carpintería Metálica en ${town.name}`,
+                address: {
+                    '@type': 'PostalAddress',
+                    addressLocality: town.name,
+                    addressRegion: town.province,
+                    addressCountry: 'ES',
+                },
+                geo: {
+                    '@type': 'GeoCoordinates',
+                    latitude: town.lat,
+                    longitude: town.lng,
+                },
+            },
+        })),
+    }
+
+    const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            { '@type': 'ListItem', position: 1, name: isEs ? 'Inicio' : 'Home', item: BASE_URL },
+            { '@type': 'ListItem', position: 2, name: isEs ? 'Carpintería Metálica por Zona' : 'Metal Carpentry by Zone', item: canonicalUrl },
+        ],
+    }
 
     return (
         <HelmetProvider>
-            <SEOHead
-                title={t('zones_page.seo.title')}
-                description={t('zones_page.seo.description')}
-            />
+            <Helmet>
+                <html lang={isEs ? 'es' : 'en'} />
+                <title>{t('zones_page.seo.title')}</title>
+                <meta name="description" content={t('zones_page.seo.description')} />
+                <meta name="keywords" content="carpintería metálica Almería, carpintería aluminio Levante, estructuras metálicas Almería, carpintería metálica Huércal-Overa, Vera, Mojácar, Garrucha" />
+
+                <link rel="canonical" href={canonicalUrl} />
+                <link rel="alternate" hrefLang="es" href={canonicalUrl} />
+                <link rel="alternate" hrefLang="en" href={enAlternateUrl} />
+                <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={canonicalUrl} />
+                <meta property="og:title" content={t('zones_page.seo.title')} />
+                <meta property="og:description" content={t('zones_page.seo.description')} />
+                <meta property="og:image" content={`${BASE_URL}/og-image.png`} />
+                <meta property="og:locale" content={isEs ? 'es_ES' : 'en_US'} />
+                <meta property="og:locale:alternate" content={isEs ? 'en_US' : 'es_ES'} />
+                <meta property="og:site_name" content="Metales Del Sureste Andaluz" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={t('zones_page.seo.title')} />
+                <meta name="twitter:description" content={t('zones_page.seo.description')} />
+                <meta name="twitter:image" content={`${BASE_URL}/og-image.png`} />
+
+                <meta name="geo.region" content="ES-AL" />
+                <meta name="geo.placename" content="Almería" />
+                <meta name="robots" content="index, follow" />
+                <meta name="googlebot" content="index, follow" />
+
+                <script type="application/ld+json">{JSON.stringify(localBusinessSchema)}</script>
+                <script type="application/ld+json">{JSON.stringify(townListSchema)}</script>
+                <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+            </Helmet>
+
             <div className="min-h-screen bg-background">
                 <Header />
 
                 <main className="pt-32 lg:pt-48">
-                    {/* Hero Section */}
                     <section className="relative py-20 overflow-hidden">
                         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-background to-background" />
                         <div className="absolute -top-40 left-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
@@ -59,7 +188,6 @@ const CarpinteriaZonaPage = () => {
                                         <Link to={`/servicios/${town.slug}`} className="block h-full group">
                                             <div className="card-premium h-full rounded-2xl overflow-hidden border border-border/50 hover:border-primary/50 transition-all duration-500 flex flex-col">
 
-                                                {/* Image area */}
                                                 <div className="h-48 overflow-hidden relative">
                                                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10" />
                                                     <img
@@ -140,9 +268,7 @@ const CarpinteriaZonaPage = () => {
                                             ))}
                                         </div>
 
-                                        {/* CTA Section */}
                                         <div className="mt-16 p-8 md:p-12 rounded-3xl bg-gradient-to-br from-primary/10 via-background to-accent/5 border border-primary/20 text-center relative overflow-hidden lg:col-span-2">
-                                            {/* Decorative background elements */}
                                             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
                                             <div className="absolute bottom-0 left-0 w-64 h-64 bg-accent/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
 

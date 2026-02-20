@@ -1,79 +1,622 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ===== PÁGINAS PRINCIPALES ===== -->
   <url>
     <loc>https://metalesdelsureste.com/</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicios</loc>
-    <lastmod>2024-02-04</lastmod>
-    <priority>0.80</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/nosotros</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/nosotros"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/nosotros"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/proyectos</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/proyectos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/proyectos"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/contacto</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/contacto"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/cerrajero-24h</loc>
-    <lastmod>2024-02-04</lastmod>
-    <priority>0.70</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/carpinteria-metalica-zona</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/carpinteria-metalica-zona"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/metal-carpentry-zone"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/carpinteria-metalica-zona"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
-  <!-- Services -->
+
+  <!-- ===== SERVICIOS ===== -->
   <url>
     <loc>https://metalesdelsureste.com/servicio/estructuras-metalicas</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/estructuras-metalicas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/metal-structures"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/estructuras-metalicas"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/carpinteria-aluminio</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/carpinteria-aluminio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/aluminum-carpentry"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/carpinteria-aluminio"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/cerrajeria</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/cerrajeria"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/locksmithing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/cerrajeria"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/automatizacion</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/automatizacion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/automation"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/automatizacion"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/forja-artistica</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/forja-artistica"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/artistic-forging"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/forja-artistica"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/mobiliario-urbano</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/mobiliario-urbano"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/urban-furniture"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/mobiliario-urbano"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/manipulado-vidrio</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/manipulado-vidrio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/glass-handling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/manipulado-vidrio"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://metalesdelsureste.com/servicio/metalisteria</loc>
-    <lastmod>2024-02-04</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicio/metalisteria"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/service/metalwork"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicio/metalisteria"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
+
+  <!-- ===== CERRAJERO 24H POR PUEBLO ===== -->
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/huercal-overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/huercal-overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/vera</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/vera"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/vera"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/vera"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/vera-playa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/vera-playa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/puerto-rey</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/puerto-rey"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/garrucha</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/garrucha"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/villaricos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/villaricos"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/mojacar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/mojacar"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/palomares</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/palomares"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/palomares"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/palomares"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/cuevas-de-almanzora</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/cuevas-de-almanzora"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/albox</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/albox"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/albox"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/albox"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/cerrajero-24h/zurgena</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/zurgena"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- ===== VERSIONES EN INGLÉS ===== -->
+  <url>
+    <loc>https://metalesdelsureste.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/huercal-overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/huercal-overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/vera</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/vera"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/vera"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/vera"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/vera-playa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/vera-playa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/puerto-rey</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/puerto-rey"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/garrucha</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/garrucha"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/villaricos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/villaricos"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/mojacar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/mojacar"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/palomares</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/palomares"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/palomares"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/palomares"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/cuevas-de-almanzora</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/cuevas-de-almanzora"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/albox</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/albox"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/albox"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/albox"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/locksmith-24h/zurgena</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/cerrajero-24h/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/locksmith-24h/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/cerrajero-24h/zurgena"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ===== CARPINTERÍA METÁLICA POR PUEBLO ===== -->
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/huercal-overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/huercal-overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/vera</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/vera"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/vera"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/vera"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/vera-playa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/vera-playa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/puerto-rey</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/puerto-rey"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/garrucha</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/garrucha"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/villaricos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/villaricos"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/mojacar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/mojacar"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/palomares</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/palomares"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/palomares"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/palomares"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/cuevas-de-almanzora</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/cuevas-de-almanzora"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/albox</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/albox"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/albox"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/albox"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/servicios/zurgena</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/zurgena"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ===== VERSIONES EN INGLÉS — CARPINTERÍA POR PUEBLO ===== -->
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/huercal-overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/huercal-overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/huercal-overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/vera</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/vera"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/vera"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/vera"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/overa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/overa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/overa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/overa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/vera-playa</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/vera-playa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/vera-playa"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/puerto-rey</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/puerto-rey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/puerto-rey"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/garrucha</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/garrucha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/garrucha"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/villaricos</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/villaricos"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/villaricos"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/mojacar</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/mojacar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/mojacar"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/palomares</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/palomares"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/palomares"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/palomares"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/cuevas-de-almanzora</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/cuevas-de-almanzora"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/cuevas-de-almanzora"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/albox</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/albox"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/albox"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/albox"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/en/services/zurgena</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/servicios/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/services/zurgena"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/servicios/zurgena"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ===== PÁGINAS LEGALES ===== -->
+  <url>
+    <loc>https://metalesdelsureste.com/aviso-legal</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/aviso-legal"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/legal-notice"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/aviso-legal"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://metalesdelsureste.com/politica-privacidad</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://metalesdelsureste.com/politica-privacidad"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://metalesdelsureste.com/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://metalesdelsureste.com/politica-privacidad"/>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
+  </url>
+
 </urlset>

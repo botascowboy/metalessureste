@@ -11,6 +11,9 @@ export interface Locksmith24hTown {
   emergencyFeatures: string[]
   responseTime: string
   phoneNumber: string
+  lat: number
+  lng: number
+  mapQuery: string
 }
 
 export const locksmith24hData: Locksmith24hTown[] = [
@@ -42,7 +45,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.huercal-overa.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.huercal-overa.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.3875,
+    "lng": -1.9439,
+    "mapQuery": "Hu%C3%A9rcal-Overa%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "vera",
@@ -72,7 +78,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.vera.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.vera.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.2481,
+    "lng": -1.8633,
+    "mapQuery": "Vera%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "overa",
@@ -102,7 +111,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.overa.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.overa.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.3622,
+    "lng": -1.9711,
+    "mapQuery": "Overa%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "vera-playa",
@@ -132,7 +144,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.vera-playa.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.vera-playa.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.2069,
+    "lng": -1.8325,
+    "mapQuery": "Vera+Playa%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "puerto-rey",
@@ -162,7 +177,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.puerto-rey.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.puerto-rey.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.2139,
+    "lng": -1.8289,
+    "mapQuery": "Puerto+Rey%2C+Vera%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "garrucha",
@@ -192,7 +210,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.garrucha.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.garrucha.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.1836,
+    "lng": -1.8247,
+    "mapQuery": "Garrucha%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "villaricos",
@@ -222,7 +243,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.villaricos.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.villaricos.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.2389,
+    "lng": -1.7981,
+    "mapQuery": "Villaricos%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "mojacar",
@@ -252,7 +276,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.mojacar.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.mojacar.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.1428,
+    "lng": -1.8508,
+    "mapQuery": "Moj%C3%A1car%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "palomares",
@@ -282,7 +309,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.palomares.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.palomares.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.2317,
+    "lng": -1.8072,
+    "mapQuery": "Palomares%2C+Cuevas+del+Almanzora%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "cuevas-de-almanzora",
@@ -312,7 +342,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.cuevas-de-almanzora.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.cuevas-de-almanzora.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.2975,
+    "lng": -1.8808,
+    "mapQuery": "Cuevas+de+Almanzora%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "albox",
@@ -342,7 +375,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.albox.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.albox.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.3819,
+    "lng": -2.1503,
+    "mapQuery": "Albox%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   },
   {
     "slug": "zurgena",
@@ -372,7 +408,10 @@ export const locksmith24hData: Locksmith24hTown[] = [
       "locksmith_24h_data.zurgena.emergencyFeatures.5"
     ],
     "responseTime": "locksmith_24h_data.zurgena.responseTime",
-    "phoneNumber": "+34 653 94 07 50"
+    "phoneNumber": "+34 653 94 07 50",
+    "lat": 37.3478,
+    "lng": -2.0167,
+    "mapQuery": "Zurgena%2C+Almer%C3%ADa%2C+Espa%C3%B1a"
   }
 ]
 

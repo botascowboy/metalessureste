@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Phone, Clock, Shield, CheckCircle, MapPin, Wrench, Key, Lock, ArrowRight } from 'lucide-react'
+import { Phone, Clock, Shield, CheckCircle, MapPin, Wrench, Key, Lock, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Header } from '@/components/Header'
@@ -8,9 +8,31 @@ import { WhatsAppButton } from '@/components/WhatsAppButton'
 import type { Locksmith24hTown } from '@/data/locksmith24hData'
 import { useTranslation, Trans } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
+import { useState } from 'react'
 
 interface Locksmith24hTemplateProps {
   town: Locksmith24hTown
+}
+
+const FaqItem = ({ question, answer }: { question: string; answer: string }) => {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="border border-border/50 rounded-xl overflow-hidden">
+      <button
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between p-5 text-left bg-card hover:bg-card/80 transition-colors"
+        aria-expanded={open}
+      >
+        <span className="font-semibold text-foreground pr-4">{question}</span>
+        {open ? <ChevronUp className="w-5 h-5 text-primary flex-shrink-0" /> : <ChevronDown className="w-5 h-5 text-primary flex-shrink-0" />}
+      </button>
+      {open && (
+        <div className="px-5 pb-5 pt-2 bg-background text-muted-foreground text-sm leading-relaxed">
+          {answer}
+        </div>
+      )}
+    </div>
+  )
 }
 
 export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
@@ -19,6 +41,33 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
   const handleCall = () => {
     window.location.href = `tel:${town.phoneNumber.replace(/\s/g, '')}`
   }
+
+  const faqs = [
+    {
+      question: t('locksmith_faq.q1', { town: town.name }),
+      answer: t('locksmith_faq.a1', { town: town.name, time: t(town.responseTime) }),
+    },
+    {
+      question: t('locksmith_faq.q2', { town: town.name }),
+      answer: t('locksmith_faq.a2'),
+    },
+    {
+      question: t('locksmith_faq.q3'),
+      answer: t('locksmith_faq.a3'),
+    },
+    {
+      question: t('locksmith_faq.q4'),
+      answer: t('locksmith_faq.a4'),
+    },
+    {
+      question: t('locksmith_faq.q5', { town: town.name }),
+      answer: t('locksmith_faq.a5', { town: town.name }),
+    },
+    {
+      question: t('locksmith_faq.q6'),
+      answer: t('locksmith_faq.a6'),
+    },
+  ]
 
   return (
     <div className="min-h-screen bg-background">
@@ -311,6 +360,78 @@ export const Locksmith24hTemplate = ({ town }: Locksmith24hTemplateProps) => {
                     />
                   </p>
                 </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
+        {/* Map Section */}
+        <section className="py-16">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="mb-8"
+              >
+                <h2 className="text-2xl font-bold text-foreground mb-2 flex items-center gap-2">
+                  <MapPin className="w-6 h-6 text-primary" />
+                  {t('locksmith_map.title', 'Zona de Cobertura')} — {town.name}
+                </h2>
+                <p className="text-muted-foreground text-sm">
+                  {t('locksmith_map.subtitle', { town: town.name })}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="rounded-2xl overflow-hidden border border-border/50 shadow-lg"
+              >
+                <iframe
+                  title={`${t('locksmith_map.iframe_title', 'Mapa de ubicación')} ${town.name}`}
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src={`https://www.google.com/maps?q=${town.mapQuery}&output=embed&z=13`}
+                  aria-label={`${t('locksmith_map.aria_label', 'Mapa del municipio de')} ${town.name}, ${town.province}`}
+                />
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-16 bg-card/50">
+          <div className="container mx-auto px-6">
+            <div className="max-w-3xl mx-auto">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="text-center mb-10"
+              >
+                <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
+                  {t('locksmith_faq.title', 'Preguntas Frecuentes')}
+                </h2>
+                <p className="text-muted-foreground">
+                  {t('locksmith_faq.subtitle', { town: town.name })}
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="space-y-3"
+              >
+                {faqs.map((faq, index) => (
+                  <FaqItem key={index} question={faq.question} answer={faq.answer} />
+                ))}
               </motion.div>
             </div>
           </div>

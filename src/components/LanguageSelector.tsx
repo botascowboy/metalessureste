@@ -1,38 +1,36 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Button } from '@/components/ui/button';
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { Globe } from 'lucide-react';
 
 const LanguageSelector = () => {
     const { i18n } = useTranslation();
-
-    const changeLanguage = (lng: string) => {
-        i18n.changeLanguage(lng);
-    };
+    const current = i18n.language?.startsWith('en') ? 'en' : 'es';
 
     return (
-        <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="icon" className="w-9 px-0">
-                    <Globe className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all" />
-                    <span className="sr-only">Toggle language</span>
-                </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => changeLanguage('es')}>
-                    Español
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => changeLanguage('en')}>
-                    English
-                </DropdownMenuItem>
-            </DropdownMenuContent>
-        </DropdownMenu>
+        <div className="flex items-center text-xs font-medium select-none">
+            <button
+                onClick={() => i18n.changeLanguage('es')}
+                className={`px-1.5 py-0.5 rounded-l transition-colors ${
+                    current === 'es'
+                        ? 'bg-amber-500 text-white'
+                        : 'text-gray-500 hover:text-gray-800'
+                }`}
+                aria-label="Español"
+            >
+                ES
+            </button>
+            <span className="text-gray-300 select-none">|</span>
+            <button
+                onClick={() => i18n.changeLanguage('en')}
+                className={`px-1.5 py-0.5 rounded-r transition-colors ${
+                    current === 'en'
+                        ? 'bg-amber-500 text-white'
+                        : 'text-gray-500 hover:text-gray-800'
+                }`}
+                aria-label="English"
+            >
+                EN
+            </button>
+        </div>
     );
 };
 
